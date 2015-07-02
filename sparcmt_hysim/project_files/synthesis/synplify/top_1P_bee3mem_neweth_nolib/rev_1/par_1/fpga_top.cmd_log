@@ -1,0 +1,445 @@
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose 
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf 

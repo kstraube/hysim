@@ -1,0 +1,50 @@
+Synopsys Xilinx Technology Mapper, Version maprc, Build 142R, Built Aug 23 2010 16:28:52
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09-1
+@N: MF249 |Running in 64-bit mode.
+Reading Xilinx I/O pad type table from file </opt/synplify-2010.09-1/lib/xilinx/x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file </opt/synplify-2010.09-1/lib/xilinx/gttype.txt> 
+
+Synplicity UCF to SDC Convertor, Build 142R, Aug 23 2010 16:29:06
+Automatically converted from /home/brent/Desktop/Link to /home/brent/Desktop/Link
+Check /home/brent/Desktop/Link file for the list of constraints not converted.
+
+
+
+UCF to SDC Translation Completed
+
+
+Synplicity UCF to SDC Convertor, Build 142R, Aug 23 2010 16:29:06
+Automatically converted from to to to
+Check to file for the list of constraints not converted.
+
+
+
+UCF to SDC Translation Completed
+
+
+Error Code [btextio.c:1289 NIL file pointer: Cannot write to file. Please check write permissions]
+@E:Internal Error in m_xilinx
+Stack trace
+===========
+0x128ac5d
+0x128c0c6
+0x128c8d7
+0x128a9d4
+0x9455cb
+0x95881a
+0x9f80d7
+0x66d2e6
+
+Please open a web case about this problem. A Synopsys CAE will then contact you.
+
+Instructions to open a web-case:
+1.  Go to the Synopsys support web site, https://solvnet.synopsys.com. 
+2.  Login with your user name and password. If you do not have an account, please register and set one up.
+3.  Click the `Enter A Call' link.
+4.  Provide a detailed description of the problem, and fill in all required fields.
+5.  Attach any test cases or archived project files required to reproduce the problem. 
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jan 21 16:49:07 2015
+
+###########################################################]

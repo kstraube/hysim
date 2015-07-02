@@ -1,0 +1,48 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.genpackage.all;
+entity top is
+ port (
+  DOUT : out std_logic_vector(71 downto 0);
+  RADDR : in std_logic_vector(3 downto 0);
+  DATA : in std_logic_vector(71 downto 0);
+  WE : in std_logic;
+  CLK : in std_logic;
+  A_RST : in std_logic;
+  S_RST : in std_logic );
+end entity top;
+architecture gen of top is
+  component SEQ_SRL
+    generic (
+	addr_width : integer;
+    addr_size : integer;
+    d_width : integer;
+    is_input : boolean;
+    is_output : boolean    );
+ port (
+  DOUT : out std_logic_vector;
+  RADDR : in std_logic_vector;
+  DATA : in std_logic_vector;
+  WE : in std_logic;
+  CLK : in std_logic;
+  A_RST : in std_logic;
+  S_RST : in std_logic );
+  end component;
+begin
+I1: entity work.SEQ_SRL(select_srl)
+  generic map (
+
+  addr_width => 4,
+  addr_size => 16,
+  d_width => 72,
+  is_input => false,
+  is_output => false  )
+ port map (
+  DOUT => DOUT,
+  RADDR => RADDR,
+  DATA => DATA,
+  WE => WE,
+  CLK => CLK,
+  A_RST => A_RST,
+  S_RST => S_RST );
+end architecture gen;

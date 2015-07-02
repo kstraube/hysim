@@ -1,0 +1,808 @@
+# //  ModelSim SE-64 10.1c Jul 27 2012 Linux 2.6.32-279.el6.x86_64
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project test_1P_bee3mem_neweth
+vsim -L unisims_ver -L secureip -novopt work.glbl work.sim_top
+# vsim -L unisims_ver -L secureip -novopt -sv_lib ../../../lib/sim/disasm/disasm -sv_lib ../../../lib/sim/mac_fedriver/mac_fedriver work.glbl work.sim_top 
+# Loading work.glbl
+# Loading sv_std.std
+# Loading work.libstd
+# Loading work.libconf
+# Loading work.libperfctr
+# Loading work.libeth
+# Loading work.libdebug
+# Loading work.libtm
+# Loading work.libio
+# Loading work.libfp
+# Loading work.libtech
+# Loading work.libopcodes
+# Loading work.libucode
+# Loading work.libiu
+# Loading work.libmmu
+# Loading work.libcache
+# Loading work.libmemif
+# Loading work.libxalu
+# Loading work.top_1P_bee3_neweth_sv_unit
+# Loading work.sim_top
+# Loading work.mt16htf25664hy_sv_unit
+# Loading work.mt16htf25664hy
+# Loading work.ddr2_module
+# Loading work.ddr2
+# Loading work.mac_fedriver_sv_unit
+# Loading work.mac_fedriver
+# Loading work.fpga_top
+# Loading work.dramif_sv_unit
+# Loading work.mem_controller_interface
+# Loading work.techmap_sv_unit
+# Loading work.clk_inb
+# Loading work.gated_clkbuf
+# Loading work.clkrst_gen_sv_unit
+# Loading work.clkrst_gen_2
+# Loading work.cpu_clkgen
+# Loading work.dram_clkgen
+# Loading work.reset_synchronizer
+# Loading work.high_fanout_buf
+# Loading work.cpu_top_dma
+# Loading work.ifetch_dma_sv_unit
+# Loading work.fetch_stage_dma
+# Loading work.microcode_sv_unit
+# Loading work.microcode_rom
+# Loading work.decode_sv_unit
+# Loading work.decode_stage
+# Loading work.regacc_dma_sv_unit
+# Loading work.regacc_stage_dma
+# Loading work.regfile
+# Loading work.alu_sv_unit
+# Loading work.execution_stage
+# Loading work.alu_adder_logic
+# Loading work.memory_mmu_sv_unit
+# Loading work.memory_stage
+# Loading work.exception_dma_sv_unit
+# Loading work.exception_stage_dma
+# Loading work.immu_sv_unit
+# Loading work.immu_if
+# Loading work.dmmu_sv_unit
+# Loading work.dmmu_if
+# Loading work.icache_sv_unit
+# Loading work.icache
+# Loading work.icache_ram
+# Loading work.udcache_nb_mmu_sv_unit
+# Loading work.dcache_udc
+# Loading work.dcache_ram
+# Loading work.mshr
+# Loading work.memif_sv_unit
+# Loading work.imem_if
+# Loading work.imem_cmd_fifo_sdr
+# Loading work.mem_stat_buf
+# Loading work.dmem_if
+# Loading work.dmem_cmd_fifo_sdr
+# Loading work.ddr2memctrl_fast_sv_unit
+# Loading work.dramctrl_fast
+# Loading work.dramctrl_network_sv_unit
+# Loading work.retinfo_buf
+# Loading work.mem_bus_arbiter
+# Loading work.mem_bus_mux
+# Loading work.debugdma_sv_unit
+# Loading work.debug_dma
+# Loading work.dma_ctrl_reg
+# Loading work.dma_addr_reg
+# Loading work.timer_sv_unit
+# Loading work.timer
+# Loading work.irqmp_sv_unit
+# Loading work.irqmp
+# Loading work.libtm_cache
+# Loading work.tm_cpu_l1_ring_sv_unit
+# Loading work.tm_cpu_l1
+# Loading work.tm_cache_sv_unit
+# Loading work.replay_fifo
+# Loading work.perfctr_sv_unit
+# Loading work.perfctr_io
+# Loading work.perfctr_output_buf
+# Loading work.tm_cpu_memsystem_sv_unit
+# Loading work.mem_system
+# Loading work.disasm_sv_unit
+# Loading work.disassembler
+# Loading work.dramctrl_bee3_sv_unit
+# Loading work.dramctrl_bee3_ml505
+# Loading work.TC5
+# Loading work.dpbram36_im
+# Loading unisims_ver.RAMB36
+# Loading unisims_ver.ARAMB36_INTERNAL
+# Loading work.dpbram18_rfa
+# Loading unisims_ver.RAMB18SDP
+# Loading work.dpbram18_rfb
+# Loading work.rs232rcv
+# Loading work.ddrController
+# Loading work.AF
+# Loading unisims_ver.FIFO18_36
+# Loading unisims_ver.AFIFO36_INTERNAL
+# Loading work.dpram
+# Loading unisims_ver.RAM32X1D
+# Loading unisims_ver.OBUF
+# Loading work.obLogic
+# Loading work.WB
+# Loading unisims_ver.FIFO36_72
+# Loading work.RB
+# Loading unisims_ver.IBUF
+# Loading work.eth_dma_controller_sv_unit
+# Loading work.eth_dma_controller
+# Loading work.eth_rx_sv_unit
+# Loading work.eth_dma_rx
+# Loading work.eth_mac_ram_sv_unit
+# Loading work.eth_mac_ram
+# Loading work.eth_tx_sv_unit
+# Loading work.eth_dma_tx
+# Loading work.mac_gmii
+# Loading work.eth_tm_control_sv_unit
+# Loading work.eth_tm_control
+# Loading work.eth_cpu_control_sv_unit
+# Loading work.eth_cpu_control
+# Loading work.sync_lutram_fifo_sv_unit
+# Loading work.sync_lutram_fifo
+# Loading work.debug_dma_buf
+# Loading unisims_ver.IBUFG
+# Loading unisims_ver.IBUFGDS
+# Loading unisims_ver.BUFGCE_1
+# Loading unisims_ver.BUFGMUX_1
+# Loading unisims_ver.INV
+# Loading work.xcv5_cpu_clkgen
+# Loading unisims_ver.BUFG
+# Loading work.dram_clkgen_sv_unit
+# Loading work.xcv5_dram_clkgen_bee3
+# Loading unisims_ver.PLL_BASE
+# Loading unisims_ver.PLL_ADV
+# Loading work.spr_ram
+# Loading work.regfile_sv_unit
+# Loading work.xcv5_regfile
+# Loading work.fpregfile
+# Loading work.alulogic_sv_unit
+# Loading work.xcv5_alu_adder_logic
+# Loading unisims_ver.DSP48E
+# Loading work.xalu_fast_sv_unit
+# Loading work.xalu_if_fast
+# Loading work.xalu_sv_unit
+# Loading work.div_in_fifo
+# Loading work.xalu_div_output_dbuf
+# Loading work.xalu_valid_buf
+# Loading work.alu_mul_shf_fast
+# Loading work.alu_div
+# Loading work.fpu_sv_unit
+# Loading work.fpu_if
+# Loading work.sh_reg
+# Loading work.fp_conv_sp_dp
+# Loading unisims_ver.VCC
+# Loading unisims_ver.GND
+# Loading unisims_ver.LUT3
+# Loading unisims_ver.LUT2
+# Loading unisims_ver.FDS
+# Loading unisims_ver.LUT4
+# Loading unisims_ver.FD
+# Loading unisims_ver.FDE
+# Loading unisims_ver.MUXCY
+# Loading unisims_ver.FDRS
+# Loading unisims_ver.FDR
+# Loading work.fp_addsub_dp
+# Loading unisims_ver.SRLC16E
+# Loading unisims_ver.LUT1
+# Loading unisims_ver.LUT6
+# Loading unisims_ver.LUT5
+# Loading unisims_ver.XORCY
+# Loading unisims_ver.MUXF7
+# Loading unisims_ver.MUXF8
+# Loading unisims_ver.FDSE
+# Loading unisims_ver.FDRE
+# Loading work.fp_mult_dp
+# Loading work.fp_conv_dp_sp
+# Loading work.fp_cmp_dp
+# Loading work.fp_dtoi
+# Loading work.mux4x1
+# Loading work.fp_itod
+# Loading work.fp_itos
+# Loading work.fp_stoi
+# Loading work.fpu_fpop_output_dbuf
+# Loading work.fpu_fcmp_output_dbuf
+# Loading work.immutlb
+# Loading work.mmureg_sv_unit
+# Loading work.mmu_control_register
+# Loading work.mmu_context_register
+# Loading work.dmmutlb
+# Loading work.mmuwalk_sv_unit
+# Loading work.mmuwalk
+# Loading work.mmu_context_table_pointer_register
+# Loading work.mmuwalk_buffer
+# Loading work.mmu_fault_status_register
+# Loading work.mmu_fault_address_register
+# Loading work.icacheram_sv_unit
+# Loading work.xcv5_icache_ram
+# Loading work.dcacheram_sv_unit
+# Loading work.xcv5_dcache_ram
+# Loading work.perfctr_reg
+# Loading work.perfctr_ram
+# Loading work.tm_cpu_l2_sv_unit
+# Loading work.l2_model
+# Loading work.tm_cpu_dram_gsf_sv_unit
+# Loading work.dram_gsf_scheduler
+# Loading work.tm_cpu_dram_sv_unit
+# Loading work.dram_model_fast
+# Loading work.tag_ram
+# Loading unisims_ver.ODDR
+# Loading unisims_ver.OBUFDS
+# Loading work.ddrBank
+# Loading work.dqs_iob
+# Loading unisims_ver.IOBUFDS
+# Loading work.mac_gmii_sv_unit
+# Loading work.xcv5_mac_gmii
+# Loading unisims_ver.IDELAY
+# Loading unisims_ver.FIFO36
+# Loading unisims_ver.TEMAC
+# Loading secureip.TEMAC_SWIFT
+# Loading work.dmabuf_sv_unit
+# Loading work.xcv5_debug_dma_buf
+# Loading unisims_ver.RAMB36SDP
+# Loading unisims_ver.DCM_BASE
+# Loading unisims_ver.DCM_ADV
+# Loading unisims_ver.dcm_adv_clock_divide_by_2
+# Loading unisims_ver.dcm_adv_maximum_period_check
+# Loading unisims_ver.dcm_adv_clock_lost
+# Loading unisims_ver.IDELAYCTRL
+# Loading work.fpregfile_sv_unit
+# Loading work.xcv5_fpregfile
+# Loading work.alumul_sv_unit
+# Loading work.xcv5_alu_mul_shf_fast
+# Loading work.aludiv_sv_unit
+# Loading work.xcv5_alu_div
+# Loading work.itlb_2way_split_sv_unit
+# Loading work.itlbram_2way_split
+# Loading work.itlbram
+# Loading work.dtlb_2way_split_sv_unit
+# Loading work.dtlbram_2way_split
+# Loading work.dtlbram
+# Loading work.dq_iob
+# Loading unisims_ver.IOBUF
+# Loading unisims_ver.ISERDES_NODELAY
+# Loading work.itlbram_sv_unit
+# Loading work.xcv5_itlbram
+# Loading work.dtlbram_sv_unit
+# Loading work.xcv5_dtlbram
+# Loading ./../../../lib/sim/disasm/disasm.so
+# Loading ./../../../lib/sim/mac_fedriver/mac_fedriver.so
+add wave sim:/glbl/*
+run
+# Attribute CLK_FEEDBACK is set to value NONE.
+# In this mode, the output ports CLK0, CLK180, CLK270, CLK2X, CLK2X180, CLK90 and  CLKDV can have any random phase relation w.r.t. input port CLKIN
+run -all
+run 0.5ms
+add wave sim:/glbl/*
+add wave sim:/glbl/*
+add wave sim:/glbl/*
+add wave  \
+sim:/sim_top/clkperiod
+add wave sim:/sim_top/*
+run 1ms
+run 10ms
+# @Time 1606016, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1606727, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1607438, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1608149, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1608861, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1609572, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1610283, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1610994, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1611705, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1612416, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1613127, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1613838, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1614549, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1615261, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1615972, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1616683, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1617394, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1618105, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1618816, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1619527, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1620238, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1620949, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1621661, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1622372, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1623083, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1623794, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1624505, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1625216, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1625927, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1626638, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1627349, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1628061, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1628772, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1629483, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1630194, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1630905, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1631616, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1632327, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1633038, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1633749, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1634461, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1635172, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1635883, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1636594, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1637305, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1638016, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1638727, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1639438, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1640149, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1640861, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1641572, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1642283, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1642994, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1643705, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1644416, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1645127, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1645838, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1646549, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1647261, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1647972, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1648683, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1649394, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1650105, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1650816, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1651527, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1652238, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1652949, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1653661, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1654372, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1655083, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1655794, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1656505, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1657216, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1657927, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1658638, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1659349, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1660061, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1660772, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1661483, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1662194, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1662905, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1663616, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1664327, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1665038, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1665749, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1666461, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1667172, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1667883, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1668594, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1669305, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1670016, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1670727, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1671438, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1672149, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1672861, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1673572, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1674283, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1674994, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1675705, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1676416, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1677127, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1677838, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1678549, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1679261, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1679972, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1680683, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1681394, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1682105, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1682816, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1683527, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1684238, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1684949, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1685661, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1686372, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1687083, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1687794, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1688505, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1689216, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1689927, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1690638, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1691349, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1692061, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1692772, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1693483, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1694194, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1694905, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1695616, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1696327, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1697038, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1697749, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1698461, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1699172, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1699883, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1700594, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1701305, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1702016, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1702727, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1703438, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1704149, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1704861, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1705572, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1706283, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1706994, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1707705, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1708416, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1709127, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1709838, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1710549, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1711261, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1711972, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1712683, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1713394, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1714105, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1714816, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1715527, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1716238, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1716949, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1717661, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1718372, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# l1d:           32-byte lines
+# l1i:          128-byte lines
+# l2:           128-byte lines,           4 banks
+# dram:   7-cycle latency,   3-cycle inverse throughput
+# @Time 1719083, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1719794, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1720505, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1721216, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1721927, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1722638, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1723349, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1724061, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1724772, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1725483, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1726194, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1726905, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1727616, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1728327, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1729038, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1729749, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1730461, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1731172, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1731883, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1732594, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1733305, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1734016, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1734727, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1735438, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1736149, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1736861, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1737572, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1738283, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1738994, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1739705, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1740416, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1741127, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1741838, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1742549, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1743261, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1743972, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1744683, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1745394, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1746105, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1746816, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1747527, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1748238, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1748949, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1749661, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1750372, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1751083, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1751794, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1752505, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1753216, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1753927, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1754638, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1755349, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1756061, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1756772, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1757483, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1758194, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1758905, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1759616, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1760327, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1761038, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1761749, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1762461, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1763172, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1763883, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1764594, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1765305, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1766016, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1766727, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1767438, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1768149, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1768861, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1769572, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1770283, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1770994, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1771705, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1772416, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1773127, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1773838, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1774549, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1775261, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1775972, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1776683, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1777394, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1778105, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1778816, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1779527, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1780238, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1780949, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1781661, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1782372, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1783083, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1783794, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1784505, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1785216, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1785927, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1786638, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1787349, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1788061, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1788772, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1789483, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1790194, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1790905, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1791616, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1792327, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1793038, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1793749, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1794461, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1795172, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1795883, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1796594, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1797305, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1798016, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1798727, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1799438, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1800149, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1800861, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1801572, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1802283, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1802994, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1803705, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1804416, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1805127, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1805838, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1806549, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1807261, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1807972, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1808683, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1809394, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1810105, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1810816, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1811527, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1812238, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1812949, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1813661, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1814372, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1815083, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1815794, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1816505, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1817216, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1817927, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1818638, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1819349, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1820061, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1820772, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1821483, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1822194, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1822905, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1823616, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1824327, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1825038, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1825749, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1826461, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1827172, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1827883, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1828594, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1829305, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1830016, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) [replay]  DMA 
+# @Time 1830727, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# @Time 1831438, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1832149, Thread  0: 0: [C0A00040] sta  %g0, [ %g0 ] (2) DMA 
+# l1d:           32-byte lines
+# l1i:          128-byte lines
+# l2:           128-byte lines,           4 banks
+# dram:   7-cycle latency,   3-cycle inverse throughput
+# @Time 1832861, Thread  0: 0: [C0266000] clr  [ %i1 ] UC(4)  DMA 
+# @Time 1844949, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1845661, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1846372, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1847083, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1847794, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1848505, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1849216, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1849927, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1850638, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1851349, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1852061, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1852772, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1853483, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1854194, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1854905, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1855616, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1856327, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1857038, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1857749, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1858461, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1859172, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1859883, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1860594, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1861305, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1862016, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1862727, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1863438, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1864149, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1864861, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1865572, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1866283, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1866994, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1867705, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1868416, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1869127, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1869838, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1870549, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1871261, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1871972, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1872683, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1873394, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1874105, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1874816, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1875527, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1876238, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1876949, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1877661, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1878372, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1879083, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1879794, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1880505, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1881216, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1881927, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1882638, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1883349, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1884061, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1884772, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1885483, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1886194, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1886905, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1887616, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1888327, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1889038, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1889749, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1890461, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1891172, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1891883, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1892594, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1893305, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1894016, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1894727, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1895438, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1896149, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1896861, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1897572, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1898283, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1898994, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1899705, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1900416, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1901127, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1901838, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1902549, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1903261, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1903972, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1904683, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1905394, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1906105, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1906816, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1907527, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1908238, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1908949, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1909661, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1910372, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1911083, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1911794, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1912505, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1913216, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1913927, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1914638, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1915349, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1916061, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1916772, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1917483, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1918194, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1918905, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1919616, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1920327, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1921038, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1921749, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1922461, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1923172, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1923883, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1924594, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1925305, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1926016, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1926727, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1927438, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1928149, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1928861, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1929572, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1930283, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1930994, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1931705, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1932416, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1933127, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1933838, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1934549, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1935261, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1935972, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1936683, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1937394, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1938105, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1938816, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1939527, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1940238, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1940949, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1941661, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1942372, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1943083, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1943794, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1944505, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1945216, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1945927, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1946638, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1947349, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1948061, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1948772, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1949483, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1950194, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1950905, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1951616, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1952327, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1953038, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1953749, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1954461, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1955172, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1955883, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1956594, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1957305, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1958016, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1958727, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1959438, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1960149, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1960861, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1961572, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1962283, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1962994, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1963705, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1964416, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1965127, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1965838, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1966549, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1967261, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1967972, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1968683, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1969394, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1970105, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1970816, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1971527, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1972238, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1972949, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1973661, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1974372, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1975083, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1975794, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1976505, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1977216, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1977927, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1978638, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1979349, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 [replay]  DMA 
+# @Time 1980061, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 
+# @Time 1980772, Thread  0: 0: [C0800040] lda  [ %g0 ] (2), %g0 DMA 

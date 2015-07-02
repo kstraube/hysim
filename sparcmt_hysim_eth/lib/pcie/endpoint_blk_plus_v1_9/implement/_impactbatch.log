@@ -1,0 +1,40 @@
+iMPACT Version: Jul 25 2008 04:31:36
+
+iMPACT log file Started on Fri Oct 24 13:55:47 2008
+
+Preference Table
+Name                 Setting             
+StartupClock         Auto_Correction     
+AutoSignature        False               
+KeepSVF              False               
+ConcurrentMode       False               
+UseHighz             False               
+ConfigOnFailure      Stop                
+UserLevel            Novice              
+MessageLevel         Detailed            
+svfUseTime           false               
+SpiByteSwap          Auto_Correction     
+'1': Loading file './results/routed.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading D:/Xilinx10.1/ISE/virtex5/data/xc5vlx110t.bsd...
+WARNING:iMPACT - It appears that the bitstream './results/routed.bit' contains   an evalution version of an IPcore,please re-generate the bitfile with a fully   licensed version of the IPcore.
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc5vlx110t successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:794 - Creating SVF File   C:\xupv5_pcie_x1_plus\endpoint_blk_plus_v1_9\implement//config/rev6/rev6.svf.   ..
+
+
+'1': Programming device...
+ Match_cycle = NoWait.
+Match cycle: NoWait
+done.
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+ Match_cycle = NoWait.
+Match cycle: NoWait
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+Creating Ace FileC:\xupv5_pcie_x1_plus\endpoint_blk_plus_v1_9\implement//config/rev6/rev6.ace...
+Copy active xilinx.sysC:\xupv5_pcie_x1_plus\endpoint_blk_plus_v1_9\implement//config/xilinx.sys toroot.

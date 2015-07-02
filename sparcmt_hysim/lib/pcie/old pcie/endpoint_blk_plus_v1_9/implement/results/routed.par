@@ -1,0 +1,231 @@
+Release 10.1.03 par K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+XILINX-INTERN::  Fri Oct 24 13:50:20 2008
+
+par -ol high -xe c -w mapped.ncd routed.ncd mapped.pcf 
+
+INFO:Par:338 - 
+   Extra Effort Level "c"ontinue is not a runtime optimized effort level. It is
+   intended to be used for designs that are not meeting timing but where the
+   designer wants the tools to continue iterating on the design until no further
+   design speed improvements are possible.  This can result in very long
+   runtimes since the tools will continue improving the design even if the time
+   specs can not be met. If you are looking for the best possible design speed
+   available from a long but reasonable runtime use Extra Effort Level "n"ormal.
+    It will stop iterating on the design when the design speed improvements have
+   shrunk to the point that the time specs are not expected to be met.
+
+Constraints file: mapped.pcf.
+Loading device for application Rf_Device from file '5vlx110t.nph' in environment D:\Xilinx10.1\ISE.
+   "xilinx_pci_exp_ep" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+INFO:Timing:3377 - Intersecting Constraints found and resolved.  For more information see the TSI report.
+
+Device speed data version:  "PRODUCTION 1.62 2008-08-19".
+
+
+
+Device Utilization Summary:
+
+   Number of BUFDSs                          1 out of 8      12%
+   Number of BUFGs                           3 out of 32      9%
+   Number of GTP_DUALs                       1 out of 8      12%
+      Number of LOCed GTP_DUALs              1 out of 1     100%
+
+   Number of External IOBs                   2 out of 640     1%
+      Number of LOCed IOBs                   1 out of 2      50%
+
+   Number of External IPADs                  4 out of 690     1%
+      Number of LOCed IPADs                  2 out of 4      50%
+
+   Number of External OPADs                  2 out of 32      6%
+      Number of LOCed OPADs                  0 out of 2       0%
+
+   Number of PCIEs                           1 out of 1     100%
+   Number of PLL_ADVs                        1 out of 6      16%
+   Number of RAMB36SDP_EXPs                  2 out of 148     1%
+      Number of LOCed RAMB36SDP_EXPs         1 out of 2      50%
+
+   Number of RAMB36_EXPs                     8 out of 148     5%
+      Number of LOCed RAMB36_EXPs            4 out of 8      50%
+
+   Number of Slice Registers              2816 out of 69120   4%
+      Number used as Flip Flops           2815
+      Number used as Latches                 1
+      Number used as LatchThrus              0
+
+   Number of Slice LUTS                   2504 out of 69120   3%
+   Number of Slice LUT-Flip Flop pairs    3582 out of 69120   5%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 22 secs 
+Finished initial Timing Analysis.  REAL time: 22 secs 
+
+Starting Router
+
+Phase 1: 19213 unrouted;       REAL time: 25 secs 
+
+Phase 2: 16320 unrouted;       REAL time: 26 secs 
+
+Phase 3: 6152 unrouted;       REAL time: 38 secs 
+
+Phase 4: 6152 unrouted; (92504)      REAL time: 46 secs 
+
+Phase 5: 6246 unrouted; (77368)      REAL time: 54 secs 
+
+Phase 6: 6246 unrouted; (77368)      REAL time: 54 secs 
+
+Phase 7: 0 unrouted; (82672)      REAL time: 1 mins 33 secs 
+
+Updating file: routed.ncd with current fully routed design.
+
+Phase 8: 0 unrouted; (82672)      REAL time: 1 mins 37 secs 
+
+Phase 9: 0 unrouted; (82653)      REAL time: 1 mins 43 secs 
+
+Phase 10: 0 unrouted; (82653)      REAL time: 1 mins 45 secs 
+
+Phase 11: 0 unrouted; (82653)      REAL time: 1 mins 45 secs 
+
+Phase 12: 0 unrouted; (82653)      REAL time: 1 mins 46 secs 
+
+Phase 13: 0 unrouted; (0)      REAL time: 2 mins 13 secs 
+
+Total REAL time to Router completion: 2 mins 13 secs 
+Total CPU time to Router completion: 2 mins 13 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|           trn_clk_c | BUFGCTRL_X0Y1| No   | 1210 |  0.494     |  2.041      |
++---------------------+--------------+------+------+------------+-------------+
+|ep/BU2/U0/pcie_ep0/c |              |      |      |            |             |
+|             ore_clk |BUFGCTRL_X0Y11| No   |   86 |  0.283     |  2.014      |
++---------------------+--------------+------+------+------------+-------------+
+|ep/BU2/U0/pcie_ep0/p |              |      |      |            |             |
+|cie_blk/SIO/.pcie_gt |              |      |      |            |             |
+|_wrapper_i/icdrreset |              |      |      |            |             |
+|                 <0> |         Local|      |    1 |  0.000     |  0.447      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0
+
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the constraint does not cover any paths or that it has no
+   requested value.
+Number of Timing Constraints that were not applied: 4
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+------------------------------------------------------------------------------------------------------
+  Constraint                                |  Check  | Worst Case |  Best Case | Timing |   Timing   
+                                            |         |    Slack   | Achievable | Errors |    Score   
+------------------------------------------------------------------------------------------------------
+  PERIOD analysis for net "ep/BU2/U0/pcie_e | SETUP   |     0.025ns|     3.975ns|       0|           0
+  p0/pcie_blk/clocking_i/clkout0" derived f | HOLD    |     0.407ns|            |       0|           0
+  rom  NET "sys_clk_c" PERIOD = 10 ns HIGH  |         |            |            |        |            
+  50%                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  PERIOD analysis for net "ep/BU2/U0/pcie_e | SETUP   |     0.081ns|    15.676ns|       0|           0
+  p0/pcie_blk/clocking_i/clkout1" derived f | HOLD    |     0.028ns|            |       0|           0
+  rom  NET "sys_clk_c" PERIOD = 10 ns HIGH  |         |            |            |        |            
+  50%                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  Pin to Pin Skew Constraint                | MAXDELAY| 2106523.528ns| 2106523.837ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "sys_clk_c" PERIOD = 10 ns HIGH 50%   | N/A     |         N/A|         N/A|     N/A|         N/A
+------------------------------------------------------------------------------------------------------
+  TS_MGTCLK = PERIOD TIMEGRP "MGTCLK" 100 M | N/A     |         N/A|         N/A|     N/A|         N/A
+  Hz HIGH 50%                               |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_ep_BU2_U0_pcie_ep0_pcie_blk_clocking_i | N/A     |         N/A|         N/A|     N/A|         N/A
+  _clkout0 = PERIOD TIMEGRP         "ep_BU2 |         |            |            |        |            
+  _U0_pcie_ep0_pcie_blk_clocking_i_clkout0" |         |            |            |        |            
+   TS_MGTCLK * 2.5 HIGH         50%         |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_ep_BU2_U0_pcie_ep0_pcie_blk_clocking_i | N/A     |         N/A|         N/A|     N/A|         N/A
+  _clkout1 = PERIOD TIMEGRP         "ep_BU2 |         |            |            |        |            
+  _U0_pcie_ep0_pcie_blk_clocking_i_clkout1" |         |            |            |        |            
+   TS_MGTCLK * 0.625         HIGH 50%       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for sys_clk_c
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|sys_clk_c                      |     10.000ns|          N/A|      9.938ns|            0|            0|            0|        41980|
+| ep/BU2/U0/pcie_ep0/pcie_blk/cl|      4.000ns|      3.975ns|          N/A|            0|            0|          953|            0|
+| ocking_i/clkout0              |             |             |             |             |             |             |             |
+| ep/BU2/U0/pcie_ep0/pcie_blk/cl|     16.000ns|     15.676ns|          N/A|            0|            0|        41027|            0|
+| ocking_i/clkout1              |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_MGTCLK
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_MGTCLK                      |     10.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| TS_ep_BU2_U0_pcie_ep0_pcie_blk|      4.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| _clocking_i_clkout0           |             |             |             |             |             |             |             |
+| TS_ep_BU2_U0_pcie_ep0_pcie_blk|     16.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| _clocking_i_clkout1           |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the 
+   constraint does not cover any paths or that it has no requested value.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 2 mins 20 secs 
+Total CPU time to PAR completion: 2 mins 20 secs 
+
+Peak Memory Usage:  430 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 4
+
+Writing design to file routed.ncd
+
+
+
+PAR done!

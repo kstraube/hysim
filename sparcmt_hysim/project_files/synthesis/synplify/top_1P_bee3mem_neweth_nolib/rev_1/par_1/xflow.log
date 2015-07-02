@@ -1,0 +1,2376 @@
+WARNING:TclTasksC:2145 - The .ise file is no longer supported starting with the
+   12.1 release. The corresponding .xise file will be used instead.
+Checking file "./cpu_top.edf" for project device match ...
+File "./cpu_top.edf" device information matches project device.
+WARNING:TclTasksC:2145 - The .ise file is no longer supported starting with the
+   12.1 release. The corresponding .xise file will be used instead.
+
+Started : "Translate".
+Running ngdbuild...
+Command Line: ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf fpga_top.ngd -verbose
+
+Command Line: /opt/Xilinx/14.2/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc5vlx110t-ff1136-1 cpu_top.edf
+fpga_top.ngd -verbose
+
+Executing edif2ngd "cpu_top.edf" "_ngo/cpu_top.ngo"
+Release 14.2 - edif2ngd P.28xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 14.2 edif2ngd P.28xd (lin64)
+INFO:NgdBuild - Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '981'
+   on object 'my_SRL16E_981' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '204'
+   on object 'my_SRL16E_204' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '3' on
+   object 'my_SRL16E_3' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '1407'
+   on object 'my_SRL16E_1407' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '4032'
+   on object 'my_SRL16E_4032' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value
+   '22189' on object 'my_SRL16E_22189' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value
+   '12384' on object 'my_SRL16E_12384' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '3612'
+   on object 'my_SRL16E_3612' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value
+   '65019' on object 'my_SRL16E_65019' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '4421'
+   on object 'my_SRL16E_4421' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value
+   '65275' on object 'my_SRL16E_65275' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '261'
+   on object 'my_SRL16E_261' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value
+   '48043' on object 'my_SRL16E_48043' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value
+   '43691' on object 'my_SRL16E_43691' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '4420'
+   on object 'my_SRL16E_4420' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '4160'
+   on object 'my_SRL16E_4160' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '4160'
+   on object 'genblk201.srl_gen[0].srl_cal_tag1' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '4420'
+   on object 'genblk201.srl_gen[0].srl_cal_tag0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value
+   '43691' on object 'genblk201.srl_gen[0].srl_cal6' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value
+   '48043' on object 'genblk201.srl_gen[0].srl_cal5' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '261'
+   on object 'genblk201.srl_gen[0].srl_cal4' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value
+   '65275' on object 'genblk201.srl_gen[0].srl_cal3' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '4421'
+   on object 'genblk201.srl_gen[0].srl_cal2' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value
+   '65019' on object 'srl_init_cal5' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '3612'
+   on object 'srl_init_cal4' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value
+   '12384' on object 'srl_init_cal3' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value
+   '22189' on object 'srl_init_cal2' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '4032'
+   on object 'genblk202.sub_srl_gen[0].srl_sub_cal6' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '1407'
+   on object 'genblk202.sub_srl_gen[0].srl_sub_cal5' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '3' on
+   object 'genblk202.sub_srl_gen[0].srl_sub_cal4' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '204'
+   on object 'genblk202.sub_srl_gen[0].srl_sub_cal3' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INIT' with value '981'
+   on object 'genblk202.sub_srl_gen[0].srl_sub_cal2' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR5' with value '0' on
+   object 'pcie_blk_plus_ll_rx_Z12_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR4' with value '0' on
+   object 'pcie_blk_plus_ll_rx_Z12_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR3' with value '0' on
+   object 'pcie_blk_plus_ll_rx_Z12_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR2' with value '0' on
+   object 'pcie_blk_plus_ll_rx_Z12_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR1' with value '0' on
+   object 'pcie_blk_plus_ll_rx_Z12_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR0' with value
+   '-1048576' on object 'pcie_blk_plus_ll_rx_Z12_layer0' to 'hexadecimal'
+   property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'RETRYRAMSIZE' with
+   value '9' on object 'pcie_mim_wrapper_Z6_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1402 - Converting edif 'integer' property 'CLKIN1_PERIOD' with
+   value '10' on object 'use_pll.pll_adv_i' to 'string' property.
+INFO:NgdBuild:1402 - Converting edif 'integer' property 'CLKIN2_PERIOD' with
+   value '10' on object 'use_pll.pll_adv_i' to 'string' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR0' with value
+   '-1048576' on object 'rx_bridge' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR1' with value '0' on
+   object 'rx_bridge' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR2' with value '0' on
+   object 'rx_bridge' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR3' with value '0' on
+   object 'rx_bridge' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR4' with value '0' on
+   object 'rx_bridge' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR5' with value '0' on
+   object 'rx_bridge' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR5' with value '0' on
+   object 'pcie_blk_ll_Z14_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR4' with value '0' on
+   object 'pcie_blk_ll_Z14_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR3' with value '0' on
+   object 'pcie_blk_ll_Z14_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR2' with value '0' on
+   object 'pcie_blk_ll_Z14_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR1' with value '0' on
+   object 'pcie_blk_ll_Z14_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR0' with value
+   '-1048576' on object 'pcie_blk_ll_Z14_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'RETRYRAMSIZE' with
+   value '9' on object 'pcie_mim_wrapper_i' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property
+   'SLOTCAPABILITYPHYSICALSLOTNUM' with value '0' on object
+   'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property
+   'SLOTCAPABILITYSLOTPOWERLIMITSCALE' with value '0' on object
+   'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property
+   'SLOTCAPABILITYSLOTPOWERLIMITVALUE' with value '0' on object
+   'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property
+   'PMSTATUSCONTROLDATASCALE' with value '0' on object
+   'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'EXTCFGXPCAPPTR' with
+   value '0' on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'EXTCFGCAPPTR' with
+   value '0' on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'CONFIGROUTING' with
+   value '1' on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+WARNING:XdmHelpers:376 - Unexpected value of "3'b001" found for attribute
+   TLRAMWRITELATENCY.  Unable to convert this to the expected numeric value.
+WARNING:XdmHelpers:376 - Unexpected value of "3'b001" found for attribute
+   TLRAMWRITELATENCY.  Unable to convert this to the expected numeric value.
+WARNING:NgdBuild:1403 - edif property 'TLRAMWRITELATENCY' of type 'string' on
+   object 'pcie_top_wrapper_Z7_layer0' is being ignored.  It is recognized
+   property but does not have the expected type of 'integer'.
+WARNING:XdmHelpers:376 - Unexpected value of "3'b011" found for attribute
+   TLRAMREADLATENCY.  Unable to convert this to the expected numeric value.
+WARNING:XdmHelpers:376 - Unexpected value of "3'b011" found for attribute
+   TLRAMREADLATENCY.  Unable to convert this to the expected numeric value.
+WARNING:NgdBuild:1403 - edif property 'TLRAMREADLATENCY' of type 'string' on
+   object 'pcie_top_wrapper_Z7_layer0' is being ignored.  It is recognized
+   property but does not have the expected type of 'integer'.
+WARNING:XdmHelpers:376 - Unexpected value of "3'b001" found for attribute
+   RETRYRAMWRITELATENCY.  Unable to convert this to the expected numeric value.
+WARNING:XdmHelpers:376 - Unexpected value of "3'b001" found for attribute
+   RETRYRAMWRITELATENCY.  Unable to convert this to the expected numeric value.
+WARNING:NgdBuild:1403 - edif property 'RETRYRAMWRITELATENCY' of type 'string' on
+   object 'pcie_top_wrapper_Z7_layer0' is being ignored.  It is recognized
+   property but does not have the expected type of 'integer'.
+WARNING:XdmHelpers:376 - Unexpected value of "3'b011" found for attribute
+   RETRYRAMREADLATENCY.  Unable to convert this to the expected numeric value.
+WARNING:XdmHelpers:376 - Unexpected value of "3'b011" found for attribute
+   RETRYRAMREADLATENCY.  Unable to convert this to the expected numeric value.
+WARNING:NgdBuild:1403 - edif property 'RETRYRAMREADLATENCY' of type 'string' on
+   object 'pcie_top_wrapper_Z7_layer0' is being ignored.  It is recognized
+   property but does not have the expected type of 'integer'.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'PMDATA8' with value '0'
+   on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'PMDATA7' with value '0'
+   on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'PMDATA6' with value '0'
+   on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'PMDATA5' with value '0'
+   on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'PMDATA4' with value '0'
+   on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'PMDATA3' with value '0'
+   on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'PMDATA2' with value '0'
+   on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'PMDATA1' with value '0'
+   on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'PMDATA0' with value '0'
+   on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'PMCAPABILITYAUXCURRENT'
+   with value '0' on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal'
+   property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property
+   'PCIECAPABILITYINTMSGNUM' with value '0' on object
+   'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'XPDEVICEPORTTYPE' with
+   value '0' on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'HEADERTYPE' with value
+   '0' on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'RETRYRAMSIZE' with
+   value '9' on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'PMCAPABILITYPMESUPPORT'
+   with value '0' on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal'
+   property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'CARDBUSCISPOINTER' with
+   value '0' on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'CLASSCODE' with value
+   '327680' on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'SUBSYSTEMID' with value
+   '20560' on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'SUBSYSTEMVENDORID' with
+   value '4334' on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal'
+   property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'REVISIONID' with value
+   '0' on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'DEVICEID' with value
+   '20560' on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'VENDORID' with value
+   '4334' on object 'pcie_top_wrapper_Z7_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR0' with value
+   '-1048576' on object 'll_bridge' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR1' with value '0' on
+   object 'll_bridge' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR2' with value '0' on
+   object 'll_bridge' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR3' with value '0' on
+   object 'll_bridge' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR4' with value '0' on
+   object 'll_bridge' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR5' with value '0' on
+   object 'll_bridge' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR5' with value '0' on
+   object 'pcie_blk_if_Z15_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR4' with value '0' on
+   object 'pcie_blk_if_Z15_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR3' with value '0' on
+   object 'pcie_blk_if_Z15_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR2' with value '0' on
+   object 'pcie_blk_if_Z15_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR1' with value '0' on
+   object 'pcie_blk_if_Z15_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR0' with value
+   '-1048576' on object 'pcie_blk_if_Z15_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR0' with value
+   '-1048576' on object 'pcie_blk_if' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR1' with value '0' on
+   object 'pcie_blk_if' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR2' with value '0' on
+   object 'pcie_blk_if' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR3' with value '0' on
+   object 'pcie_blk_if' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR4' with value '0' on
+   object 'pcie_blk_if' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR5' with value '0' on
+   object 'pcie_blk_if' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'VENDORID' with value
+   '4334' on object 'pcie_blk' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'DEVICEID' with value
+   '20560' on object 'pcie_blk' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'REVISIONID' with value
+   '0' on object 'pcie_blk' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'SUBSYSTEMVENDORID' with
+   value '4334' on object 'pcie_blk' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'SUBSYSTEMID' with value
+   '20560' on object 'pcie_blk' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'CLASSCODE' with value
+   '327680' on object 'pcie_blk' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'CARDBUSCISPOINTER' with
+   value '0' on object 'pcie_blk' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'INTERRUPTPIN' with
+   value '1' on object 'pcie_blk' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'PMCAPABILITYPMESUPPORT'
+   with value '0' on object 'pcie_blk' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property
+   'PORTVCCAPABILITYEXTENDEDVCCOUNT' with value '0' on object 'pcie_blk' to
+   'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property
+   'PORTVCCAPABILITYVCARBCAP' with value '0' on object 'pcie_blk' to
+   'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'RETRYRAMSIZE' with
+   value '9' on object 'pcie_blk' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR5' with value '0' on
+   object 'pcie_ep_top_Z16_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR4' with value '0' on
+   object 'pcie_ep_top_Z16_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR3' with value '0' on
+   object 'pcie_ep_top_Z16_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR2' with value '0' on
+   object 'pcie_ep_top_Z16_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR1' with value '0' on
+   object 'pcie_ep_top_Z16_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR0' with value
+   '-1048576' on object 'pcie_ep_top_Z16_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'CLASS_CODE' with value
+   '327680' on object 'pcie_ep_top_Z16_layer0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'CLASS_CODE' with value
+   '327680' on object 'pcie_ep0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR0' with value
+   '-1048576' on object 'pcie_ep0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR1' with value '0' on
+   object 'pcie_ep0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR2' with value '0' on
+   object 'pcie_ep0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR3' with value '0' on
+   object 'pcie_ep0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR4' with value '0' on
+   object 'pcie_ep0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR5' with value '0' on
+   object 'pcie_ep0' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR5' with value '0' on
+   object 'endpoint_blk_plus_v1_15' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR4' with value '0' on
+   object 'endpoint_blk_plus_v1_15' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR3' with value '0' on
+   object 'endpoint_blk_plus_v1_15' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR2' with value '0' on
+   object 'endpoint_blk_plus_v1_15' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR1' with value '0' on
+   object 'endpoint_blk_plus_v1_15' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'BAR0' with value
+   '-1048576' on object 'endpoint_blk_plus_v1_15' to 'hexadecimal' property.
+INFO:NgdBuild:1406 - Converting edif 'integer' property 'CLASS_CODE' with value
+   '327680' on object 'endpoint_blk_plus_v1_15' to 'hexadecimal' property.
+Applying constraints in "cpu_top.ncf" to module "fpga_top"...
+Checking Constraint Associations...
+Writing module to "_ngo/cpu_top.ngo"...
+Reading NGO file
+"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_newe
+th_nolib/rev_1/par_1/_ngo/cpu_top.ngo" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "synplicity.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sys_reset_n" LOC = AE14>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sys_clk_n" LOC = P3>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sys_clk_p" LOC = P4>' could not be found and so the Locate constraint
+   will be removed.
+
+INFO:ConstraintSystem:178 - TNM 'clkin_p', used in period specification
+   'TS_clkin_p', was traced into DCM_ADV instance DCM_ADV. The following new TNM
+   groups and period specifications were generated at the DCM_ADV output(s): 
+   CLKFX: <TIMESPEC
+   TS_gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dfs_clkfx = PERIOD
+   "gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dfs_clkfx" TS_clkin_p /
+   0.9 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clkin_p', used in period specification
+   'TS_clkin_p', was traced into PLL_ADV instance PLL_ADV. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC
+   TS_gen_gclk_rst_gen_dram_clk_genblk49_genblk50_genblk51_xcv5_gen_dram_clk_bee
+   3_MCLKx = PERIOD
+   "gen_gclk_rst_gen_dram_clk_genblk49_genblk50_genblk51_xcv5_gen_dram_clk_bee3_
+   MCLKx" TS_clkin_p...>
+
+INFO:ConstraintSystem:178 - TNM 'clkin_p', used in period specification
+   'TS_clkin_p', was traced into PLL_ADV instance PLL_ADV. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC
+   TS_gen_gclk_rst_gen_dram_clk_genblk49_genblk50_genblk51_xcv5_gen_dram_clk_bee
+   3_MCLK90x = PERIOD
+   "gen_gclk_rst_gen_dram_clk_genblk49_genblk50_genblk51_xcv5_gen_dram_clk_bee3_
+   MCLK90x" TS_clk...>
+
+INFO:ConstraintSystem:178 - TNM 'clkin_p', used in period specification
+   'TS_clkin_p', was traced into PLL_ADV instance PLL_ADV. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC
+   TS_gen_gclk_rst_gen_dram_clk_genblk49_genblk50_genblk51_xcv5_gen_dram_clk_bee
+   3_Ph0x = PERIOD
+   "gen_gclk_rst_gen_dram_clk_genblk49_genblk50_genblk51_xcv5_gen_dram_clk_bee3_
+   Ph0x" TS_clkin_p /...>
+
+INFO:ConstraintSystem:178 - TNM 'clkin_p', used in period specification
+   'TS_clkin_p', was traced into PLL_ADV instance PLL_ADV. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT4: <TIMESPEC
+   TS_gen_gclk_rst_gen_dram_clk_genblk49_genblk50_genblk51_xcv5_gen_dram_clk_bee
+   3_CLKx = PERIOD
+   "gen_gclk_rst_gen_dram_clk_genblk49_genblk50_genblk51_xcv5_gen_dram_clk_bee3_
+   CLKx" TS_clkin_p /...>
+
+INFO:ConstraintSystem:178 - TNM 'clkin_p', used in period specification
+   'TS_clkin_p', was traced into DCM_ADV instance DCM_ADV. The following new TNM
+   groups and period specifications were generated at the DCM_ADV output(s): 
+   CLKFX: <TIMESPEC
+   TS_gen_eth_dma_master_gigaeth_genblk87_genblk88_macgmii_dfs_clkfx = PERIOD
+   "gen_eth_dma_master_gigaeth_genblk87_genblk88_macgmii_dfs_clkfx" 7.6 ns HIGH
+   50%>
+
+INFO:ConstraintSystem:178 - TNM
+   'gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dfs_clkfx', used in
+   period specification
+   'TS_gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dfs_clkfx', was
+   traced into DCM_ADV instance DCM_ADV. The following new TNM groups and period
+   specifications were generated at the DCM_ADV output(s): 
+   CLK0: <TIMESPEC
+   TS_gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dll_clk0 = PERIOD
+   "gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dll_clk0"
+   TS_gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_c...>
+
+INFO:ConstraintSystem:178 - TNM
+   'gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dfs_clkfx', used in
+   period specification
+   'TS_gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dfs_clkfx', was
+   traced into DCM_ADV instance DCM_ADV. The following new TNM groups and period
+   specifications were generated at the DCM_ADV output(s): 
+   CLK2X: <TIMESPEC
+   TS_gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dll_clk2x = PERIOD
+   "gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dll_clk2x"
+   TS_gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen...>
+
+WARNING:NgdBuild:1012 - The constraint <NET "sys_reset_n" LOC = AE14> is
+   overridden on the design object sys_reset_n by the constraint <NET
+   "sys_reset_n"      LOC = "AE14"  |> [synplicity.ucf(88)].
+WARNING:NgdBuild:1012 - The constraint <NET "sys_clk_n" LOC = P3> is overridden
+   on the design object sys_clk_n by the constraint <NET  "sys_clk_n"       LOC
+   = "AF3"  ;> [synplicity.ucf(102)].
+WARNING:NgdBuild:1012 - The constraint <NET "sys_clk_p" LOC = P4> is overridden
+   on the design object sys_clk_p by the constraint <NET  "sys_clk_p"       LOC
+   = "AF4"  ;> [synplicity.ucf(101)].
+Done...
+
+WARNING:NgdBuild:1212 - User specified non-default attribute value (10.5556) was
+   detected for the CLKIN_PERIOD attribute on DCM "DCM_ADV".  This does not
+   match the PERIOD constraint value (10.5555556 ns.).  The uncertainty
+   calculation will use the non-default attribute value.  This could result in
+   incorrect uncertainty calculated for DCM output clocks.
+WARNING:NgdBuild:1440 - User specified non-default attribute value (10.0) was
+   detected for the CLKIN1_PERIOD attribute on PLL "PLL_ADV".  This does not
+   match the PERIOD constraint value (9.5 ns.).  The uncertainty calculation
+   will use the PERIOD constraint value.  This could result in incorrect
+   uncertainty calculated for PLL output clocks.
+INFO:NgdBuild:1222 - Setting CLKIN_PERIOD attribute associated with DCM instance
+   DCM_ADV to 9.500000 ns based on the period specification (<TIMESPEC
+   "TS_clkin_p" = PERIOD "clkin_p" 9.500 ns HIGH 50.00%;>
+   [synplicity.ucf(169)]).
+Checking expanded design ...
+WARNING:NgdBuild:486 - Attribute "INFINITECOMPLETIONS" is not allowed on symbol
+   "ep" of type "endpoint_blk_plus_v1_15".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INFINITECOMPLETIONS" is not allowed on symbol
+   "pcie_ep0" of type "pcie_ep_top_Z16_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT" is not allowed on symbol
+   "genblk201.srl_gen[0].srl_cal_tag1" of type "my_SRL16E_4160".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT" is not allowed on symbol
+   "genblk201.srl_gen[0].srl_cal_tag0" of type "my_SRL16E_4420".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT" is not allowed on symbol
+   "genblk201.srl_gen[0].srl_cal7" of type "my_SRL16E_1".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT" is not allowed on symbol
+   "genblk201.srl_gen[0].srl_cal6" of type "my_SRL16E_43691".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT" is not allowed on symbol
+   "genblk201.srl_gen[0].srl_cal5" of type "my_SRL16E_48043".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT" is not allowed on symbol
+   "genblk201.srl_gen[0].srl_cal4" of type "my_SRL16E_261".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT" is not allowed on symbol
+   "genblk201.srl_gen[0].srl_cal3" of type "my_SRL16E_65275".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT" is not allowed on symbol
+   "genblk201.srl_gen[0].srl_cal2" of type "my_SRL16E_4421".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT" is not allowed on symbol "srl_init_cal5"
+   of type "my_SRL16E_65019".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT" is not allowed on symbol "srl_init_cal4"
+   of type "my_SRL16E_3612".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT" is not allowed on symbol "srl_init_cal3"
+   of type "my_SRL16E_12384".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT" is not allowed on symbol "srl_init_cal2"
+   of type "my_SRL16E_22189".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT" is not allowed on symbol
+   "genblk202.sub_srl_gen[0].srl_sub_cal6" of type "my_SRL16E_4032".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT" is not allowed on symbol
+   "genblk202.sub_srl_gen[0].srl_sub_cal5" of type "my_SRL16E_1407".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT" is not allowed on symbol
+   "genblk202.sub_srl_gen[0].srl_sub_cal4" of type "my_SRL16E_3".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT" is not allowed on symbol
+   "genblk202.sub_srl_gen[0].srl_sub_cal3" of type "my_SRL16E_204".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT" is not allowed on symbol
+   "genblk202.sub_srl_gen[0].srl_sub_cal2" of type "my_SRL16E_981".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SLOTCAPABILITYPHYSICALSLOTNUM" is not allowed
+   on symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "SLOTCAPABILITYSLOTPOWERLIMITSCALE" is not
+   allowed on symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SLOTCAPABILITYSLOTPOWERLIMITVALUE" is not
+   allowed on symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SLOTCAPABILITYHOTPLUGCAPABLE" is not allowed
+   on symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "SLOTCAPABILITYHOTPLUGSURPRISE" is not allowed
+   on symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "SLOTCAPABILITYPOWERINDICATORPRESENT" is not
+   allowed on symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SLOTCAPABILITYATTINDICATORPRESENT" is not
+   allowed on symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SLOTCAPABILITYMSLSENSORPRESENT" is not allowed
+   on symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "SLOTCAPABILITYPOWERCONTROLLERPRESENT" is not
+   allowed on symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SLOTCAPABILITYATTBUTTONPRESENT" is not allowed
+   on symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "PMSTATUSCONTROLDATASCALE" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "SLOTIMPLEMENTED" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "TXREADDATAPIPE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "TXREADADDRPIPE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "TXWRITEPIPE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "RXREADDATAPIPE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "RXREADADDRPIPE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "RXWRITEPIPE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "DUALCOREENABLE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "DUALCORESLAVE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "RETRYREADDATAPIPE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "RETRYREADADDRPIPE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "RETRYWRITEPIPE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PCIEREVISION" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "XLINKSUPPORTED" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "EXTCFGXPCAPPTR" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "EXTCFGCAPPTR" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "CONFIGROUTING" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "XPRCBCONTROL" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "LLKBYPASS" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SELECTASMODE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "SELECTDLLIF" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "VC1TOTALCREDITSCD" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "VC1TOTALCREDITSPD" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "VC1TOTALCREDITSCH" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "VC1TOTALCREDITSNPH" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "VC1TOTALCREDITSPH" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "VC0TOTALCREDITSCD" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "VC0TOTALCREDITSPD" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "VC0TOTALCREDITSCH" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "VC0TOTALCREDITSNPH" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "VC0TOTALCREDITSPH" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "RAMSHARETXRX" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "TLRAMWIDTH" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "RETRYRAMWIDTH" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYSYSTEMALLOCATED" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW3POWERRAIL" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW3TYPE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW3PMSTATE" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW3PMSUBSTATE" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW3DATASCALE" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW3BASEPOWER" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW2POWERRAIL" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW2TYPE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW2PMSTATE" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW2PMSUBSTATE" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW2DATASCALE" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW2BASEPOWER" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW1POWERRAIL" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW1TYPE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW1PMSTATE" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW1PMSUBSTATE" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW1DATASCALE" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW1BASEPOWER" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW0POWERRAIL" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW0TYPE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW0PMSTATE" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW0PMSUBSTATE" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW0DATASCALE" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYDW0BASEPOWER" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "AERCAPABILITYECRCCHECKCAPABLE" is not allowed
+   on symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "AERCAPABILITYECRCGENCAPABLE" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PMDATASCALE8" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PMDATASCALE7" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PMDATASCALE6" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PMDATASCALE5" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PMDATASCALE4" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PMDATASCALE3" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PMDATASCALE2" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PMDATASCALE1" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PMDATASCALE0" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PMDATA8" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "PMDATA7" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "PMDATA6" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "PMDATA5" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "PMDATA4" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "PMDATA3" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "PMDATA2" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "PMDATA1" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "PMDATA0" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "PMCAPABILITYD2SUPPORT" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PMCAPABILITYD1SUPPORT" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PMCAPABILITYAUXCURRENT" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PCIECAPABILITYINTMSGNUM" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PCIECAPABILITYSLOTIMPL" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "VCCAPABILITYNEXTPTR" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "DSNCAPABILITYNEXTPTR" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PBCAPABILITYNEXTPTR" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "AERCAPABILITYNEXTPTR" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "VCBASEPTR" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "DSNBASEPTR" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PBBASEPTR" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "AERBASEPTR" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "XPBASEPTR" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "MSIBASEPTR" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PMBASEPTR" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "LINKCAPABILITYMAXLINKWIDTH" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "XPMAXPAYLOAD" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "ACTIVELANESIN" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "XPDEVICEPORTTYPE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "HEADERTYPE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "UPSTREAMFACING" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "ISSWITCH" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "DUALROLECFGCNTRLROOTEPN" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "CLKDIVIDED" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "VENDORID" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "DEVICEID" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "REVISIONID" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "SUBSYSTEMVENDORID" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "SUBSYSTEMID" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "CLASSCODE" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "CARDBUSCISPOINTER" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "INTERRUPTPIN" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "BAR0EXIST" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "BAR0IOMEMN" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "BAR0PREFETCHABLE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "BAR0MASKWIDTH" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "BAR1EXIST" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "BAR1IOMEMN" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "BAR1PREFETCHABLE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "BAR1MASKWIDTH" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "BAR2EXIST" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "BAR2IOMEMN" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "BAR2PREFETCHABLE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "BAR2MASKWIDTH" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "BAR3EXIST" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "BAR3IOMEMN" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "BAR3PREFETCHABLE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "BAR3MASKWIDTH" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "BAR4EXIST" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "BAR4IOMEMN" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "BAR4PREFETCHABLE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "BAR4MASKWIDTH" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "BAR5EXIST" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "BAR5IOMEMN" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "BAR5PREFETCHABLE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "BAR5MASKWIDTH" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "DEVICECAPABILITYENDPOINTL0SLATENCY" is not
+   allowed on symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "DEVICECAPABILITYENDPOINTL1LATENCY" is not
+   allowed on symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "L0SEXITLATENCY" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "L0SEXITLATENCYCOMCLK" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "L1EXITLATENCY" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "L1EXITLATENCYCOMCLK" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "MSICAPABILITYMULTIMSGCAP" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PMCAPABILITYDSI" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "PMCAPABILITYPMESUPPORT" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "PORTVCCAPABILITYEXTENDEDVCCOUNT" is not
+   allowed on symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "PORTVCCAPABILITYVCARBCAP" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "LOWPRIORITYVCCOUNT" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "DEVICESERIALNUMBER" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "INFINITECOMPLETIONS" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "LINKSTATUSSLOTCLOCKCONFIG" is not allowed on
+   symbol "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "TXTSNFTS" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "TXTSNFTSCOMCLK" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "RESETMODE" is not allowed on symbol "pcie_blk"
+   of type "pcie_top_wrapper_Z7_layer0".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "RETRYRAMSIZE" is not allowed on symbol
+   "pcie_blk" of type "pcie_top_wrapper_Z7_layer0".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "RETRYREADADDRPIPE" is not allowed on symbol
+   "pcie_mim_wrapper_i" of type "pcie_mim_wrapper_Z6_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "RETRYWRITEPIPE" is not allowed on symbol
+   "pcie_mim_wrapper_i" of type "pcie_mim_wrapper_Z6_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "RXREADADDRPIPE" is not allowed on symbol
+   "pcie_mim_wrapper_i" of type "pcie_mim_wrapper_Z6_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "RXWRITEPIPE" is not allowed on symbol
+   "pcie_mim_wrapper_i" of type "pcie_mim_wrapper_Z6_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "TXREADADDRPIPE" is not allowed on symbol
+   "pcie_mim_wrapper_i" of type "pcie_mim_wrapper_Z6_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "TXWRITEPIPE" is not allowed on symbol
+   "pcie_mim_wrapper_i" of type "pcie_mim_wrapper_Z6_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "RETRYRAMWRITELATENCY" is not allowed on symbol
+   "pcie_mim_wrapper_i" of type "pcie_mim_wrapper_Z6_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "RETRYRAMREADLATENCY" is not allowed on symbol
+   "pcie_mim_wrapper_i" of type "pcie_mim_wrapper_Z6_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "RETRYRAMSIZE" is not allowed on symbol
+   "pcie_mim_wrapper_i" of type "pcie_mim_wrapper_Z6_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "RETRYREADDATAPIPE" is not allowed on symbol
+   "pcie_mim_wrapper_i" of type "pcie_mim_wrapper_Z6_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "TLRAMWRITELATENCY" is not allowed on symbol
+   "pcie_mim_wrapper_i" of type "pcie_mim_wrapper_Z6_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "TLRAMREADLATENCY" is not allowed on symbol
+   "pcie_mim_wrapper_i" of type "pcie_mim_wrapper_Z6_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "TXREADDATAPIPE" is not allowed on symbol
+   "pcie_mim_wrapper_i" of type "pcie_mim_wrapper_Z6_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "RXREADDATAPIPE" is not allowed on symbol
+   "pcie_mim_wrapper_i" of type "pcie_mim_wrapper_Z6_layer0".  This attribute
+   will be ignored.
+WARNING:NgdBuild:486 - Attribute "PLL_DIVSEL_FB" is not allowed on symbol
+   "genblk207.genblk208.pcie_gt_wrapper_i" of type
+   "pcie_gt_wrapper_1_0s_5s_2s_4s_TRUE".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "PLL_DIVSEL_REF" is not allowed on symbol
+   "genblk207.genblk208.pcie_gt_wrapper_i" of type
+   "pcie_gt_wrapper_1_0s_5s_2s_4s_TRUE".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "CLK25_DIVIDER" is not allowed on symbol
+   "genblk207.genblk208.pcie_gt_wrapper_i" of type
+   "pcie_gt_wrapper_1_0s_5s_2s_4s_TRUE".  This attribute will be ignored.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 210
+
+Writing NGD file "fpga_top.ngd" ...
+Total REAL time to NGDBUILD completion:  38 sec
+Total CPU time to NGDBUILD completion:   19 sec
+
+Writing NGDBUILD log file "fpga_top.bld"...
+
+NGDBUILD done.
+
+Process "Translate" completed successfully
+
+Started : "Map".
+Running map...
+Command Line: map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf
+Using target part "5vlx110tff1136-1".
+Mapping design into LUTs...
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_tx_buf
+   of frag REGCLKAU connected to power/ground net
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_tx_buf/RAMB36_EXP_R
+   EGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_tx_buf
+   of frag REGCLKAL connected to power/ground net
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_tx_buf/RAMB36_EXP_R
+   EGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/genblk165.genblk166.fpregf/genblk67.genblk68.mt_fpregfile/
+   fpregfile_0
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/genblk165.genblk166.fpregf/genblk67.genblk68.mt_fpregfile/
+   fpregfile_0/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/genblk165.genblk166.fpregf/genblk67.genblk68.mt_fpregfile/
+   fpregfile_0
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/genblk165.genblk166.fpregf/genblk67.genblk68.mt_fpregfile/
+   fpregfile_0/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/genblk165.genblk166.fpregf/genblk67.genblk68.mt_fpregfile/
+   fpregfile_1
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/genblk165.genblk166.fpregf/genblk67.genblk68.mt_fpregfile/
+   fpregfile_1/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/genblk165.genblk166.fpregf/genblk67.genblk68.mt_fpregfile/
+   fpregfile_1
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/genblk165.genblk166.fpregf/genblk67.genblk68.mt_fpregfile/
+   fpregfile_1/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[0].regfile
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[0].regfile/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[0].regfile
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[0].regfile/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[1].regfile
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[1].regfile/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[1].regfile
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[1].regfile/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[2].regfile
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[2].regfile/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[2].regfile
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[2].regfile/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[3].regfile
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[3].regfile/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[3].regfile
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[3].regfile/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[0].regfile
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[0].regfile/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[0].regfile
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[0].regfile/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[1].regfile
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[1].regfile/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[1].regfile
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[1].regfile/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[2].regfile
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[2].regfile/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[2].regfile
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[2].regfile/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[3].regfile
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[3].regfile/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[3].regfile
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[3].regfile/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_bee3mem/TC5x/im/RAMB36_im
+   of frag REGCLKBU connected to power/ground net
+   gen_bee3mem/TC5x/im/RAMB36_im/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_bee3mem/TC5x/im/RAMB36_im
+   of frag REGCLKBL connected to power/ground net
+   gen_bee3mem/TC5x/im/RAMB36_im/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/large_way_0/genblk83.genblk84.tlbram/tlb_ram
+   of frag RDRCLKU connected to power/ground net
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/large_way_0/genblk83.genblk84.tlbram/tlb_ram/RAMB36SDP_EXP_RDRCLKU_ties
+   ig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/large_way_0/genblk83.genblk84.tlbram/tlb_ram
+   of frag RDRCLKL connected to power/ground net
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/large_way_0/genblk83.genblk84.tlbram/tlb_ram/RAMB36SDP_EXP_RDRCLKL_ties
+   ig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/large_way_1/genblk83.genblk84.tlbram/tlb_ram
+   of frag RDRCLKU connected to power/ground net
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/large_way_1/genblk83.genblk84.tlbram/tlb_ram/RAMB36SDP_EXP_RDRCLKU_ties
+   ig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/large_way_1/genblk83.genblk84.tlbram/tlb_ram
+   of frag RDRCLKL connected to power/ground net
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/large_way_1/genblk83.genblk84.tlbram/tlb_ram/RAMB36SDP_EXP_RDRCLKL_ties
+   ig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/small_way_0/genblk83.genblk84.tlbram/tlb_ram
+   of frag RDRCLKU connected to power/ground net
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/small_way_0/genblk83.genblk84.tlbram/tlb_ram/RAMB36SDP_EXP_RDRCLKU_ties
+   ig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/small_way_0/genblk83.genblk84.tlbram/tlb_ram
+   of frag RDRCLKL connected to power/ground net
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/small_way_0/genblk83.genblk84.tlbram/tlb_ram/RAMB36SDP_EXP_RDRCLKL_ties
+   ig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/small_way_1/genblk83.genblk84.tlbram/tlb_ram
+   of frag RDRCLKU connected to power/ground net
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/small_way_1/genblk83.genblk84.tlbram/tlb_ram/RAMB36SDP_EXP_RDRCLKU_ties
+   ig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/small_way_1/genblk83.genblk84.tlbram/tlb_ram
+   of frag RDRCLKL connected to power/ground net
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/small_way_1/genblk83.genblk84.tlbram/tlb_ram/RAMB36SDP_EXP_RDRCLKL_ties
+   ig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_rx_buf_0
+   of frag RDRCLKU connected to power/ground net
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_rx_buf_0/RAMB36SDP_
+   EXP_RDRCLKU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_rx_buf_0
+   of frag RDRCLKL connected to power/ground net
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_rx_buf_0/RAMB36SDP_
+   EXP_RDRCLKL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_rx_buf_1
+   of frag RDRCLKU connected to power/ground net
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_rx_buf_1/RAMB36SDP_
+   EXP_RDRCLKU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_rx_buf_1
+   of frag RDRCLKL connected to power/ground net
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_rx_buf_1/RAMB36SDP_
+   EXP_RDRCLKL_tiesig
+Running directed packing...
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_bridge/f
+   ifo_inst/poisoned_reg_RNICHKK_o5" (Output Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_bridge/fi
+   fo_inst/N_1726_i_i_1) has an invalid use of the LUTNM constraint. There are
+   no other function generator symbols with a matching LUTNM constraint value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_br
+   idge/fifo_inst/fpga_top_lutnm001188). The constraint will be ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/cfg_arb/cfg
+   _arb_td_1_i_0_lut6_2_o6[55]" (Output Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/cfg_arb/cfg_
+   arb_td_1_i_0[55]) has an invalid use of the LUTNM constraint. There are no
+   other function generator symbols with a matching LUTNM constraint value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/cfg_a
+   rb/fpga_top_lutnm001258). The constraint will be ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/SIO/genblk207.genblk208.
+   pcie_gt_wrapper_i/tx_sync_reset_lut6_2_o6" (Output Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/SIO/genblk207.genblk208.p
+   cie_gt_wrapper_i/tx_sync_reset) has an invalid use of the LUTNM constraint.
+   There are no other function generator symbols with a matching LUTNM
+   constraint value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/SIO/genblk207.genb
+   lk208.pcie_gt_wrapper_i/fpga_top_lutnm001281). The constraint will be
+   ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_bridge/s
+   nk_inst/malformed_checks/svbl_3275.malformed_min_3_0_lut6_2_o6" (Output
+   Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_bridge/sn
+   k_inst/malformed_checks/malformed_min_3_0) has an invalid use of the LUTNM
+   constraint. There are no other function generator symbols with a matching
+   LUTNM constraint value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_br
+   idge/snk_inst/malformed_checks/fpga_top_lutnm001176). The constraint will be
+   ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_bridge/f
+   ifo_inst/oq_fifo/N_1726_i_i_lut6_2_o6" (Output Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_bridge/fi
+   fo_inst/oq_fifo/N_1726_i_i) has an invalid use of the LUTNM constraint. There
+   are no other function generator symbols with a matching LUTNM constraint
+   value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_br
+   idge/fifo_inst/oq_fifo/fpga_top_lutnm001196). The constraint will be ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/management_
+   interface/cfg_data_en_d_0_0_a2_lut6_2_o5" (Output Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/management_i
+   nterface/N_3887_i) has an invalid use of the LUTNM constraint. There are no
+   other function generator symbols with a matching LUTNM constraint value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/manag
+   ement_interface/fpga_top_lutnm001222). The constraint will be ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/management_
+   interface/poll_data_en_d_RNIRQ6M_o6" (Output Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/management_i
+   nterface/N_8926_1) has an invalid use of the LUTNM constraint. There are no
+   other function generator symbols with a matching LUTNM constraint value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/manag
+   ement_interface/fpga_top_lutnm001219). The constraint will be ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/interrupt_i
+   nterface/u_cmm_intr/state_s1_0_a3_lut6_2_o6" (Output Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/intr_req_typ
+   e[1]) has an invalid use of the LUTNM constraint. There are no other function
+   generator symbols with a matching LUTNM constraint value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/inter
+   rupt_interface/u_cmm_intr/fpga_top_lutnm001270). The constraint will be
+   ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/interrupt_i
+   nterface/u_cmm_intr/signaledint_i_lut6_2_o5" (Output Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/interrupt_in
+   terface/u_cmm_intr/state_nss[0]) has an invalid use of the LUTNM constraint.
+   There are no other function generator symbols with a matching LUTNM
+   constraint value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/inter
+   rupt_interface/u_cmm_intr/fpga_top_lutnm001269). The constraint will be
+   ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_bridge/a
+   rb_inst/llk_rx_ch_fifo_int_RNIUFHK_o6[0]" (Output Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/llk_rx_ch_fifo[0]) has an invalid
+   use of the LUTNM constraint. There are no other function generator symbols
+   with a matching LUTNM constraint value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_br
+   idge/arb_inst/fpga_top_lutnm001203). The constraint will be ignored.
+Running delay-based LUT packing...
+Updating timing models...
+WARNING:Timing:3402 - The Clock Modifying COMP,
+   gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/genblk189.genblk190.clk_
+   dfs/DCM_ADV, has the attribute CLK_FEEDBACK set to NONE.  No phase
+   relationship exists between the input and output clocks of this Clock
+   Modifying COMP. Data paths between these clock domains must be constrained
+   using FROM/TO constraints.
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 48 secs 
+Total CPU  time at the beginning of Placer: 46 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:77df996a) REAL time: 53 secs 
+
+Phase 2.7  Design Feasibility Check
+INFO:Place:834 - Only a subset of IOs are locked. Out of 152 IOs, 151 are locked
+   and 1 are not locked.  The following is the list of components that are not
+   locked.
+   refclkout	  NOT LOCKED 
+   Rest of the IOs are LOCKED 
+Phase 2.7  Design Feasibility Check (Checksum:77df996a) REAL time: 53 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:54631501) REAL time: 53 secs 
+
+Phase 4.37  Local Placement Optimization
+Phase 4.37  Local Placement Optimization (Checksum:54631501) REAL time: 53 secs 
+
+Phase 5.33  Local Placement Optimization
+Phase 5.33  Local Placement Optimization (Checksum:54631501) REAL time: 1 mins 52 secs 
+
+Phase 6.32  Local Placement Optimization
+Phase 6.32  Local Placement Optimization (Checksum:54631501) REAL time: 1 mins 53 secs 
+
+Phase 7.2  Initial Clock and IO Placement
+
+Phase 7.2  Initial Clock and IO Placement (Checksum:586f7e34) REAL time: 1 mins 55 secs 
+
+Phase 8.36  Local Placement Optimization
+Phase 8.36  Local Placement Optimization (Checksum:586f7e34) REAL time: 1 mins 55 secs 
+
+
+................................
+...........................................................
+Phase 9.30  Global Clock Region Assignment
+
+
+######################################################################################
+# GLOBAL CLOCK NET DISTRIBUTION UCF REPORT:
+#
+# Number of Global Clock Regions : 16
+# Number of Global Clock Networks: 17
+#
+# Clock Region Assignment: SUCCESSFUL
+
+# Location of Clock Components
+INST "gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/bufgClientRx" LOC = "BUFGCTRL_X0Y30" ;
+INST "gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dll_clk0_buf" LOC = "BUFGCTRL_X0Y27" ;
+INST "gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dll_clk2x_buf" LOC = "BUFGCTRL_X0Y26" ;
+INST "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/clocking_i/use_pll.coreclk_pll_bufg" LOC = "BUFGCTRL_X0Y28" ;
+INST "gen_gclk_rst/gen_dram_clk/genblk49.genblk50.genblk51.xcv5_gen_dram_clk_bee3/bufM90" LOC = "BUFGCTRL_X0Y0" ;
+INST "gen_clk200_buf/genblk43.genblk44.genblk45.clkbuf_ce/BUFGCTRL" LOC = "BUFGCTRL_X0Y31" ;
+INST "gen_gclk_rst/gen_dram_clk/genblk49.genblk50.genblk51.xcv5_gen_dram_clk_bee3/bufM" LOC = "BUFGCTRL_X0Y1" ;
+INST "gen_gclk_rst/gen_dram_clk/genblk49.genblk50.genblk51.xcv5_gen_dram_clk_bee3/bufc" LOC = "BUFGCTRL_X0Y2" ;
+INST "gen_cpu_control/eth2speedtm_valid_0_sqmuxa_cb" LOC = "BUFGCTRL_X0Y8" ;
+INST "gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/eth_rst_buf" LOC = "BUFGCTRL_X0Y24" ;
+INST "gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/eth_clkfx_buf" LOC = "BUFGCTRL_X0Y6" ;
+INST "gen_gclk_rst/gen_dram_clk/genblk49.genblk50.genblk51.xcv5_gen_dram_clk_bee3/p0buf" LOC = "BUFGCTRL_X0Y3" ;
+INST "gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfb_buf" LOC = "BUFGCTRL_X0Y5" ;
+INST "gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfx_buf" LOC = "BUFGCTRL_X0Y4" ;
+INST "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/clocking_i/genblk205.notsame.usrclk_pll_bufg" LOC = "BUFGCTRL_X0Y29" ;
+INST "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/SIO/genblk207.genblk208.pcie_gt_wrapper_i/bufg2" LOC = "BUFGCTRL_X0Y7" ;
+INST "gen_gclk_rst/reset_buf/genblk53.genblk54.xcv5_fanout_buf" LOC = "BUFGCTRL_X0Y25" ;
+INST "gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/genblk0.genblk1.clk_dfs/DCM_ADV" LOC = "DCM_ADV_X0Y0" ;
+INST "gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/genblk0.genblk3.clk_dll/DCM_ADV" LOC = "DCM_ADV_X0Y11" ;
+INST "gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/genblk189.genblk190.clk_dfs/DCM_ADV" LOC = "DCM_ADV_X0Y1" ;
+INST "clkin_p" LOC = "AH15" ;
+INST "clk200_p" LOC = "L19" ;
+INST "PHY_RXCLK" LOC = "H17" ;
+INST "pci_exp_rxn[0]" LOC = "IPAD_X1Y12" ;
+INST "pci_exp_rxp[0]" LOC = "IPAD_X1Y13" ;
+INST "sys_clk_n" LOC = "IPAD_X1Y16" ;
+INST "sys_clk_p" LOC = "IPAD_X1Y17" ;
+INST "pci_exp_txn[0]" LOC = "OPAD_X0Y8" ;
+INST "pci_exp_txp[0]" LOC = "OPAD_X0Y9" ;
+INST "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/clocking_i/use_pll.pll_adv_i" LOC = "PLL_ADV_X0Y5" ;
+INST "gen_gclk_rst/gen_dram_clk/genblk49.genblk50.genblk51.xcv5_gen_dram_clk_bee3/clkBPLL/PLL_ADV" LOC = "PLL_ADV_X0Y0" ;
+INST "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/SIO/genblk207.genblk208.pcie_gt_wrapper_i/genblk213.GTD[0].GT_i" LOC = "GTP_DUAL_X0Y2" ;
+INST "gen_cpu/pcie_interface/pcie_hw/refclk_ibuf" LOC = "BUFDS_X0Y2" ;
+
+# gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethRXclock driven by BUFGCTRL_X0Y30
+NET "gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethRXclock" TNM_NET = "TN_gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethRXclock" ;
+TIMEGRP "TN_gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethRXclock" AREA_GROUP = "CLKAG_gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethRXclock" ;
+AREA_GROUP "CLKAG_gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethRXclock" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X1Y5, CLOCKREGION_X1Y6, CLOCKREGION_X1Y7 ;
+
+# dll_clk0_buf driven by BUFGCTRL_X0Y27
+NET "dll_clk0_buf" TNM_NET = "TN_dll_clk0_buf" ;
+TIMEGRP "TN_dll_clk0_buf" AREA_GROUP = "CLKAG_dll_clk0_buf" ;
+AREA_GROUP "CLKAG_dll_clk0_buf" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# dll_clk2x_buf driven by BUFGCTRL_X0Y26
+NET "dll_clk2x_buf" TNM_NET = "TN_dll_clk2x_buf" ;
+TIMEGRP "TN_dll_clk2x_buf" AREA_GROUP = "CLKAG_dll_clk2x_buf" ;
+AREA_GROUP "CLKAG_dll_clk2x_buf" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/core_clk driven by BUFGCTRL_X0Y28
+NET "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/core_clk" TNM_NET = "TN_gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/core_clk" ;
+TIMEGRP "TN_gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/core_clk" AREA_GROUP = "CLKAG_gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/core_clk" ;
+AREA_GROUP "CLKAG_gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/core_clk" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X1Y4 ;
+
+# bufM90 driven by BUFGCTRL_X0Y0
+NET "bufM90" TNM_NET = "TN_bufM90" ;
+TIMEGRP "TN_bufM90" AREA_GROUP = "CLKAG_bufM90" ;
+AREA_GROUP "CLKAG_bufM90" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# clk200 driven by BUFGCTRL_X0Y31
+NET "clk200" TNM_NET = "TN_clk200" ;
+TIMEGRP "TN_clk200" AREA_GROUP = "CLKAG_clk200" ;
+AREA_GROUP "CLKAG_clk200" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X0Y1, CLOCKREGION_X0Y2, CLOCKREGION_X0Y4, CLOCKREGION_X0Y5, CLOCKREGION_X0Y6, CLOCKREGION_X0Y7 ;
+
+# bufM driven by BUFGCTRL_X0Y1
+NET "bufM" TNM_NET = "TN_bufM" ;
+TIMEGRP "TN_bufM" AREA_GROUP = "CLKAG_bufM" ;
+AREA_GROUP "CLKAG_bufM" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X0Y3, CLOCKREGION_X0Y4, CLOCKREGION_X0Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# bufc driven by BUFGCTRL_X0Y2
+NET "bufc" TNM_NET = "TN_bufc" ;
+TIMEGRP "TN_bufc" AREA_GROUP = "CLKAG_bufc" ;
+AREA_GROUP "CLKAG_bufc" RANGE =   CLOCKREGION_X0Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# gen_cpu_control/eth2speedtm_valid_0_sqmuxa driven by BUFGCTRL_X0Y8
+NET "gen_cpu_control/eth2speedtm_valid_0_sqmuxa" TNM_NET = "TN_gen_cpu_control/eth2speedtm_valid_0_sqmuxa" ;
+TIMEGRP "TN_gen_cpu_control/eth2speedtm_valid_0_sqmuxa" AREA_GROUP = "CLKAG_gen_cpu_control/eth2speedtm_valid_0_sqmuxa" ;
+AREA_GROUP "CLKAG_gen_cpu_control/eth2speedtm_valid_0_sqmuxa" RANGE =   CLOCKREGION_X1Y3 ;
+
+# eth_rst driven by BUFGCTRL_X0Y24
+NET "eth_rst" TNM_NET = "TN_eth_rst" ;
+TIMEGRP "TN_eth_rst" AREA_GROUP = "CLKAG_eth_rst" ;
+AREA_GROUP "CLKAG_eth_rst" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock driven by BUFGCTRL_X0Y6
+NET "gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock" TNM_NET = "TN_gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock" ;
+TIMEGRP "TN_gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock" AREA_GROUP = "CLKAG_gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock" ;
+AREA_GROUP "CLKAG_gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock" RANGE =   CLOCKREGION_X1Y0, CLOCKREGION_X1Y1, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X1Y6, CLOCKREGION_X1Y7 ;
+
+# p0buf driven by BUFGCTRL_X0Y3
+NET "p0buf" TNM_NET = "TN_p0buf" ;
+TIMEGRP "TN_p0buf" AREA_GROUP = "CLKAG_p0buf" ;
+AREA_GROUP "CLKAG_p0buf" RANGE =   CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clk0_b driven by BUFGCTRL_X0Y5
+NET "gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clk0_b" TNM_NET = "TN_gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clk0_b" ;
+TIMEGRP "TN_gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clk0_b" AREA_GROUP = "CLKAG_gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clk0_b" ;
+AREA_GROUP "CLKAG_gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clk0_b" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X0Y1 ;
+
+# gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfx_b driven by BUFGCTRL_X0Y4
+NET "gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfx_b" TNM_NET = "TN_gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfx_b" ;
+TIMEGRP "TN_gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfx_b" AREA_GROUP = "CLKAG_gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfx_b" ;
+AREA_GROUP "CLKAG_gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfx_b" RANGE =   CLOCKREGION_X1Y4, CLOCKREGION_X0Y6, CLOCKREGION_X0Y7 ;
+
+# gen_cpu/pcie_interface/trn_clk_c driven by BUFGCTRL_X0Y29
+NET "gen_cpu/pcie_interface/trn_clk_c" TNM_NET = "TN_gen_cpu/pcie_interface/trn_clk_c" ;
+TIMEGRP "TN_gen_cpu/pcie_interface/trn_clk_c" AREA_GROUP = "CLKAG_gen_cpu/pcie_interface/trn_clk_c" ;
+AREA_GROUP "CLKAG_gen_cpu/pcie_interface/trn_clk_c" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X1Y4, CLOCKREGION_X1Y5, CLOCKREGION_X1Y6, CLOCKREGION_X1Y7 ;
+
+# gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/refclkout driven by BUFGCTRL_X0Y7
+NET "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/refclkout" TNM_NET = "TN_gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/refclkout" ;
+TIMEGRP "TN_gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/refclkout" AREA_GROUP = "CLKAG_gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/refclkout" ;
+AREA_GROUP "CLKAG_gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/refclkout" RANGE =   CLOCKREGION_X1Y4, CLOCKREGION_X0Y6, CLOCKREGION_X0Y7 ;
+
+# gen_gclk_rst/reset_b driven by BUFGCTRL_X0Y25
+NET "gen_gclk_rst/reset_b" TNM_NET = "TN_gen_gclk_rst/reset_b" ;
+TIMEGRP "TN_gen_gclk_rst/reset_b" AREA_GROUP = "CLKAG_gen_gclk_rst/reset_b" ;
+AREA_GROUP "CLKAG_gen_gclk_rst/reset_b" RANGE =   CLOCKREGION_X1Y0, CLOCKREGION_X1Y1, CLOCKREGION_X1Y2, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5 ;
+
+# NOTE: 
+# This report is provided to help reproduce successful clock-region 
+# assignments. The report provides range constraints for all global 
+# clock networks, in a format that is directly usable in ucf files. 
+#
+#END of Global Clock Net Distribution UCF Constraints
+######################################################################################
+
+
+######################################################################################
+GLOBAL CLOCK NET LOADS DISTRIBUTION REPORT:
+
+Number of Global Clock Regions : 16
+Number of Global Clock Networks: 17
+
+Clock Region Assignment: SUCCESSFUL
+
+Clock-Region: <CLOCKREGION_X0Y0> 
+ key resource utilizations (used/available): global-clocks - 2/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      0 |     80 |     80 |      8 |      0 |      0 |      0 |      2 |      0 |   2080 |   3840 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     58 |bufM90
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |    368 |dll_clk2x_buf
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |    426 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y0> 
+ key resource utilizations (used/available): global-clocks - 2/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   2400 |   4800 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |    257 |dll_clk2x_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |   1142 |    373 |gen_cpu/pcie_interface/trn_clk_c
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |   1146 |    630 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y1> 
+ key resource utilizations (used/available): global-clocks - 5/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      4 |      2 |      0 |     40 |     40 |      8 |      0 |      0 |      0 |      1 |      0 |   2080 |   3840 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |     16 |      6 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |bufM
+      0 |      0 |      0 |      0 |     16 |     16 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     78 |bufM90
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |clk200
+      0 |      0 |      0 |      0 |      0 |      0 |      3 |      0 |      0 |      0 |      0 |      0 |    108 |    735 |dll_clk2x_buf
+      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clk0_b
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      1 |      0 |      0 |     32 |     22 |      3 |      0 |      0 |      0 |      1 |      0 |    108 |    817 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y1> 
+ key resource utilizations (used/available): global-clocks - 4/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   2400 |   4800 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    104 |    282 |dll_clk2x_buf
+      0 |      0 |      0 |      0 |      0 |     10 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |eth_rst
+      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    490 |    744 |gen_cpu/pcie_interface/trn_clk_c
+      0 |      0 |      0 |      0 |      0 |     10 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      4 |      0 |      0 |      0 |      0 |     20 |      0 |      0 |      0 |      0 |      0 |      0 |    594 |   1026 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y2> 
+ key resource utilizations (used/available): global-clocks - 6/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      2 |      1 |      0 |     60 |     60 |      8 |      0 |      0 |      0 |      2 |      0 |   2080 |   3840 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |     24 |      6 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      6 |bufM
+      1 |      0 |      0 |      0 |     24 |     24 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    301 |bufM90
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |clk200
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     10 |      5 |dll_clk0_buf
+      1 |      0 |      0 |      0 |      0 |      0 |      7 |      0 |      0 |      0 |      0 |      0 |    526 |    913 |dll_clk2x_buf
+      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |p0buf
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      2 |      0 |      0 |      0 |     48 |     31 |      7 |      0 |      0 |      0 |      1 |      0 |    536 |   1225 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y2> 
+ key resource utilizations (used/available): global-clocks - 5/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      1 |      1 |      0 |   2400 |   4800 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     33 |dll_clk0_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     82 |    448 |dll_clk2x_buf
+      4 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1 |gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/core_clk
+      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |     74 |    954 |gen_cpu/pcie_interface/trn_clk_c
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     33 |gen_gclk_rst/reset_b
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |    156 |   1469 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y3> 
+ key resource utilizations (used/available): global-clocks - 5/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      0 |     60 |     60 |      8 |      0 |      0 |      0 |      2 |     16 |   2080 |   3840 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |bufM
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    132 |bufM90
+      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    156 |    666 |dll_clk0_buf
+      2 |      0 |      0 |      0 |      0 |      0 |      4 |      0 |      0 |      0 |      0 |      0 |    176 |    758 |dll_clk2x_buf
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |eth_rst
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      9 |      0 |      0 |      0 |      0 |      0 |      4 |      0 |      0 |      0 |      0 |      0 |    332 |   1562 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y3> 
+ key resource utilizations (used/available): global-clocks - 7/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   2400 |   4800 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |    469 |dll_clk0_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     14 |     30 |dll_clk2x_buf
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     76 |eth_rst
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    125 |gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/core_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    473 |gen_cpu/pcie_interface/trn_clk_c
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     75 |gen_cpu_control/eth2speedtm_valid_0_sqmuxa
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     16 |     18 |gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      7 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     32 |   1266 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y4> 
+ key resource utilizations (used/available): global-clocks - 10/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      0 |     60 |     60 |      8 |      0 |      0 |      0 |      2 |     16 |   2080 |   3840 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     13 |bufM
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     79 |bufM90
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      3 |bufc
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |clk200
+      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    400 |   1616 |dll_clk0_buf
+      5 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |    469 |dll_clk2x_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |eth_rst
+      0 |      0 |      0 |      0 |     10 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethRXclock
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |gen_gclk_rst/reset_b
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |p0buf
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      0 |     10 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |    402 |   2182 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y4> 
+ key resource utilizations (used/available): global-clocks - 10/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     10 |      0 |      0 |      1 |     40 |     40 |      0 |      1 |      0 |      0 |      1 |      0 |   2400 |   4800 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      5 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |    310 |    995 |dll_clk0_buf
+      1 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |    108 |    179 |dll_clk2x_buf
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |     79 |eth_rst
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/core_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     18 |gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/refclkout
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    241 |gen_cpu/pcie_interface/trn_clk_c
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |     26 |gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethRXclock
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfx_b
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     19 |gen_gclk_rst/reset_b
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      0 |      0 |      2 |      0 |      3 |      0 |      0 |      0 |      0 |    418 |   1562 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y5> 
+ key resource utilizations (used/available): global-clocks - 10/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      2 |      1 |      0 |     60 |     60 |      8 |      0 |      0 |      0 |      2 |      0 |   2080 |   3840 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |     24 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     17 |bufM
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    151 |bufM90
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      3 |bufc
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |clk200
+      2 |      0 |      0 |      0 |      0 |      0 |      4 |      0 |      0 |      0 |      0 |      0 |    370 |   1356 |dll_clk0_buf
+      8 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      2 |     50 |dll_clk2x_buf
+      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |eth_rst
+      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     12 |gen_gclk_rst/reset_b
+      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     16 |p0buf
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     11 |      0 |      0 |      0 |      0 |     29 |      5 |      0 |      0 |      0 |      2 |      0 |    372 |   1605 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y5> 
+ key resource utilizations (used/available): global-clocks - 4/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     10 |      0 |      0 |      1 |     40 |     40 |      0 |      1 |      0 |      0 |      1 |      0 |   2400 |   4800 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    108 |   1133 |dll_clk0_buf
+      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    144 |    117 |dll_clk2x_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     64 |gen_cpu/pcie_interface/trn_clk_c
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |gen_gclk_rst/reset_b
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      5 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    252 |   1315 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y6> 
+ key resource utilizations (used/available): global-clocks - 9/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      4 |      2 |      0 |     40 |     40 |      8 |      0 |      0 |      0 |      1 |      0 |   2080 |   3840 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |     24 |      8 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     29 |bufM
+      0 |      0 |      0 |      0 |     24 |     24 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     91 |bufM90
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     31 |    151 |bufc
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |clk200
+      1 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    114 |    513 |dll_clk0_buf
+      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |      4 |dll_clk2x_buf
+      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/refclkout
+      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfx_b
+      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     11 |     95 |p0buf
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      2 |      1 |      0 |     48 |     32 |      0 |      0 |      0 |      0 |      1 |      0 |    160 |    883 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y6> 
+ key resource utilizations (used/available): global-clocks - 3/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   2400 |   4800 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     42 |    434 |dll_clk0_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     56 |     56 |dll_clk2x_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     24 |gen_cpu/pcie_interface/trn_clk_c
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     98 |    514 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y7> 
+ key resource utilizations (used/available): global-clocks - 2/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      0 |     80 |     80 |      8 |      0 |      0 |      0 |      2 |      0 |   2080 |   3840 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    206 |dll_clk0_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     90 |    120 |dll_clk2x_buf
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     90 |    326 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y7> 
+ key resource utilizations (used/available): global-clocks - 2/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   2400 |   4800 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    152 |dll_clk0_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |      3 |dll_clk2x_buf
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |    155 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+NOTE:
+The above detailed report is the initial placement of the logic after the clock region assignment. The final placement
+may be significantly different because of the various optimization steps which will follow. Specifically, logic blocks
+maybe moved to adjacent clock-regions as long as the "number of clocks per region" constraint is not violated.
+
+
+# END of Global Clock Net Loads Distribution Report:
+######################################################################################
+
+
+Phase 9.30  Global Clock Region Assignment (Checksum:7cbbcc7) REAL time: 2 mins 14 secs 
+
+Phase 10.3  Local Placement Optimization
+
+Phase 10.3  Local Placement Optimization (Checksum:f84afaa7) REAL time: 2 mins 14 secs 
+
+Phase 11.5  Local Placement Optimization
+Phase 11.5  Local Placement Optimization (Checksum:f84afaa7) REAL time: 2 mins 14 secs 
+
+Phase 12.8  Global Placement
+............................
+..................................................................................
+....................
+.....................................................................
+.......................
+.......................
+................
+.................................................
+Phase 12.8  Global Placement (Checksum:2b802ff8) REAL time: 3 mins 18 secs 
+
+Phase 13.29  Local Placement Optimization
+Phase 13.29  Local Placement Optimization (Checksum:2b802ff8) REAL time: 3 mins 18 secs 
+
+Phase 14.5  Local Placement Optimization
+Phase 14.5  Local Placement Optimization (Checksum:2b802ff8) REAL time: 3 mins 19 secs 
+
+Phase 15.18  Placement Optimization
+Phase 15.18  Placement Optimization (Checksum:8a4e284f) REAL time: 4 mins 32 secs 
+
+Phase 16.5  Local Placement Optimization
+Phase 16.5  Local Placement Optimization (Checksum:8a4e284f) REAL time: 4 mins 33 secs 
+
+Phase 17.34  Placement Validation
+Phase 17.34  Placement Validation (Checksum:8a4e284f) REAL time: 4 mins 34 secs 
+
+Total REAL time to Placer completion: 4 mins 39 secs 
+Total CPU  time to Placer completion: 4 mins 36 secs 
+Running post-placement packing...
+Writing output files...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   48
+Slice Logic Utilization:
+  Number of Slice Registers:                16,702 out of  69,120   24%
+    Number used as Flip Flops:              16,663
+    Number used as Latches:                     33
+    Number used as Latch-thrus:                  6
+  Number of Slice LUTs:                     13,449 out of  69,120   19%
+    Number used as logic:                   10,555 out of  69,120   15%
+      Number using O6 output only:           8,724
+      Number using O5 output only:             321
+      Number using O5 and O6:                1,510
+    Number used as Memory:                   2,861 out of  17,920   15%
+      Number used as Dual Port RAM:          1,717
+        Number using O6 output only:         1,673
+        Number using O5 output only:             2
+        Number using O5 and O6:                 42
+      Number used as Single Port RAM:          273
+        Number using O6 output only:           269
+        Number using O5 and O6:                  4
+      Number used as Shift Register:           871
+        Number using O6 output only:           871
+    Number used as exclusive route-thru:        33
+  Number of route-thrus:                       375
+    Number using O6 output only:               351
+    Number using O5 output only:                23
+    Number using O5 and O6:                      1
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 6,760 out of  17,280   39%
+  Number of LUT Flip Flop pairs used:       21,267
+    Number with an unused Flip Flop:         4,565 out of  21,267   21%
+    Number with an unused LUT:               7,818 out of  21,267   36%
+    Number of fully used LUT-FF pairs:       8,884 out of  21,267   41%
+    Number of unique control sets:             456
+    Number of slice register sites lost
+      to control set restrictions:             577 out of  69,120    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       152 out of     640   23%
+    Number of LOCed IOBs:                      151 out of     152   99%
+    IOB Flip Flops:                            214
+    Number of bonded IPADs:                      4
+      Number of LOCed IPADs:                     2 out of       4   50%
+    Number of bonded OPADs:                      2
+
+Specific Feature Utilization:
+  Number of BlockRAM/FIFO:                      53 out of     148   35%
+    Number using BlockRAM only:                 42
+    Number using FIFO only:                     11
+    Total primitives used:
+      Number of 36k BlockRAM used:              39
+      Number of 18k BlockRAM used:               4
+      Number of 36k FIFO used:                   9
+      Number of 18k FIFO used:                   2
+    Total Memory used (KB):                  1,836 out of   5,328   34%
+  Number of BUFG/BUFGCTRLs:                     17 out of      32   53%
+    Number used as BUFGs:                       16
+    Number used as BUFGCTRLs:                    1
+  Number of IDELAYCTRLs:                         5 out of      22   22%
+  Number of BUFDSs:                              1 out of       8   12%
+  Number of DCM_ADVs:                            3 out of      12   25%
+  Number of DSP48Es:                            19 out of      64   29%
+  Number of GTP_DUALs:                           1 out of       8   12%
+    Number of LOCed GTP_DUALs:                   1 out of       1  100%
+  Number of ISERDESs:                           64
+  Number of PCIEs:                               1 out of       1  100%
+  Number of PLL_ADVs:                            2 out of       6   33%
+  Number of TEMACs:                              1 out of       2   50%
+
+Average Fanout of Non-Clock Nets:                3.13
+
+Peak Memory Usage:  1360 MB
+Total REAL time to MAP completion:  4 mins 53 secs 
+Total CPU time to MAP completion:   4 mins 50 secs 
+
+Mapping completed.
+See MAP report file "fpga_top_map.mrp" for details.
+
+Process "Map" completed successfully
+
+Started : "Place & Route".
+Running par...
+Command Line: par -w -intstyle ise -ol high -mt off fpga_top_map.ncd fpga_top.ncd fpga_top.pcf
+
+
+
+Constraints file: fpga_top.pcf.
+Loading device for application Rf_Device from file '5vlx110t.nph' in environment /opt/Xilinx/14.2/ISE_DS/ISE/.
+   "fpga_top" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.73 2012-07-09".
+
+
+
+Device Utilization Summary:
+
+   Number of BUFDSs                          1 out of 8      12%
+   Number of BUFGs                          16 out of 32     50%
+   Number of BUFGCTRLs                       1 out of 32      3%
+   Number of DCM_ADVs                        3 out of 12     25%
+   Number of DSP48Es                        19 out of 64     29%
+   Number of FIFO36_72_EXPs                  6 out of 148     4%
+   Number of FIFO36_EXPs                     3 out of 148     2%
+   Number of GTP_DUALs                       1 out of 8      12%
+      Number of LOCed GTP_DUALs              1 out of 1     100%
+
+   Number of IDELAYCTRLs                     5 out of 22     22%
+      Number of LOCed IDELAYCTRLs            5 out of 5     100%
+
+   Number of ILOGICs                        10 out of 800     1%
+   Number of External IOBs                 152 out of 640    23%
+      Number of LOCed IOBs                 151 out of 152    99%
+
+   Number of IODELAYs                       75 out of 800     9%
+   Number of External IPADs                  4 out of 690     1%
+      Number of LOCed IPADs                  2 out of 4      50%
+
+   Number of ISERDESs                       64 out of 800     8%
+   Number of OLOGICs                       125 out of 800    15%
+   Number of External OPADs                  2 out of 32      6%
+      Number of LOCed OPADs                  0 out of 2       0%
+
+   Number of PCIEs                           1 out of 1     100%
+   Number of PLL_ADVs                        2 out of 6      33%
+   Number of RAMB18X2SDPs                    3 out of 148     2%
+   Number of RAMB36SDP_EXPs                 19 out of 148    12%
+      Number of LOCed RAMB36SDP_EXPs         1 out of 19      5%
+
+   Number of RAMB36_EXPs                    20 out of 148    13%
+      Number of LOCed RAMB36_EXPs            4 out of 20     20%
+
+   Number of RAMBFIFO18_36s                  2 out of 148     1%
+   Number of TEMACs                          1 out of 2      50%
+   Number of Slices                       6760 out of 17280  39%
+   Number of Slice Registers             16702 out of 69120  24%
+      Number used as Flip Flops          16663
+      Number used as Latches                33
+      Number used as LatchThrus              6
+
+   Number of Slice LUTS                  13449 out of 69120  19%
+   Number of Slice LUT-Flip Flop pairs   21267 out of 69120  30%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+WARNING:Timing:3402 - The Clock Modifying COMP,
+   gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/genblk189.genblk190.clk_dfs/DCM_ADV, has the attribute
+   CLK_FEEDBACK set to NONE.  No phase relationship exists between the input and output clocks of this Clock Modifying
+   COMP. Data paths between these clock domains must be constrained using FROM/TO constraints.
+Starting initial Timing Analysis.  REAL time: 20 secs 
+Finished initial Timing Analysis.  REAL time: 20 secs 
+
+Starting Router
+
+
+Phase  1  : 101910 unrouted;      REAL time: 23 secs 
+
+Phase  2  : 82971 unrouted;      REAL time: 28 secs 
+
+Phase  3  : 31020 unrouted;      REAL time: 55 secs 
+
+Phase  4  : 31265 unrouted; (Setup:202035, Hold:59314, Component Switching Limit:0)     REAL time: 1 mins 8 secs 
+
+Updating file: fpga_top.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:286124, Hold:48385, Component Switching Limit:0)     REAL time: 1 mins 56 secs 
+
+Phase  6  : 0 unrouted; (Setup:286124, Hold:48385, Component Switching Limit:0)     REAL time: 2 mins 20 secs 
+
+Phase  7  : 0 unrouted; (Setup:225108, Hold:48066, Component Switching Limit:0)     REAL time: 3 mins 22 secs 
+
+Phase  8  : 0 unrouted; (Setup:225108, Hold:48066, Component Switching Limit:0)     REAL time: 3 mins 22 secs 
+
+Phase  9  : 0 unrouted; (Setup:225108, Hold:33, Component Switching Limit:0)     REAL time: 3 mins 24 secs 
+
+Phase 10  : 0 unrouted; (Setup:225216, Hold:33, Component Switching Limit:0)     REAL time: 3 mins 28 secs 
+Total REAL time to Router completion: 3 mins 28 secs 
+Total CPU time to Router completion: 3 mins 40 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|        dll_clk0_buf |BUFGCTRL_X0Y27| No   | 2562 |  0.451     |  1.990      |
++---------------------+--------------+------+------+------------+-------------+
+|       dll_clk2x_buf |BUFGCTRL_X0Y26| No   | 1717 |  0.524     |  2.053      |
++---------------------+--------------+------+------+------------+-------------+
+|gen_cpu/pcie_interfa |              |      |      |            |             |
+|        ce/trn_clk_c |BUFGCTRL_X0Y29| No   | 1377 |  0.429     |  2.087      |
++---------------------+--------------+------+------+------------+-------------+
+|              bufM90 | BUFGCTRL_X0Y0| No   |  610 |  0.311     |  2.068      |
++---------------------+--------------+------+------+------------+-------------+
+|gen_eth_dma_master/g |              |      |      |            |             |
+|igaeth/genblk87.genb |              |      |      |            |             |
+|lk88.macgmii/ethTXcl |              |      |      |            |             |
+|                 ock | BUFGCTRL_X0Y6| No   |   24 |  0.389     |  2.086      |
++---------------------+--------------+------+------+------------+-------------+
+|               p0buf | BUFGCTRL_X0Y3| No   |   61 |  0.394     |  2.054      |
++---------------------+--------------+------+------+------------+-------------+
+|                bufc | BUFGCTRL_X0Y2| No   |   85 |  0.285     |  1.968      |
++---------------------+--------------+------+------+------------+-------------+
+|gen_eth_dma_master/g |              |      |      |            |             |
+|igaeth/genblk87.genb |              |      |      |            |             |
+|lk88.macgmii/ethRXcl |              |      |      |            |             |
+|                 ock |BUFGCTRL_X0Y30| No   |   20 |  0.284     |  2.091      |
++---------------------+--------------+------+------+------------+-------------+
+|gen_cpu/pcie_interfa |              |      |      |            |             |
+|ce/pcie_hw/ep/pcie_e |              |      |      |            |             |
+|         p0/core_clk |BUFGCTRL_X0Y28| No   |   90 |  0.325     |  2.014      |
++---------------------+--------------+------+------+------------+-------------+
+|                bufM | BUFGCTRL_X0Y1| No   |  204 |  0.325     |  2.046      |
++---------------------+--------------+------+------+------------+-------------+
+|gen_cpu/pcie_interfa |              |      |      |            |             |
+|ce/pcie_hw/ep/pcie_e |              |      |      |            |             |
+|p0/pcie_blk/refclkou |              |      |      |            |             |
+|                   t | BUFGCTRL_X0Y7| No   |    7 |  0.029     |  1.612      |
++---------------------+--------------+------+------+------------+-------------+
+|              clk200 |BUFGCTRL_X0Y31| No   |    5 |  0.328     |  1.896      |
++---------------------+--------------+------+------+------------+-------------+
+|gen_gclk_rst/gen_clk |              |      |      |            |             |
+|/genblk47.genblk48.x |              |      |      |            |             |
+|cv5_gen_clk/dfs_clkf |              |      |      |            |             |
+|                 x_b | BUFGCTRL_X0Y4| No   |    2 |  0.000     |  1.579      |
++---------------------+--------------+------+------+------------+-------------+
+|gen_cpu_control/eth2 |              |      |      |            |             |
+|speedtm_valid_0_sqmu |              |      |      |            |             |
+|                  xa | BUFGCTRL_X0Y8| No   |   19 |  0.036     |  1.796      |
++---------------------+--------------+------+------+------------+-------------+
+|               clk_p |         Local|      |    5 |  0.280     |  2.467      |
++---------------------+--------------+------+------+------------+-------------+
+|gen_cpu/pcie_interfa |              |      |      |            |             |
+|ce/pcie_hw/ep/pcie_e |              |      |      |            |             |
+|p0/pcie_blk/SIO/genb |              |      |      |            |             |
+|lk207.genblk208.pcie |              |      |      |            |             |
+|_gt_wrapper_i/gt_rx_ |              |      |      |            |             |
+|        valid_reg[0] |         Local|      |    2 |  0.000     |  1.069      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 225249 (Setup: 225216, Hold: 33, Component Switching Limit: 0)
+
+WARNING:Par:468 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in
+   your design.
+
+   Review the timing report using Timing Analyzer (In ISE select "Post-Place &
+   Route Static Timing Report"). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
+
+   Try the Design Goal and Strategies for Timing Performance(In ISE select Project -> Design Goals & Strategies) to
+   ensure the best options are set in the tools for timing closure.
+
+   Use the Xilinx "SmartXplorer" script to try special combinations of
+   options known to produce very good results.
+
+   Visit the Xilinx technical support web at http://support.xilinx.com and go to
+   either "Troubleshoot->Tech Tips->Timing & Constraints" or "
+   TechXclusives->Timing Closure" for tips and suggestions for meeting timing
+   in your design.
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* TS_gen_gclk_rst_gen_clk_genblk47_genblk48 | SETUP       |    -3.143ns|     8.420ns|     121|      224522
+  _xcv5_gen_clk_dll_clk2x = PERIOD          | HOLD        |     0.001ns|            |       0|           0
+  TIMEGRP         "gen_gclk_rst_gen_clk_gen |             |            |            |        |            
+  blk47_genblk48_xcv5_gen_clk_dll_clk2x"    |             |            |            |        |            
+        TS_gen_gclk_rst_gen_clk_genblk47_ge |             |            |            |        |            
+  nblk48_xcv5_gen_clk_dfs_clkfx / 2         |             |            |            |        |            
+   HIGH 50%                                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+* TS_gen_gclk_rst_gen_clk_genblk47_genblk48 | SETUP       |    -0.061ns|    10.676ns|      14|         694
+  _xcv5_gen_clk_dll_clk0 = PERIOD         T | HOLD        |    -0.033ns|            |       1|          33
+  IMEGRP "gen_gclk_rst_gen_clk_genblk47_gen |             |            |            |        |            
+  blk48_xcv5_gen_clk_dll_clk0"         TS_g |             |            |            |        |            
+  en_gclk_rst_gen_clk_genblk47_genblk48_xcv |             |            |            |        |            
+  5_gen_clk_dfs_clkfx HIGH         50%      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_gen_gclk_rst_gen_dram_clk_genblk49_gen | SETUP       |     0.060ns|     8.284ns|       0|           0
+  blk50_genblk51_xcv5_gen_dram_clk_bee3_CLK | HOLD        |     0.121ns|            |       0|           0
+  x         = PERIOD TIMEGRP         "gen_g |             |            |            |        |            
+  clk_rst_gen_dram_clk_genblk49_genblk50_ge |             |            |            |        |            
+  nblk51_xcv5_gen_dram_clk_bee3_CLKx"       |             |            |            |        |            
+     TS_clkin_p / 1.125 HIGH 50%            |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_PHY_RXCLK = PERIOD TIMEGRP "PHY_RXCLK" | SETUP       |     0.063ns|     7.637ns|       0|           0
+   7.7 ns HIGH 50%                          | HOLD        |     0.239ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_gen_gclk_rst_gen_dram_clk_genblk49_gen | SETUP       |     0.090ns|    16.744ns|       0|           0
+  blk50_genblk51_xcv5_gen_dram_clk_bee3_Ph0 | HOLD        |     0.480ns|            |       0|           0
+  x         = PERIOD TIMEGRP         "gen_g |             |            |            |        |            
+  clk_rst_gen_dram_clk_genblk49_genblk50_ge |             |            |            |        |            
+  nblk51_xcv5_gen_dram_clk_bee3_Ph0x"       |             |            |            |        |            
+     TS_clkin_p / 0.5625 HIGH 37.5%         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_gen_gclk_rst_gen_dram_clk_genblk49_gen | SETUP       |     0.183ns|     3.856ns|       0|           0
+  blk50_genblk51_xcv5_gen_dram_clk_bee3_MCL | HOLD        |     0.385ns|            |       0|           0
+  Kx         = PERIOD TIMEGRP         "gen_ |             |            |            |        |            
+  gclk_rst_gen_dram_clk_genblk49_genblk50_g |             |            |            |        |            
+  enblk51_xcv5_gen_dram_clk_bee3_MCLKx"     |             |            |            |        |            
+       TS_clkin_p / 2.25 HIGH 50%           |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_gen_gclk_rst_gen_dram_clk_genblk49_gen | SETUP       |     0.213ns|     4.009ns|       0|           0
+  blk50_genblk51_xcv5_gen_dram_clk_bee3_MCL | HOLD        |     0.340ns|            |       0|           0
+  K90x         = PERIOD TIMEGRP         "ge |             |            |            |        |            
+  n_gclk_rst_gen_dram_clk_genblk49_genblk50 |             |            |            |        |            
+  _genblk51_xcv5_gen_dram_clk_bee3_MCLK90x" |             |            |            |        |            
+           TS_clkin_p / 2.25 PHASE 1.055555 |             |            |            |        |            
+  56 ns HIGH 50%                            |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_gen_eth_dma_master_gigaeth_genblk87_ge | SETUP       |     0.282ns|     7.318ns|       0|           0
+  nblk88_macgmii_dfs_clkfx = PERIOD         | HOLD        |     0.530ns|            |       0|           0
+   TIMEGRP         "gen_eth_dma_master_giga |             |            |            |        |            
+  eth_genblk87_genblk88_macgmii_dfs_clkfx"  |             |            |            |        |            
+  7.6         ns HIGH 50%                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_gen_gclk_rst_gen_clk_genblk47_genblk48 | SETUP       |     9.450ns|     1.105ns|       0|           0
+  _xcv5_gen_clk_dfs_clkfx = PERIOD          | HOLD        |     0.483ns|            |       0|           0
+  TIMEGRP         "gen_gclk_rst_gen_clk_gen | MINLOWPULSE |     4.554ns|     6.000ns|       0|           0
+  blk47_genblk48_xcv5_gen_clk_dfs_clkfx"    |             |            |            |        |            
+        TS_clkin_p / 0.9 HIGH 50%           |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clkin_p = PERIOD TIMEGRP "clkin_p" 9.5 | SETUP       |     8.213ns|     1.287ns|       0|           0
+   ns HIGH 50%                              | HOLD        |     0.330ns|            |       0|           0
+                                            | MINPERIOD   |     1.168ns|     8.332ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_clkin_p
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_clkin_p                     |      9.500ns|      8.332ns|     15.156ns|            0|          136|            3|      8471341|
+| TS_gen_gclk_rst_gen_clk_genblk|     10.556ns|      6.000ns|     16.840ns|            0|          136|            3|      7869266|
+| 47_genblk48_xcv5_gen_clk_dfs_c|             |             |             |             |             |             |             |
+| lkfx                          |             |             |             |             |             |             |             |
+|  TS_gen_gclk_rst_gen_clk_genbl|     10.556ns|     10.676ns|          N/A|           15|            0|      7759218|            0|
+|  k47_genblk48_xcv5_gen_clk_dll|             |             |             |             |             |             |             |
+|  _clk0                        |             |             |             |             |             |             |             |
+|  TS_gen_gclk_rst_gen_clk_genbl|      5.278ns|      8.420ns|          N/A|          121|            0|       110048|  INFO:TclTasksC:1850 - process run : Implement Design is done.
+          0|
+|  k47_genblk48_xcv5_gen_clk_dll|             |             |             |             |             |             |             |
+|  _clk2x                       |             |             |             |             |             |             |             |
+| TS_gen_gclk_rst_gen_dram_clk_g|      4.222ns|      3.856ns|          N/A|            0|            0|          169|            0|
+| enblk49_genblk50_genblk51_xcv5|             |             |             |             |             |             |             |
+| _gen_dram_clk_bee3_MCLKx      |             |             |             |             |             |             |             |
+| TS_gen_gclk_rst_gen_dram_clk_g|      4.222ns|      4.009ns|          N/A|            0|            0|        11476|            0|
+| enblk49_genblk50_genblk51_xcv5|             |             |             |             |             |             |             |
+| _gen_dram_clk_bee3_MCLK90x    |             |             |             |             |             |             |             |
+| TS_gen_gclk_rst_gen_dram_clk_g|     16.889ns|     16.744ns|          N/A|            0|            0|       583029|            0|
+| enblk49_genblk50_genblk51_xcv5|             |             |             |             |             |             |             |
+| _gen_dram_clk_bee3_Ph0x       |             |             |             |             |             |             |             |
+| TS_gen_gclk_rst_gen_dram_clk_g|      8.444ns|      8.284ns|          N/A|            0|            0|         7398|            0|
+| enblk49_genblk50_genblk51_xcv5|             |             |             |             |             |             |             |
+| _gen_dram_clk_bee3_CLKx       |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+2 constraints not met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 3 mins 35 secs 
+Total CPU time to PAR completion: 3 mins 47 secs 
+
+Peak Memory Usage:  1281 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - 136 errors found.
+
+Number of error messages: 0
+Number of warning messages: 2
+Number of info messages: 0
+
+Writing design to file fpga_top.ncd
+
+
+
+PAR done!
+
+Process "Place & Route" completed successfully
+
+Started : "Generate Post-Place & Route Static Timing".
+Running trce...
+Command Line: trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fpga_top.twx fpga_top.ncd -o fpga_top.twr fpga_top.pcf -ucf synplicity.ucf
+Loading device for application Rf_Device from file '5vlx110t.nph' in environment
+/opt/Xilinx/14.2/ISE_DS/ISE/.
+   "fpga_top" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed
+-1
+WARNING:Timing:3402 - The Clock Modifying COMP,
+   gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/genblk189.genblk190.clk_
+   dfs/DCM_ADV, has the attribute CLK_FEEDBACK set to NONE.  No phase
+   relationship exists between the input and output clocks of this Clock
+   Modifying COMP. Data paths between these clock domains must be constrained
+   using FROM/TO constraints.
+
+Analysis completed Mon Mar 30 17:24:04 2015
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 1
+Total time: 25 secs 
+
+Process "Generate Post-Place & Route Static Timing" completed successfully

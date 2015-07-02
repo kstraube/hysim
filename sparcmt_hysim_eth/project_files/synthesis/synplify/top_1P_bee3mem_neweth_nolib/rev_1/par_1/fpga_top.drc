@@ -1,0 +1,41 @@
+Release 14.2 Drc P.28xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Sat Jul 26 01:53:54 2014
+
+drc -z fpga_top.ncd fpga_top.pcf
+
+WARNING:PhysDesignRules:1841 - One or more GTPs are being used in this design.
+   Evaluate the SelectIO-To-GTP Crosstalk section of the Virtex-5 RocketIO GTP
+   Transceiver User Guide to ensure that the design SelectIO usage meets the
+   guidelines to minimize the impact on GTP performance. 
+INFO:PhysDesignRules:1437 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM_ADV comp
+   gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/genblk0.genblk1.clk_dfs/D
+   CM_ADV, consult the device Data Sheet.
+INFO:PhysDesignRules:1507 - Issue with pin connections and/or configuration on
+   block:<gen_cpu/gen_ex/genblk100.genblk101.xalu_mul_div/gen_mul_shf/genblk59.g
+   enblk60.mul_shf/dsp_mul_0>:<DSP48E_DSP48E>.  When DSP48E attribute BREG is
+   set 0 the CEB1 and CEB2 pins should be tied GND to save power.
+INFO:PhysDesignRules:1514 - Issue with pin connections and/or configuration on
+   block:<gen_cpu/gen_ex/genblk100.genblk101.xalu_mul_div/gen_mul_shf/genblk59.g
+   enblk60.mul_shf/dsp_mul_1>:<DSP48E_DSP48E>.  When the DSP48E PREG attribute
+   is set to 0 the CEP input pin should be tied GND to save power.
+INFO:PhysDesignRules:1507 - Issue with pin connections and/or configuration on
+   block:<gen_cpu/gen_ex/genblk100.genblk101.xalu_mul_div/gen_mul_shf/genblk59.g
+   enblk60.mul_shf/dsp_mul_2>:<DSP48E_DSP48E>.  When DSP48E attribute BREG is
+   set 0 the CEB1 and CEB2 pins should be tied GND to save power.
+INFO:PhysDesignRules:1514 - Issue with pin connections and/or configuration on
+   block:<gen_cpu/gen_ex/genblk100.genblk101.xalu_mul_div/gen_mul_shf/genblk59.g
+   enblk60.mul_shf/dsp_mul_2>:<DSP48E_DSP48E>.  When the DSP48E PREG attribute
+   is set to 0 the CEP input pin should be tied GND to save power.
+INFO:PhysDesignRules:1514 - Issue with pin connections and/or configuration on
+   block:<gen_cpu/gen_ex/genblk100.genblk101.xalu_mul_div/gen_mul_shf/genblk59.g
+   enblk60.mul_shf/dsp_mul_3>:<DSP48E_DSP48E>.  When the DSP48E PREG attribute
+   is set to 0 the CEP input pin should be tied GND to save power.
+INFO:PhysDesignRules:1437 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM_ADV comp
+   gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/genblk189.genblk190.clk_
+   dfs/DCM_ADV, consult the device Data Sheet.
+DRC detected 0 errors and 1 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<document OS="nt" product="ISE" version="10.1.03">
+
+  <!--The data in this file is primarily intended for consumption by Xilinx tools.
+    The structure and the elements are likely to change over the next few releases.
+    This means code written to parse this file will need to be revisited each subsequent release.-->
+
+  <application stringID="NgdBuild" timeStamp="Fri Oct 24 13:47:04 2008">
+    <task stringID="NGDBUILD_REPORT">
+      <section stringID="NGDBUILD_DESIGN_SUMMARY">
+        <item dataType="int" stringID="NGDBUILD_NUM_ERRORS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_FILTERED_WARNINGS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_WARNINGS" value="9"/>
+        <item dataType="int" stringID="NGDBUILD_FILTERED_INFOS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_INFOS" value="4"/>
+      </section>
+      <section stringID="NGDBUILD_CORE_SUMMARY">
+        <item COUNT="1" stringID="NGDBUILD_CORE" value="pcie_blk_plus_v1_9, Xilinx CORE Generator 10.1.03_ip3"/>
+        <section stringID="NGDBUILD_CORE_GENERATION_SUMMARY">
+          <section stringID="NGDBUILD_CORE_INSTANCES">
+            <scope stringID="NGDBUILD_CORE_INSTANCE" value="endpoint_blk_plus_v1_9">
+              <item stringID="NGDBUILD_CORE_INFO" type="pcie_blk_plus_v1_9" value="endpoint_blk_plus_v1_9"/>
+              <item aspm_sup="01" aux_ct="000" bar0="FFF00000" bar1="00000000" bar2="00000000" bar3="00000000" bar4="00000000" bar5="00000000" cap_ver="1" cardbus_cis_ptr="00000000" class_code="050000" component_name="endpoint_blk_plus_v1_9" con_scl_fctr_d0_state="0" con_scl_fctr_d1_state="0" con_scl_fctr_d2_state="0" con_scl_fctr_d3_state="0" cpl_streaming_prioritize_p_np="0" d1_sup="0" d2_sup="0" dev_id="00005050" dev_port_type="0000" dis_scl_fctr_d0_state="0" dis_scl_fctr_d1_state="0" dis_scl_fctr_d2_state="0" dis_scl_fctr_d3_state="0" dsi="0" ep_l0s_accpt_lat="111" ep_l1_accpt_lat="111" frce_noscrmbl="0" gt_debug_ports="0" gtdebugports="0" infinitecompletions="1" l0s_exit_lat="111" l1_exit_lat="111" max_lnk_spd="1" max_lnk_wdt="1" mps="010" msi="0000" pci_exp_int_freq="0" pci_exp_link_width="1" pci_exp_ref_freq="0" pci_exp_trn_buf_av_width="4" pci_exp_trn_data_width="64" pci_exp_trn_rem_width="8" pme_sup="1" pwr_con_d0_state="0" pwr_con_d1_state="0" pwr_con_d2_state="0" pwr_con_d3_state="0" pwr_dis_d0_state="0" pwr_dis_d1_state="0" pwr_dis_d2_state="0" pwr_dis_d3_state="0" rev_id="00" slot_clk="1" stringID="NGDBUILD_CORE_PARAMETERS" subsys_id="00005050" subsys_ven_id="000010EE" trm_tlp_dgst_ecrc="0" tx_diff_boost="1" txbufdiffctrl="100" txdiffctrl="100" txpreemphasis="111" value="endpoint_blk_plus_v1_9" vc0_credits_nph="8" vc0_credits_ph="8" ven_id="000010EE" xrom_bar="FFF00001"/>
+            </scope>
+          </section>
+        </section>
+      </section>
+    </task>
+  </application>
+
+</document>

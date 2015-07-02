@@ -1,0 +1,322 @@
+-- $Header: //synplicity/maprc/mappers/xilinx/lib/gen_virtex5/seq_srl.vhd#2 $
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_unsigned.all;
+use IEEE.std_logic_arith.all;
+library unisim;
+use unisim.vcomponents.all;
+
+entity SEQ_SRL is
+  generic(
+      addr_width : integer := 7;
+      addr_size : integer := 65;
+      d_width : integer := 8;
+      is_input : boolean := true;
+      is_output : boolean := true);
+  port(
+      RADDR : in std_logic_vector(addr_width-1 downto 0);
+      DATA    : in std_logic_vector(d_width-1 downto 0);
+      WE   : in std_logic;
+      CLK  : in std_logic;
+      A_RST  : in std_logic;
+      S_RST  : in std_logic;
+      DOUT    : out std_logic_vector(d_width-1 downto 0));
+end SEQ_SRL;
+
+architecture registers of SEQ_SRL is
+type srl_array is array (0 to d_width-1) of std_logic_vector(addr_size-1 downto 0);
+signal q_int : srl_array;
+begin
+  U1 : for i in 0 to d_width -1 generate
+    process(CLK)
+    begin
+	  if (rising_edge(CLK)) then
+	   if (WE = '1') then
+		if (addr_size > 1) then
+			q_int(i) <= (q_int(i)(addr_size-2 downto 0) & DATA(i));
+		else
+			q_int(i)(0) <= DATA(i);
+		end if;
+	   end if;
+	  end if;
+	end process;
+	DOUT(i) <= q_int(i)(conv_integer(RADDR));
+  end generate U1;
+
+end registers;
+
+
+
+architecture static_srl of SEQ_SRL is
+function num_cell(n : integer; is_input, is_output : boolean)return integer is     
+variable value : integer;
+variable num_regs : integer;
+begin
+  num_regs := 0;
+  if(is_input) then 
+      num_regs := num_regs + 1;
+  end if;
+  if(is_output) then 
+       num_regs := num_regs + 1;
+  end if;
+  value := (n - num_regs)/32;
+  return value;
+end num_cell;
+
+function remaining_reg(n: integer; is_input, is_output : boolean)return integer is     
+variable value : integer;
+variable num_regs : integer;
+begin
+  num_regs := 0;
+  value := 0;
+  if(is_input) then 
+      num_regs := num_regs + 1;
+  end if;
+  if(is_output) then 
+       num_regs := num_regs + 1;
+  end if;
+  value := (n - num_regs) rem 32;
+  return value;
+end remaining_reg;
+
+function starting_reg(is_input : boolean) return integer is
+begin
+  if(is_input) then
+      return 1;
+  end if;
+  return 0;
+end starting_reg;
+
+function prefix_gen(is_output : boolean) return string is
+begin
+  if(is_output) then
+      return "LTT";
+  end if;
+  return "LFT";
+end prefix_gen;
+
+constant num_srl_cells : integer := num_cell(addr_size, is_input, is_output);
+constant num_skip_regs : integer := remaining_reg(addr_size, is_input, is_output);
+constant num_start_reg : integer := starting_reg(is_input);
+constant srl_prefix : string := prefix_gen(is_output);
+
+signal lsb : std_logic_vector(4 downto 0) := "00000";
+type  srl_tmp_array is array (0 to (num_srl_cells + 1)) of std_logic_vector(d_width - 1 downto 0);
+
+signal tmp_array : srl_tmp_array;
+signal tmp_d_array : srl_tmp_array;
+signal tmp_addr : std_logic_vector(addr_width-1 downto 0);
+signal tmp_out_addr : std_logic_vector(d_width-1 downto 0);
+
+attribute \.srl_offset\ : string;
+
+begin
+
+U0 : if is_input generate 
+  process(CLK)
+  begin
+    if (rising_edge(CLK)) then
+      if (WE = '1') then
+        tmp_array(0) <= DATA;
+      end if;
+    end if;
+  end process; 
+end generate;
+
+U01 : if not(is_input) generate 
+        tmp_array(0) <= DATA;
+end generate;
+
+
+
+U1: if addr_width < 5 generate
+    begin
+		lsb <= CONV_STD_LOGIC_VECTOR(num_skip_regs - 1, 5);
+        U11 : for i in 0 to (d_width -1) generate
+			attribute \.srl_offset\ of U111 : label is srl_prefix & integer'image(d_width) & "D" & integer'image(num_start_reg) & "W" & integer'image(i) & "E" & integer'image(num_start_reg + num_skip_regs) & "X" & integer'image(i + 1);
+			begin
+            U111: SRLC32E
+            port map(
+                A(0) => lsb(0),
+                A(1) => lsb(1),
+                A(2) => lsb(2),
+                A(3) => lsb(3),
+                A(4) => lsb(4),
+                CE => WE,
+                CLK => CLK,
+                D => tmp_array(0)(i),
+                Q => tmp_d_array(0)(i)
+            );
+        end generate U11;
+        U12 : if is_output generate 
+        process(clk)
+            begin
+                if (rising_edge(CLK)) then
+                    if (WE = '1') then
+                        DOUT <= tmp_d_array(0);
+                    end if;
+                end if;
+            end process; 
+        end generate;
+        U13 : if not(is_output) generate
+		    DOUT <= tmp_d_array(0);
+        end generate U13;
+end generate U1;
+
+U2: if addr_width >= 5 generate
+    begin
+        
+        U22 : for i in 1 to (num_srl_cells) generate 
+            U221: for j in 0 to (d_width -1) generate
+			attribute \.srl_offset\ of U222 : label is "LFT" & integer'image(d_width) & "D" & integer'image(num_start_reg + (i - 1)*32) & "W" & integer'image(j) & "E" & integer'image(num_start_reg + i*32) & "X" & integer'image(j + 1);
+            begin
+                U222: SRLC32E
+                port map(
+                A(0) =>'1',
+                A(1) => '1',
+                A(2) => '1',
+                A(3) => '1',
+                A(4) => '1',
+                CE => WE,
+                CLK => CLK,
+                D => tmp_array(i - 1)(j),
+                Q31 => tmp_array(i)(j),
+				Q => tmp_d_array(i - 1)(j)
+            );
+			
+                    
+            end generate  U221;
+			U5: if(num_skip_regs = 0) generate 
+				tmp_out_addr <= tmp_d_array(num_srl_cells - 1);
+			end generate U5;
+        end generate U22;
+        
+        U223 : if(num_skip_regs /= 0) generate 
+			lsb <= CONV_STD_LOGIC_VECTOR(num_skip_regs - 1, 5);
+            U224: for j in 0 to (d_width -1) generate
+			attribute \.srl_offset\ of U222 : label is srl_prefix & integer'image(d_width) & "D" & integer'image(num_start_reg + num_srl_cells*32) & "W" & integer'image(j) & "E" & integer'image(num_start_reg + num_srl_cells*32 + num_skip_regs) & "X" & integer'image(j + 1);
+            begin
+                U222: SRLC32E
+                port map(
+                A(0) => lsb(0),
+                A(1) => lsb(1),
+                A(2) => lsb(2),
+                A(3) => lsb(3),
+                A(4) => lsb(4),
+                CE => WE,
+                CLK => CLK,
+                D => tmp_array(num_srl_cells)(j),
+                Q31 => tmp_array(num_srl_cells + 1)(j),
+				Q => tmp_d_array(num_srl_cells)(j)
+            );
+			
+            end generate  U224;
+			tmp_out_addr <= tmp_d_array(num_srl_cells);
+        end generate U223;
+        U23 : if is_output generate 
+        process(clk)
+            begin
+                if (rising_edge(CLK)) then
+                    if (WE = '1') then
+                        DOUT <= tmp_out_addr;
+                    end if;
+                end if;
+            end process; 
+        end generate;
+        U24 : if not(is_output) generate
+		    DOUT <= tmp_out_addr;
+        end generate U24;
+end generate U2;
+
+end architecture static_srl;
+
+
+architecture select_srl of SEQ_SRL is
+function num_cell(n : integer; is_input, is_output : boolean)return integer is     
+variable value : integer;
+variable num_regs : integer;
+begin
+  num_regs := n;
+  value := num_regs/32;
+  if (n rem 32 /= 0) then
+    value := value + 1;
+  end if;
+  return value;
+end num_cell;
+function get_end_depth(size : integer ; depth : integer) return integer is
+variable min_size : integer := 0;
+begin
+  min_size := depth;
+  if (size < depth) then
+    min_size := size;
+  end if;
+  return min_size;
+end get_end_depth;
+
+constant num_srl_cells : integer := num_cell(addr_size, is_input, is_output);
+
+signal lsb : std_logic_vector(4 downto 0) := "00000";
+type  srl_tmp_array is array (0 to num_srl_cells) of std_logic_vector(d_width - 1 downto 0);
+
+signal tmp_array : srl_tmp_array;
+signal tmp_d_array : srl_tmp_array;
+
+attribute \.srl_offset\ : string;
+
+begin
+
+tmp_array(0) <= DATA;
+
+U1: if addr_width <= 5 generate
+    begin
+        lsb(addr_width - 1 downto 0) <= RADDR;
+        U11 : for i in 0 to (d_width -1) generate
+			attribute \.srl_offset\ of U111 : label is "RFT" & integer'image(d_width) & "D" & integer'image(0) & "W" & integer'image(i) & "E" & integer'image(addr_size) & "X" & integer'image(i + 1);
+			begin
+            U111: SRLC32E
+            port map(
+                A(0) => lsb(0),
+                A(1) => lsb(1),
+                A(2) => lsb(2),
+                A(3) => lsb(3),
+                A(4) => lsb(4),
+                CE => WE,
+                CLK => CLK,
+                D => tmp_array(0)(i),
+                Q => tmp_d_array(0)(i)
+            );
+        end generate U11;
+		DOUT <= tmp_d_array(0);
+end generate U1;
+
+U2: if addr_width > 5 generate
+    begin
+        lsb <= RADDR(4 downto 0);
+        U22 : for i in 1 to (num_srl_cells) generate 
+            U221: for j in 0 to (d_width -1) generate
+			attribute \.srl_offset\ of U222 : label is "RFT" & integer'image(d_width) & "D" & integer'image((i - 1)*32) & "W" & integer'image(j) & "E" & integer'image(get_end_depth(addr_size, i*32)) & "X" & integer'image(j + 1);
+            begin
+                U222: SRLC32E
+                port map(
+                A(0) => lsb(0),
+                A(1) => lsb(1),
+                A(2) => lsb(2),
+                A(3) => lsb(3),
+                A(4) => lsb(4),
+                CE => WE,
+                CLK => CLK,
+                D => tmp_array(i - 1)(j),
+                Q31 => tmp_array(i)(j),
+				Q => tmp_d_array(i - 1)(j)
+            );
+                    
+            end generate  U221;
+        end generate U22;
+		DOUT <= tmp_d_array(conv_integer(RADDR(addr_width - 1 downto 5)));
+
+end generate U2;
+
+end architecture select_srl;
+
+

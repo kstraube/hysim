@@ -1,0 +1,158 @@
+iMPACT Version: 14.2
+
+iMPACT log file Started on Sat Oct  5 11:28:38 2013
+
+Welcome to iMPACT
+iMPACT Version: 14.2
+Project: /home/zhang/Downloads/install_drivers//auto_project.ipf created.
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+INFO:iMPACT - Digilent Plugin: Plugin Version: 2.2.10
+INFO:iMPACT - Digilent Plugin: no JTAG device was found.
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+File version of /opt/Xilinx/14.2/ISE_DS/ISE/bin/lin64/xusbdfwu.hex = 1030.
+File version of /etc/hotplug/usb/xusbdfwu.fw/xusbdfwu.hex = 1030.
+ Using libusb.
+ Kernel release = 2.6.32-358.14.1.el6.x86_64.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1303.
+File version of /opt/Xilinx/14.2/ISE_DS/ISE/data/xusb_xlp.hex = 1303.
+Firmware hex file version = 1303.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      0 sec.
+Type = 0x0004.
+ ESN device is not available for this cable.
+Attempting to identify devices in the boundary-scan chain configuration...
+INFO:iMPACT - Current time: 10/5/13 11:28 AM
+// *** BATCH CMD : Identify -inferir 
+PROGRESS_START - Starting Operation.
+Identifying chain contents...'0': : Manufacturer's ID = Xilinx xc5vlx110t, Version : 7
+INFO:iMPACT:1777 - 
+   Reading /opt/Xilinx/14.2/ISE_DS/ISE/virtex5/data/xc5vlx110t.bsd...
+INFO:iMPACT:501 - '1': Added Device xc5vlx110t successfully.
+----------------------------------------------------------------------
+'1': : Manufacturer's ID = Xilinx xccace, Version : 0
+INFO:iMPACT:1777 - 
+   Reading /opt/Xilinx/14.2/ISE_DS/ISE/acecf/data/xccace.bsd...
+INFO:iMPACT:501 - '1': Added Device xccace successfully.
+----------------------------------------------------------------------
+'2': : Manufacturer's ID = Xilinx xc95144xl, Version : 5
+INFO:iMPACT:1777 - 
+   Reading /opt/Xilinx/14.2/ISE_DS/ISE/xc9500xl/data/xc95144xl.bsd...
+INFO:iMPACT:501 - '1': Added Device xc95144xl successfully.
+----------------------------------------------------------------------
+'3': : Manufacturer's ID = Xilinx xcf32p, Version : 13
+INFO:iMPACT:1777 - 
+   Reading /opt/Xilinx/14.2/ISE_DS/ISE/xcfp/data/xcf32p.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf32p successfully.
+----------------------------------------------------------------------
+'4': : Manufacturer's ID = Xilinx xcf32p, Version : 13
+INFO:iMPACT:501 - '1': Added Device xcf32p successfully.
+----------------------------------------------------------------------
+done.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : identifyMPM 
+// *** BATCH CMD : assignFile -p 5 -file "/home/zhang/bitfiles/2013100511.bit"
+'5': Loading file '/home/zhang/bitfiles/2013100511.bit' ...
+done.
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+UserID read from the bitstream file = 0xFFFFFFFF.
+----------------------------------------------------------------------
+INFO:iMPACT:501 - '5': Added Device xc5vlx110t successfully.
+----------------------------------------------------------------------
+INFO:iMPACT - Current time: 10/5/13 11:30 AM
+// *** BATCH CMD : Program -p 5 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+5: Device Temperature: Current Reading:   58.74 C, Min. Reading:   46.93 C, Max.Reading:   59.23 C
+5: VCCINT Supply: Current Reading:   0.987 V, Min. Reading:   0.987 V, Max.Reading:   1.002 V
+5: VCCAUX Supply: Current Reading:   2.479 V, Min. Reading:   2.479 V, Max.Reading:   2.487 V
+'5': Programming device...
+PROGRESS_START - Starting Operation.
+ Match_cycle = 2.
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+done.
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1001 1110 0000 1011 1000 0000 
+INFO:iMPACT:579 - '5': Completed downloading bit file to device.
+INFO:iMPACT:188 - '5': Programming completed successfully.
+ Match_cycle = 2.
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+INFO:iMPACT - '5': Checking done pin....done.
+'5': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      9 sec.
+INFO:iMPACT - Current time: 10/5/13 12:14 PM
+// *** BATCH CMD : Program -p 5 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+5: Device Temperature: Current Reading:   58.74 C, Min. Reading:   52.34 C, Max.Reading:   59.23 C
+5: VCCINT Supply: Current Reading:   0.987 V, Min. Reading:   0.987 V, Max.Reading:   1.002 V
+5: VCCAUX Supply: Current Reading:   2.479 V, Min. Reading:   2.479 V, Max.Reading:   2.487 V
+'5': Programming device...
+PROGRESS_START - Starting Operation.
+ Match_cycle = 2.
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+done.
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1001 1110 0000 1011 1000 0000 
+INFO:iMPACT:579 - '5': Completed downloading bit file to device.
+INFO:iMPACT:188 - '5': Programming completed successfully.
+ Match_cycle = 2.
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+INFO:iMPACT - '5': Checking done pin....done.
+'5': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      8 sec.
+Project: '/home/zhang/Downloads/install_drivers//auto_project.ipf' created.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : saveProjectFile -file"/home/zhang/Downloads/install_drivers//auto_project.ipf"
+INFO:iMPACT - User_EnvOsname: 'CentOS'
+INFO:iMPACT - User_EnvOsrelease: 'CentOS release 6.4 (Final)'
+// *** BATCH CMD : setMode -bs
+INFO:iMPACT - Launching WebTalk, please refer to the webtalk log at   /home/zhang/Downloads/install_drivers/webtalk.log for details.
+INFO:iMPACT - Running wbtc successfully.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff

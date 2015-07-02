@@ -1,0 +1,64 @@
+library verilog;
+use verilog.vl_types.all;
+entity pcie_mim_wrapper is
+    generic(
+        TL_TX_SIZE      : integer := 4096;
+        TXWRITEPIPE     : integer := 0;
+        TXREADADDRPIPE  : integer := 0;
+        TXREADDATAPIPE  : integer := 0;
+        TL_RX_SIZE      : integer := 4096;
+        RXWRITEPIPE     : integer := 0;
+        RXREADADDRPIPE  : integer := 0;
+        RXREADDATAPIPE  : integer := 0;
+        TLRAMREADLATENCY: integer := 3;
+        TLRAMWRITELATENCY: integer := 0;
+        RETRYRAMSIZE    : integer := 9;
+        RETRYRAMREADLATENCY: integer := 3;
+        RETRYRAMWRITELATENCY: integer := 0;
+        RETRYWRITEPIPE  : integer := 0;
+        RETRYREADADDRPIPE: integer := 0;
+        RETRYREADDATAPIPE: integer := 0
+    );
+    port(
+        mim_rx_bwdata   : in     vl_logic_vector(63 downto 0);
+        mim_rx_brdata   : out    vl_logic_vector(63 downto 0);
+        mim_rx_bwadd    : in     vl_logic_vector(12 downto 0);
+        mim_rx_bradd    : in     vl_logic_vector(12 downto 0);
+        mim_rx_bwen     : in     vl_logic;
+        mim_rx_bren     : in     vl_logic;
+        mim_rx_bwclk    : in     vl_logic;
+        mim_rx_brclk    : in     vl_logic;
+        mim_tx_bwdata   : in     vl_logic_vector(63 downto 0);
+        mim_tx_brdata   : out    vl_logic_vector(63 downto 0);
+        mim_tx_bwadd    : in     vl_logic_vector(12 downto 0);
+        mim_tx_bradd    : in     vl_logic_vector(12 downto 0);
+        mim_tx_bwen     : in     vl_logic;
+        mim_tx_bren     : in     vl_logic;
+        mim_tx_bwclk    : in     vl_logic;
+        mim_tx_brclk    : in     vl_logic;
+        mim_dll_bwdata  : in     vl_logic_vector(63 downto 0);
+        mim_dll_brdata  : out    vl_logic_vector(63 downto 0);
+        mim_dll_bwadd   : in     vl_logic_vector(11 downto 0);
+        mim_dll_bradd   : in     vl_logic_vector(11 downto 0);
+        mim_dll_bwen    : in     vl_logic;
+        mim_dll_bren    : in     vl_logic;
+        mim_dll_bclk    : in     vl_logic
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of TL_TX_SIZE : constant is 1;
+    attribute mti_svvh_generic_type of TXWRITEPIPE : constant is 1;
+    attribute mti_svvh_generic_type of TXREADADDRPIPE : constant is 1;
+    attribute mti_svvh_generic_type of TXREADDATAPIPE : constant is 1;
+    attribute mti_svvh_generic_type of TL_RX_SIZE : constant is 1;
+    attribute mti_svvh_generic_type of RXWRITEPIPE : constant is 1;
+    attribute mti_svvh_generic_type of RXREADADDRPIPE : constant is 1;
+    attribute mti_svvh_generic_type of RXREADDATAPIPE : constant is 1;
+    attribute mti_svvh_generic_type of TLRAMREADLATENCY : constant is 1;
+    attribute mti_svvh_generic_type of TLRAMWRITELATENCY : constant is 1;
+    attribute mti_svvh_generic_type of RETRYRAMSIZE : constant is 1;
+    attribute mti_svvh_generic_type of RETRYRAMREADLATENCY : constant is 1;
+    attribute mti_svvh_generic_type of RETRYRAMWRITELATENCY : constant is 1;
+    attribute mti_svvh_generic_type of RETRYWRITEPIPE : constant is 1;
+    attribute mti_svvh_generic_type of RETRYREADADDRPIPE : constant is 1;
+    attribute mti_svvh_generic_type of RETRYREADDATAPIPE : constant is 1;
+end pcie_mim_wrapper;

@@ -1,0 +1,67 @@
+library verilog;
+use verilog.vl_types.all;
+entity pcie_gt_wrapper is
+    generic(
+        NO_OF_LANES     : integer := 8;
+        SIM             : integer := 0;
+        PLL_DIVSEL_FB   : integer := 5;
+        PLL_DIVSEL_REF  : integer := 2;
+        CLK25_DIVIDER   : integer := 4;
+        TXDIFFBOOST     : string  := "TRUE"
+    );
+    port(
+        gt_rx_elec_idle : out    vl_logic_vector(7 downto 0);
+        gt_rx_status    : out    vl_logic_vector(23 downto 0);
+        gt_rx_data      : out    vl_logic_vector(63 downto 0);
+        gt_rx_phy_status: out    vl_logic_vector(7 downto 0);
+        gt_rx_data_k    : out    vl_logic_vector(7 downto 0);
+        gt_rx_valid     : out    vl_logic_vector(7 downto 0);
+        gt_rx_chanisaligned: out    vl_logic_vector(7 downto 0);
+        gt_rx_n         : in     vl_logic_vector;
+        gt_rx_p         : in     vl_logic_vector;
+        gt_tx_n         : out    vl_logic_vector;
+        gt_tx_p         : out    vl_logic_vector;
+        gt_tx_data      : in     vl_logic_vector(63 downto 0);
+        gt_tx_data_k    : in     vl_logic_vector(7 downto 0);
+        gt_tx_elec_idle : in     vl_logic_vector(7 downto 0);
+        gt_tx_detect_rx_loopback: in     vl_logic_vector(7 downto 0);
+        gt_tx_compliance: in     vl_logic_vector(7 downto 0);
+        gt_rx_polarity  : in     vl_logic_vector(7 downto 0);
+        gt_power_down   : in     vl_logic_vector(15 downto 0);
+        gt_deskew_lanes : in     vl_logic_vector(7 downto 0);
+        gt_pipe_reset   : in     vl_logic_vector(7 downto 0);
+        gt_rx_present   : in     vl_logic_vector(7 downto 0);
+        gsr             : in     vl_logic;
+        gtreset         : in     vl_logic;
+        clock_lock      : in     vl_logic;
+        refclk          : in     vl_logic;
+        refclkout_bufg  : out    vl_logic;
+        gtclk_bufg      : out    vl_logic;
+        resetdone       : out    vl_logic_vector(7 downto 0);
+        plllkdet_out    : out    vl_logic_vector(3 downto 0);
+        gt_usrclk       : in     vl_logic;
+        rxbyteisaligned : out    vl_logic_vector(7 downto 0);
+        rxchanbondseq   : out    vl_logic_vector(7 downto 0);
+        pcie_reset      : out    vl_logic;
+        gt_dclk         : in     vl_logic;
+        gt_daddr        : in     vl_logic_vector;
+        gt_den          : in     vl_logic_vector;
+        gt_dwen         : in     vl_logic_vector;
+        gt_di           : in     vl_logic_vector;
+        gt_do           : out    vl_logic_vector;
+        gt_drdy         : out    vl_logic_vector;
+        gt_txdiffctrl_0 : in     vl_logic_vector(2 downto 0);
+        gt_txdiffctrl_1 : in     vl_logic_vector(2 downto 0);
+        gt_txbuffctrl_0 : in     vl_logic_vector(2 downto 0);
+        gt_txbuffctrl_1 : in     vl_logic_vector(2 downto 0);
+        gt_txpreemphesis_0: in     vl_logic_vector(2 downto 0);
+        gt_txpreemphesis_1: in     vl_logic_vector(2 downto 0)
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of NO_OF_LANES : constant is 1;
+    attribute mti_svvh_generic_type of SIM : constant is 1;
+    attribute mti_svvh_generic_type of PLL_DIVSEL_FB : constant is 1;
+    attribute mti_svvh_generic_type of PLL_DIVSEL_REF : constant is 1;
+    attribute mti_svvh_generic_type of CLK25_DIVIDER : constant is 1;
+    attribute mti_svvh_generic_type of TXDIFFBOOST : constant is 1;
+end pcie_gt_wrapper;

@@ -1,0 +1,7 @@
+INFILE=/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/par_1/fpga_top.ncd
+OUTFILE=/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/par_1/pcie_simple4.bit
+FAMILY=Virtex5
+PART=xc5vlx110t-1ff1136
+WORKINGDIR=/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/par_1
+LICENSE=ISE
+USER_INFO=__0_0_0

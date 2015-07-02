@@ -1,0 +1,64 @@
+Release 14.2 - ngc2edif P.28xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design endpoint_blk_plus_v1_9.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   endpoint_blk_plus_v1_9.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   cf_bridge/error_manager/reg_cfg_wr_hdr_mux0000<49 : 0> on block pcie_blk_if
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   cf_bridge/error_manager/reg_cmt_wr_hdr<49 : 0> on block pcie_blk_if is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   cf_bridge/management_interface/cfg_rx_bar0<31 : 0> on block pcie_blk_if is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   cf_bridge/management_interface/cfg_rx_xrom<31 : 0> on block pcie_blk_if is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus cf_bridge/cfg_arb/byte_00_mux0000<5 : 2>
+   on block pcie_blk_if is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus cf_bridge/cfg_arb/byte_06_mux0000<7 : 0>
+   on block pcie_blk_if is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus cf_bridge/cfg_arb/byte_06<7 : 0> on
+   block pcie_blk_if is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   ll_bridge/rx_bridge/bar_decoder/bar_hit<6 : 0> on block pcie_blk_if is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   ll_bridge/rx_bridge/snk_inst/cur_fulltype_oh<7 : 0> on block pcie_blk_if is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus ll_bridge/rx_bridge/snk_inst/bar_o<6 :
+   0> on block pcie_blk_if is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   ll_bridge/rx_bridge/snk_inst/cur_fulltype_mux0000<6 : 0> on block pcie_blk_if
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   ll_bridge/rx_bridge/snk_inst/cur_fulltype<6 : 0> on block pcie_blk_if is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus ll_bridge/rx_bridge/snk_inst/rem_q<5 :
+   1> on block pcie_blk_if is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus ll_bridge/rx_bridge/snk_inst/src_rdy_q<5
+   : 1> on block pcie_blk_if is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus ll_bridge/rx_bridge/fifo_inst/trn_rrem<4
+   : 0> on block pcie_blk_if is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   ll_bridge/tx_bridge/tx_bridge/cpls_buffered<4 : 2> on block pcie_blk_if is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/pcie_ep0/pcie_blk/prod_fixes_I/pipe_rx_data_l0_out_mux0000<7 : 0> on block
+   endpoint_blk_plus_v1_9_pcie_blk_plus_gen_1 is not reconstructed, because
+   there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file endpoint_blk_plus_v1_9.ndf ...
+ngc2edif: Total memory usage is 118284 kilobytes
+

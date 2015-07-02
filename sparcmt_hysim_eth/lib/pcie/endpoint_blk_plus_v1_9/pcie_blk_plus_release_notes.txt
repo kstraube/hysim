@@ -1,0 +1,282 @@
+
+
+	Core Name: Xilinx LogiCORE Endpoint Block Plus for PCI Express(R)
+	Version: 1.9
+	Release Date: September 19, 2008
+
+
+=======================================================================
+
+This document contains the following sections:
+
+1. Introduction
+2. New Features
+3. Resolved Issues
+4. Known Issues
+5. Technical Support
+6. Other Information
+7. Core Release History
+
+=======================================================================
+
+1. INTRODUCTION
+
+For the most recent updates to the IP installation instructions for this core,
+please go to:
+
+   http://www.xilinx.com/ipcenter/coregen/ip_update_install_instructions.htm
+
+For system requirements:
+
+   http://www.xilinx.com/ipcenter/coregen/ip_update_system_requirements.htm
+
+This file contains release notes for version 1.9 of the Xilinx LogiCORE
+Endpoint Block Plus for PCI Express solution. For the latest core updates,
+please visit the LogiCORE Endpoint Block Plus for PCI Express Lounge. The
+lounge is accessible from the "Access Lounge" button on the cores product page:
+
+http://www.xilinx.com/products/ipcenter/V5_PCI_Express_Block_Plus.htm
+
+For information on how to set up and use the core, please refer to the LogiCORE
+Endpoint Block Plus for PCI Express Getting Started Guide.  More comprehensive
+user information is available in the LogiCORE Endpoint Block Plus for PCI
+Express User Guide.
+
+
+2. New Features
+
+   - ISE 10.1i SP3 software support
+   - Added support for Virtex-5 TX150T and TX240T
+   - Added support for ISE Project Navigator Flow.
+   - Added support for Expansion ROM BAR. 
+	This feature is now permanently enabled. 
+	Users MUST respond to accesses to this BAR. 
+	Please refer to the Endpoint Block Plus v1.9 for PCI Express User Guide,
+	Chapter 3, section on Base Address Registers for further details.
+
+3. Resolved Issues
+
+   - Enabled Expansion ROM BAR.
+      o CR 473951
+
+      Removed workaround to disable Expansion ROM BAR, as this was causing data
+      corruption with certain traffic patterns. This feature is now permanently
+      enabled and cannot be disabled. Users will need to respond to accesses to
+      this BAR. 
+      Please refer to the Endpoint Block Plus v1.9 for PCI Express User Guide,
+      Chapter 3, section on Base Address Registers for further details.
+
+   - Tx Lockup due to SRL 16E power on initialization issue
+      o CR 476758
+
+      Issue resolved where the Transmit path of the core locks up due to a Power
+      On Initialization Issue with the SRL 16E Calendar logic.
+
+   - Update GTX wrapper
+      o CR 471589
+
+      Update the GTX wrapper to remove TXBUFFERBYPASS mode.
+
+   - Tx lockup due to link partner advertising infinite data credits
+      o CR 476757
+
+      Issue resolved where a link partner advertising infinite data credits 
+      caused the transmit path of the core to lock up.
+
+   - Unexpected deassertion of trn_tdst_rdy_n in response to trn_tsrc_rdy_n 
+     deassertion
+      o CR 472508
+
+     Issue resolved where deassertion of trn_tsrc_rdy_n causes trn_tdst_rdy_n
+     deassertion.
+
+   - Set Slot Clock bit in Link Status Register set incorrectly
+      o CR 472342
+
+      Selecting the Slot Clock Configuration option in the GUI does not 
+      set the Set Slot Clock bit in the Link Status Register.
+
+   - GUI Issue with Bar 3 configuration
+      o CR 474746
+
+      Issue resolved with GUI for Bar 3 configuration. When Bar 3 was selected
+      for customization, the fields were not enabled for customization.
+
+   - GUI Allowing 32 bit BAR to be set as Pre-fetchable
+      o CR 437528
+
+      Issue resolved where the GUI was allowing a BAR set as 32 bit BAR to also 
+      be set as Pre-fetchable.
+
+   - System Verilog compatibility
+      o CR 473935
+
+      Updated user application (pci_exp_usrapp_com.v) to be System Verilog 
+      compatible.
+
+   - False failure reporting in PIO tests resolved
+      o CR 472801
+
+      PIO tests fixed to resolve false failure reporting. These tests were 
+      passing, however a failure was reported.
+
+   - Data Corruption in example design test for 4 lane endpoint on FX70T
+      o CR 474892
+
+      Data corruption issue resolved in example design test for a 4 lane 
+      endpoint on FX70T. 
+
+   - Extra feedback BUFG removed from PLL clocking network.
+      o CR 476165
+
+      Removed extra feedback BUFG from the PLL clocking network. This BUFG is 
+      redundant as the user clock in the core need not be edge aligned to the 
+      reference clock input.
+
+   - License Check Failure Warning issued while generating a core from CoreGen
+      o CR 438737
+
+      Issue resolved where the a Warning was being issued while generating the 
+      core from CoreGen for a License Check failure.
+
+4. Known Issues
+
+    The following are known issues for v1.9 of this core at the time of release.
+
+    4.1  Functional Issues
+
+          - Transitioning to L0s can cause the core to lose BAR settings
+	     o CR 471677
+
+	     Transition of the Host and the Endpoint into L0s, causes the core
+	     to lose BAR settings. This is an LXT/SXT only issue.
+
+	  - TS2 link Upconfigure bit causing failure to link train
+	     o CR 472244
+
+	     Setting the Autonomous bit in a TS1 causes the Integrated Hard 
+	     Block for PCI Express to fail to link train.
+
+	  - TLP dropped on receive interface due to Completion Streaming Issue
+	     o CR 473226
+
+	     Completion TLP getting dropped on receive interface due to receiver
+	     overflow when using Completion Streaming mode.
+
+	  - Gui Settings to control GTX attributes do not match GTX spec
+	     o CR 478312
+
+	     GUI settings to control GTX attributes do not match the GTX
+	     specification.
+	     For correct settings, refer to the IP Release Notes Guide listed
+	     below.
+
+
+    4.2  Simulation Issues
+
+          - Large Simulation Times
+          o CR 448685
+
+            Simulation takes a long time to achieve trn_lnk_up_n assertion.
+	    This is because GTP model drives the serial lines to Unknown logic
+	    state, when signaling Electrical Idle during the link training 
+	    phase. Refer to Xilinx Answer 29294 for a work around to this issue.
+
+    4.3  Implementation Issues
+
+          - Speed file and design changes
+
+            The design files present in this release are based on timing 
+	    parameters from, and intended for use with, the speed files shipped 
+	    with ISE 10.1 SP2. As more device characterization data is collected,
+	    Xilinx may update the speed files to more closely model device 
+	    operation.
+
+            Xilinx reserves the right to modify the design files, including the 
+	    core pin-out, in order to maintain full compliance after speed files
+	    updates occur. To the full extent possible, Xilinx will incorporate 
+	    such modifications without using pin-out changes in an effort to 
+	    provide "transparent" design file updates.
+
+           - Timing Closure
+
+            In order to obtain timing closure, designers may be required to use
+            multiple PAR seeds and/or floorplanning. Using Multi-Pass Place and
+            Route (MPPR), designers can try multiple cost tables in order to meet
+            timing. Please see the Development System Reference Guide in the
+            Software Manuals found at: http://www.xilinx.com/support/library.htm
+	    for more information on using MPPR. Designers may also have to 
+	    floorplan and add advanced placement constraints for both their 
+	    design and the core to meet timing.
+
+            - Xilinx warnings
+
+            The Xilinx tools may issue various warnings, however no errors should
+            occur.
+
+   The most recent information, including known issues, workarounds and 
+   resolutions for this version is provided in the IP Release Notes Guide located
+   at 
+
+   www.xilinx.com/support/documentation/user_guides/xtp025.pdf
+
+5. TECHNICAL SUPPORT
+
+   To obtain technical support, create a WebCase at
+   http://www.xilinx.com/support.
+   Questions are routed to a team expertise in using this product.
+
+   Xilinx provides technical support for use of this product when used according
+   to the guidelines described in the core documentation, and cannot guarantee
+   timing, functionality, or support of this product for designs that do not
+   follow specified guidelines.
+
+
+6. OTHER INFORMATION
+
+
+7. CORE RELEASE HISTORY
+
+Date     By            Version      Description
+===============================================================================
+02/2007  Xilinx, Inc.  1.2          9.1i SP2 - IP Update 1
+03/2007  Xilinx, Inc.  1.2 rev 1    Update for rev 1 patch
+05/2007  Xilinx, Inc.  1.3          9.1i SP3 - IP Update 3
+08/2007  Xilinx, Inc.  1.4          9.2i SP2 - IP Update 1
+10/2007  Xilinx, Inc.  1.5          9.2i SP3 - IP Update 2
+01/2008  Xilinx, Inc.  1.5 rev 1    Update for rev 1 patch
+02/2008  Xilinx, Inc.  1.5 rev 2    Update for rev 2 patch
+03/2008  Xilinx, Inc.  1.6          10.1i
+03/2008  Xilinx, Inc.  1.6 rev 1    Update for rev 1 patch
+04/2008  Xilinx, Inc.  1.7          10.1i - IP Update 1
+04/2008  Xilinx, Inc.  1.7 rev 1    Update for rev 1 patch
+06/2008  Xilinx, Inc.  1.8          10.1i - IP Update 2
+09/2008  Xilinx, Inc.  1.9          10.1i - IP Update 3
+===============================================================================
+
+(c) 2002-2008 Xilinx, Inc. All Rights Reserved. 2006, 2007, 2008
+
+XILINX, the Xilinx logo, and other designated brands included herein are
+trademarks of Xilinx, Inc. All other trademarks are the property of their
+respective owners.
+
+Xilinx is disclosing this user guide, manual, release note, and/or
+specification (the Documentation) to you solely for use in the development
+of designs to operate with Xilinx hardware devices. You may not reproduce, 
+distribute, republish, download, display, post, or transmit the Documentation
+in any form or by any means including, but not limited to, electronic,
+mechanical, photocopying, recording, or otherwise, without the prior written 
+consent of Xilinx. Xilinx expressly disclaims any liability arising out of
+your use of the Documentation.  Xilinx reserves the right, at its sole 
+discretion, to change the Documentation without notice at any time. Xilinx
+assumes no obligation to correct any errors contained in the Documentation, or
+to advise you of any corrections or updates. Xilinx expressly disclaims any
+liability in connection with technical support or assistance that may be
+provided to you in connection with the information. THE DOCUMENTATION IS
+DISCLOSED TO YOU AS-IS WITH NO WARRANTY OF ANY KIND. XILINX MAKES NO 
+OTHER WARRANTIES, WHETHER EXPRESS, IMPLIED, OR STATUTORY, REGARDING THE
+DOCUMENTATION, INCLUDING ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+PARTICULAR PURPOSE, OR NONINFRINGEMENT OF THIRD-PARTY RIGHTS. IN NO EVENT 
+WILL XILINX BE LIABLE FOR ANY CONSEQUENTIAL, INDIRECT, EXEMPLARY, SPECIAL, OR
+INCIDENTAL DAMAGES, INCLUDING ANY LOSS OFDATA OR LOST PROFITS, ARISING FROM
+YOUR USE OF THE DOCUMENTATION.

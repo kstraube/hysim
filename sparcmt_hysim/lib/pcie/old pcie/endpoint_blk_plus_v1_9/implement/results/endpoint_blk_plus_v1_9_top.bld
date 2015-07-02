@@ -1,0 +1,104 @@
+Release 10.1.03 ngdbuild K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Command Line: D:\Xilinx10.1\ISE\bin\nt\unwrapped\ngdbuild.exe -verbose -uc
+..\..\example_design\xupv5-lx110t_pcie_x1_plus.ucf
+endpoint_blk_plus_v1_9_top.ngc -sd ..\..\..\
+
+Reading NGO file
+"C:/xupv5_pcie_x1_plus/endpoint_blk_plus_v1_9/implement/results/endpoint_blk_plu
+s_v1_9_top.ngc" ...
+Loading design module "..\..\..\/endpoint_blk_plus_v1_9.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Applying constraints in "../../example_design/xupv5-lx110t_pcie_x1_plus.ucf" to
+the design...
+INFO:coreutil - Hardware Evaluation license for component <pcie_blk_plus_v1>
+   found. The generated design will cease to function in the programmed device
+   after operating for some period of time. This allows you to evaluate the
+   component in hardware. You are encouraged to license this component.
+
+   The license for this core was generated for winston@xilinx.com on September
+   16, 2008. It is the responsibility of the Licensee of this core to adhere to
+   the site restriction and other terms of the Xilinx Core Site License
+   Agreement when using this core.
+
+   For ordering information, please refer to the product page for this component
+   on: www.xilinx.com
+INFO:coreutil - Hardware Evaluation license for component <pcie_blk_plus_v1>
+   found. The generated design will cease to function in the programmed device
+   after operating for some period of time. This allows you to evaluate the
+   component in hardware. You are encouraged to license this component.
+
+   The license for this core was generated for winston@xilinx.com on September
+   16, 2008. It is the responsibility of the Licensee of this core to adhere to
+   the site restriction and other terms of the Xilinx Core Site License
+   Agreement when using this core.
+
+   For ordering information, please refer to the product page for this component
+   on: www.xilinx.com
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'MGTCLK', used in period specification
+   'TS_MGTCLK', was traced into PLL_ADV instance
+   U0/pcie_ep0/pcie_blk/clocking_i/use_pll.pll_adv_i. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_ep_BU2_U0_pcie_ep0_pcie_blk_clocking_i_clkout0 = PERIOD
+   "ep_BU2_U0_pcie_ep0_pcie_blk_clocking_i_clkout0" TS_MGTCLK * 2.5 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'MGTCLK', used in period specification
+   'TS_MGTCLK', was traced into PLL_ADV instance
+   U0/pcie_ep0/pcie_blk/clocking_i/use_pll.pll_adv_i. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_ep_BU2_U0_pcie_ep0_pcie_blk_clocking_i_clkout1 = PERIOD
+   "ep_BU2_U0_pcie_ep0_pcie_blk_clocking_i_clkout1" TS_MGTCLK * 0.625 HIGH 50%>
+
+Done...
+Checking Partitions ...
+
+Checking expanded design ...
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "U0/pcie_ep0/pcie_blk/pcie_mim_wrapper_i/bram_retry/generate_sdp.ram_sdp_inst
+   " of type "RAMB36SDP_EXP".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "U0/pcie_ep0/pcie_blk/pcie_mim_wrapper_i/bram_tl_rx/generate_tdp2[1].ram_tdp2
+   _inst" of type "RAMB36_EXP".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "U0/pcie_ep0/pcie_blk/pcie_mim_wrapper_i/bram_tl_rx/generate_tdp2[0].ram_tdp2
+   _inst" of type "RAMB36_EXP".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "U0/pcie_ep0/pcie_blk/pcie_mim_wrapper_i/bram_tl_tx/generate_tdp2[1].ram_tdp2
+   _inst" of type "RAMB36_EXP".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "U0/pcie_ep0/pcie_blk/pcie_mim_wrapper_i/bram_tl_tx/generate_tdp2[0].ram_tdp2
+   _inst" of type "RAMB36_EXP".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "PIO_EP/EP_MEM/EP_MEM/ep_mem_erom" of type "RAMB36_EXP".  This attribute will
+   be ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "PIO_EP/EP_MEM/EP_MEM/ep_mem64" of type "RAMB36_EXP".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "PIO_EP/EP_MEM/EP_MEM/ep_mem32" of type "RAMB36_EXP".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "PIO_EP/EP_MEM/EP_MEM/ep_io_mem" of type "RAMB36_EXP".  This attribute will
+   be ignored.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   9
+
+Total memory usage is 109660 kilobytes
+
+Writing NGD file "endpoint_blk_plus_v1_9_top.ngd" ...
+
+Writing NGDBUILD log file "endpoint_blk_plus_v1_9_top.bld"...

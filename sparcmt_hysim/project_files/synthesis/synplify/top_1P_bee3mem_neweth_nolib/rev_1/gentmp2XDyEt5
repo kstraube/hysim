@@ -1,0 +1,54 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.genpackage.all;
+entity top is
+ port (
+  DOUT : out std_logic_vector(23 downto 0);
+  RADDR : in std_logic_vector(5 downto 0);
+  DIN : in std_logic_vector(23 downto 0);
+  WADDR : in std_logic_vector(5 downto 0);
+  WE : in std_logic;
+  CLK : in std_logic;
+  OCLK : in std_logic );
+end entity top;
+architecture gen of top is
+  component RAM_R_W
+    generic (
+	family : string;
+    width : integer;
+    addrwidth : integer;
+    depth : integer;
+    raddr_reg : boolean;
+    din_reg : boolean;
+    dout_reg : boolean;
+    waddr_reg : boolean    );
+ port (
+  DOUT : out std_logic_vector;
+  RADDR : in std_logic_vector;
+  DIN : in std_logic_vector;
+  WADDR : in std_logic_vector;
+  WE : in std_logic;
+  CLK : in std_logic;
+  OCLK : in std_logic );
+  end component;
+begin
+I1: entity work.RAM_R_W(select_ram)
+  generic map (
+
+  family => "virtex5",
+  width => 24,
+  addrwidth => 6,
+  depth => 64,
+  raddr_reg => true,
+  din_reg => false,
+  dout_reg => false,
+  waddr_reg => false  )
+ port map (
+  DOUT => DOUT,
+  RADDR => RADDR,
+  DIN => DIN,
+  WADDR => WADDR,
+  WE => WE,
+  CLK => CLK,
+  OCLK => OCLK );
+end architecture gen;

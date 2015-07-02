@@ -1,0 +1,127 @@
+@P:  Worst Slack : -1.215
+@P:  PHY_RXCLK - Estimated Frequency : 276.0 MHz
+@P:  PHY_RXCLK - Requested Frequency : 129.9 MHz
+@P:  PHY_RXCLK - Estimated Period : 3.623
+@P:  PHY_RXCLK - Requested Period : 7.700
+@P:  PHY_RXCLK - Slack : 4.077
+@P:  clkin_p - Estimated Frequency : 1228.5 MHz
+@P:  clkin_p - Requested Frequency : 105.3 MHz
+@P:  clkin_p - Estimated Period : 0.814
+@P:  clkin_p - Requested Period : 9.500
+@P:  clkin_p - Slack : 1.052
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dfs_clkfx_derived_clock - Estimated Frequency : 1228.5 MHz
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dfs_clkfx_derived_clock - Requested Frequency : 94.7 MHz
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dfs_clkfx_derived_clock - Estimated Period : 0.814
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dfs_clkfx_derived_clock - Requested Period : 10.556
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dfs_clkfx_derived_clock - Slack : 2.635
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk0_derived_clock - Estimated Frequency : 77.0 MHz
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk0_derived_clock - Requested Frequency : 94.7 MHz
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk0_derived_clock - Estimated Period : 12.986
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk0_derived_clock - Requested Period : 10.556
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk0_derived_clock - Slack : -1.215
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk2x_derived_clock - Estimated Frequency : 154.0 MHz
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk2x_derived_clock - Requested Frequency : 189.5 MHz
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk2x_derived_clock - Estimated Period : 6.493
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk2x_derived_clock - Requested Period : 5.278
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk2x_derived_clock - Slack : 0.345
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|CLKx_derived_clock_CLKIN - Estimated Frequency : 186.2 MHz
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|CLKx_derived_clock_CLKIN - Requested Frequency : 118.4 MHz
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|CLKx_derived_clock_CLKIN - Estimated Period : 5.372
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|CLKx_derived_clock_CLKIN - Requested Period : 8.444
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|CLKx_derived_clock_CLKIN - Slack : 2.293
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLK90x_derived_clock_CLKIN - Estimated Frequency : 299.0 MHz
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLK90x_derived_clock_CLKIN - Requested Frequency : 236.8 MHz
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLK90x_derived_clock_CLKIN - Estimated Period : 3.345
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLK90x_derived_clock_CLKIN - Requested Period : 4.222
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLK90x_derived_clock_CLKIN - Slack : 0.878
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLKx_derived_clock_CLKIN - Estimated Frequency : 202.2 MHz
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLKx_derived_clock_CLKIN - Requested Frequency : 236.8 MHz
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLKx_derived_clock_CLKIN - Estimated Period : 4.946
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLKx_derived_clock_CLKIN - Requested Period : 4.222
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLKx_derived_clock_CLKIN - Slack : -0.362
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|Ph0x_derived_clock_CLKIN - Estimated Frequency : 63.4 MHz
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|Ph0x_derived_clock_CLKIN - Requested Frequency : 59.2 MHz
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|Ph0x_derived_clock_CLKIN - Estimated Period : 15.767
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|Ph0x_derived_clock_CLKIN - Requested Period : 16.889
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|Ph0x_derived_clock_CLKIN - Slack : 0.701
+@P:  xcv5_mac_gmii_5s_4s_10_000000_1s_31s|dfs_clkfx_derived_clock - Estimated Frequency : 304.0 MHz
+@P:  xcv5_mac_gmii_5s_4s_10_000000_1s_31s|dfs_clkfx_derived_clock - Requested Frequency : 131.6 MHz
+@P:  xcv5_mac_gmii_5s_4s_10_000000_1s_31s|dfs_clkfx_derived_clock - Estimated Period : 3.289
+@P:  xcv5_mac_gmii_5s_4s_10_000000_1s_31s|dfs_clkfx_derived_clock - Requested Period : 7.600
+@P:  xcv5_mac_gmii_5s_4s_10_000000_1s_31s|dfs_clkfx_derived_clock - Slack : 4.311
+@P:  System - Estimated Frequency : 207.8 MHz
+@P:  System - Requested Frequency : 233.0 MHz
+@P:  System - Estimated Period : 4.813
+@P:  System - Requested Period : 4.292
+@P:  System - Slack : -0.521
+@P:  Worst Slack(min analysis) : -1.293
+@P:  PHY_RXCLK - Estimated Frequency(min analysis) : 276.0 MHz
+@P:  PHY_RXCLK - Requested Frequency(min analysis) : 129.9 MHz
+@P:  PHY_RXCLK - Estimated Period(min analysis) : 3.623
+@P:  PHY_RXCLK - Requested Period(min analysis) : 7.700
+@P:  PHY_RXCLK - Slack(min analysis) : 4.077
+@P:  clkin_p - Estimated Frequency(min analysis) : 1228.5 MHz
+@P:  clkin_p - Requested Frequency(min analysis) : 105.3 MHz
+@P:  clkin_p - Estimated Period(min analysis) : 0.814
+@P:  clkin_p - Requested Period(min analysis) : 9.500
+@P:  clkin_p - Slack(min analysis) : 1.052
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dfs_clkfx_derived_clock - Estimated Frequency(min analysis) : 1228.5 MHz
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dfs_clkfx_derived_clock - Requested Frequency(min analysis) : 94.7 MHz
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dfs_clkfx_derived_clock - Estimated Period(min analysis) : 0.814
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dfs_clkfx_derived_clock - Requested Period(min analysis) : 10.556
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dfs_clkfx_derived_clock - Slack(min analysis) : 2.635
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk0_derived_clock - Estimated Frequency(min analysis) : 77.0 MHz
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk0_derived_clock - Requested Frequency(min analysis) : 94.7 MHz
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk0_derived_clock - Estimated Period(min analysis) : 12.986
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk0_derived_clock - Requested Period(min analysis) : 10.556
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk0_derived_clock - Slack(min analysis) : -1.215
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk2x_derived_clock - Estimated Frequency(min analysis) : 154.0 MHz
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk2x_derived_clock - Requested Frequency(min analysis) : 189.5 MHz
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk2x_derived_clock - Estimated Period(min analysis) : 6.493
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk2x_derived_clock - Requested Period(min analysis) : 5.278
+@P:  xcv5_cpu_clkgen_9_000000_10_000000_9_500000|dll_clk2x_derived_clock - Slack(min analysis) : 0.345
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|CLKx_derived_clock_CLKIN - Estimated Frequency(min analysis) : 186.2 MHz
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|CLKx_derived_clock_CLKIN - Requested Frequency(min analysis) : 118.4 MHz
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|CLKx_derived_clock_CLKIN - Estimated Period(min analysis) : 5.372
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|CLKx_derived_clock_CLKIN - Requested Period(min analysis) : 8.444
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|CLKx_derived_clock_CLKIN - Slack(min analysis) : 2.293
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLK90x_derived_clock_CLKIN - Estimated Frequency(min analysis) : 299.0 MHz
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLK90x_derived_clock_CLKIN - Requested Frequency(min analysis) : 236.8 MHz
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLK90x_derived_clock_CLKIN - Estimated Period(min analysis) : 3.345
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLK90x_derived_clock_CLKIN - Requested Period(min analysis) : 4.222
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLK90x_derived_clock_CLKIN - Slack(min analysis) : 0.878
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLKx_derived_clock_CLKIN - Estimated Frequency(min analysis) : 202.2 MHz
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLKx_derived_clock_CLKIN - Requested Frequency(min analysis) : 236.8 MHz
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLKx_derived_clock_CLKIN - Estimated Period(min analysis) : 4.946
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLKx_derived_clock_CLKIN - Requested Period(min analysis) : 4.222
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|MCLKx_derived_clock_CLKIN - Slack(min analysis) : -0.362
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|Ph0x_derived_clock_CLKIN - Estimated Frequency(min analysis) : 63.4 MHz
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|Ph0x_derived_clock_CLKIN - Requested Frequency(min analysis) : 59.2 MHz
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|Ph0x_derived_clock_CLKIN - Estimated Period(min analysis) : 15.767
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|Ph0x_derived_clock_CLKIN - Requested Period(min analysis) : 16.889
+@P:  xcv5_dram_clkgen_bee3_9_000000_4_000000_1_000000_10_000000_0s_25s_3_layer0|Ph0x_derived_clock_CLKIN - Slack(min analysis) : 0.701
+@P:  xcv5_mac_gmii_5s_4s_10_000000_1s_31s|dfs_clkfx_derived_clock - Estimated Frequency(min analysis) : 304.0 MHz
+@P:  xcv5_mac_gmii_5s_4s_10_000000_1s_31s|dfs_clkfx_derived_clock - Requested Frequency(min analysis) : 131.6 MHz
+@P:  xcv5_mac_gmii_5s_4s_10_000000_1s_31s|dfs_clkfx_derived_clock - Estimated Period(min analysis) : 3.289
+@P:  xcv5_mac_gmii_5s_4s_10_000000_1s_31s|dfs_clkfx_derived_clock - Requested Period(min analysis) : 7.600
+@P:  xcv5_mac_gmii_5s_4s_10_000000_1s_31s|dfs_clkfx_derived_clock - Slack(min analysis) : 4.311
+@P:  System - Estimated Frequency(min analysis) : 207.8 MHz
+@P:  System - Requested Frequency(min analysis) : 233.0 MHz
+@P:  System - Estimated Period(min analysis) : 4.813
+@P:  System - Requested Period(min analysis) : 4.292
+@P:  System - Slack(min analysis) : -0.521
+@P: fpga_top Part : xc5vlx110tff1136-1
+@P: fpga_top I/O primitives : 285
+@P: fpga_top I/O Register bits : 121
+@P: fpga_top Register bits (Non I/O) : 14687 (21%)
+@P: fpga_top Single Port Rams (RAM16X2S) : 1
+@P: fpga_top Single Port Rams (RAM16X4S) : 2
+@P: fpga_top Dual Port Rams (RAM32X1D) : 15
+@P: fpga_top Dual Port Rams (RAM64X1D) : 14
+@P: fpga_top Single Port Rams (RAM64X1S) : 267
+@P: fpga_top Simple Dual Port Rams (RAM32M) : 8
+@P: fpga_top Simple Dual Port Rams (RAM64M) : 144
+@P: fpga_top Dual Port Rams (RAM128X1D) : 300
+@P: fpga_top Block Rams : 51 of 148 (34%)
+@P: fpga_top Total Luts : 13777 (19%)
+@P:  CPU Time : 0h:06m:31s

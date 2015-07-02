@@ -1,0 +1,66 @@
+library verilog;
+use verilog.vl_types.all;
+entity pcie_blk_cf_err is
+    generic(
+        UR              : vl_logic := Hi0;
+        CA              : vl_logic := Hi1
+    );
+    port(
+        clk             : in     vl_logic;
+        rst_n           : in     vl_logic;
+        cfg_err_cor_n   : in     vl_logic;
+        cfg_err_ur_n    : in     vl_logic;
+        cfg_err_ecrc_n  : in     vl_logic;
+        cfg_err_cpl_timeout_n: in     vl_logic;
+        cfg_err_cpl_abort_n: in     vl_logic;
+        cfg_err_cpl_unexpect_n: in     vl_logic;
+        cfg_err_posted_n: in     vl_logic;
+        cfg_err_locked_n: in     vl_logic;
+        cfg_err_tlp_cpl_header: in     vl_logic_vector(47 downto 0);
+        cfg_err_cpl_rdy_n: out    vl_logic;
+        rx_err_cpl_ep_n : in     vl_logic;
+        tx_err_wr_ep_n  : in     vl_logic;
+        rx_err_ep_n     : in     vl_logic;
+        rx_err_tlp_poisoned_n: in     vl_logic;
+        rx_err_cpl_abort_n: in     vl_logic;
+        rx_err_cpl_ur_n : in     vl_logic;
+        rx_err_tlp_ur_n : in     vl_logic;
+        rx_err_tlp_ur_lock_n: in     vl_logic;
+        rx_err_tlp_p_cpl_n: in     vl_logic;
+        rx_err_tlp_malformed_n: in     vl_logic;
+        rx_err_tlp_hdr  : in     vl_logic_vector(47 downto 0);
+        send_cor        : out    vl_logic;
+        send_nfl        : out    vl_logic;
+        send_ftl        : out    vl_logic;
+        send_cplt       : out    vl_logic;
+        send_cplu       : out    vl_logic;
+        cmt_rd_hdr      : out    vl_logic_vector(49 downto 0);
+        cfg_rd_hdr      : out    vl_logic_vector(49 downto 0);
+        request_data    : in     vl_logic_vector(49 downto 0);
+        grant           : in     vl_logic;
+        cs_is_cplu      : in     vl_logic;
+        cs_is_cplt      : in     vl_logic;
+        cs_is_cor       : in     vl_logic;
+        cs_is_nfl       : in     vl_logic;
+        cs_is_ftl       : in     vl_logic;
+        l0_dll_error_vector: in     vl_logic_vector(6 downto 0);
+        l0_rx_mac_link_error: in     vl_logic_vector(1 downto 0);
+        l0_mac_link_up  : in     vl_logic;
+        l0_set_unsupported_request_other_error: out    vl_logic;
+        l0_set_detected_fatal_error: out    vl_logic;
+        l0_set_detected_nonfatal_error: out    vl_logic;
+        l0_set_detected_corr_error: out    vl_logic;
+        l0_set_user_system_error: out    vl_logic;
+        l0_set_user_master_data_parity: out    vl_logic;
+        l0_set_user_signaled_target_abort: out    vl_logic;
+        l0_set_user_received_target_abort: out    vl_logic;
+        l0_set_user_received_master_abort: out    vl_logic;
+        l0_set_user_detected_parity_error: out    vl_logic;
+        cfg_dcommand    : in     vl_logic_vector(15 downto 0);
+        cfg_command     : in     vl_logic_vector(15 downto 0);
+        serr_en         : in     vl_logic
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of UR : constant is 1;
+    attribute mti_svvh_generic_type of CA : constant is 1;
+end pcie_blk_cf_err;

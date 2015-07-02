@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="NetListWriters" num="298" delta="new" >No output is written to <arg fmt="%s" index="1">endpoint_blk_plus_v1_9.xncf</arg>, ignored.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">cf_bridge/error_manager/reg_cfg_wr_hdr_mux0000</arg><arg fmt="%s" index="2">&lt;49 : 0&gt;</arg> on block <arg fmt="%s" index="3">pcie_blk_if</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">cf_bridge/error_manager/reg_cmt_wr_hdr</arg><arg fmt="%s" index="2">&lt;49 : 0&gt;</arg> on block <arg fmt="%s" index="3">pcie_blk_if</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">cf_bridge/management_interface/cfg_rx_bar0</arg><arg fmt="%s" index="2">&lt;31 : 0&gt;</arg> on block <arg fmt="%s" index="3">pcie_blk_if</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">cf_bridge/management_interface/cfg_rx_xrom</arg><arg fmt="%s" index="2">&lt;31 : 0&gt;</arg> on block <arg fmt="%s" index="3">pcie_blk_if</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">cf_bridge/cfg_arb/byte_00_mux0000</arg><arg fmt="%s" index="2">&lt;5 : 2&gt;</arg> on block <arg fmt="%s" index="3">pcie_blk_if</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">cf_bridge/cfg_arb/byte_06_mux0000</arg><arg fmt="%s" index="2">&lt;7 : 0&gt;</arg> on block <arg fmt="%s" index="3">pcie_blk_if</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">cf_bridge/cfg_arb/byte_06</arg><arg fmt="%s" index="2">&lt;7 : 0&gt;</arg> on block <arg fmt="%s" index="3">pcie_blk_if</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ll_bridge/rx_bridge/bar_decoder/bar_hit</arg><arg fmt="%s" index="2">&lt;6 : 0&gt;</arg> on block <arg fmt="%s" index="3">pcie_blk_if</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ll_bridge/rx_bridge/snk_inst/cur_fulltype_oh</arg><arg fmt="%s" index="2">&lt;7 : 0&gt;</arg> on block <arg fmt="%s" index="3">pcie_blk_if</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ll_bridge/rx_bridge/snk_inst/bar_o</arg><arg fmt="%s" index="2">&lt;6 : 0&gt;</arg> on block <arg fmt="%s" index="3">pcie_blk_if</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ll_bridge/rx_bridge/snk_inst/cur_fulltype_mux0000</arg><arg fmt="%s" index="2">&lt;6 : 0&gt;</arg> on block <arg fmt="%s" index="3">pcie_blk_if</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ll_bridge/rx_bridge/snk_inst/cur_fulltype</arg><arg fmt="%s" index="2">&lt;6 : 0&gt;</arg> on block <arg fmt="%s" index="3">pcie_blk_if</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ll_bridge/rx_bridge/snk_inst/rem_q</arg><arg fmt="%s" index="2">&lt;5 : 1&gt;</arg> on block <arg fmt="%s" index="3">pcie_blk_if</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ll_bridge/rx_bridge/snk_inst/src_rdy_q</arg><arg fmt="%s" index="2">&lt;5 : 1&gt;</arg> on block <arg fmt="%s" index="3">pcie_blk_if</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ll_bridge/rx_bridge/fifo_inst/trn_rrem</arg><arg fmt="%s" index="2">&lt;4 : 0&gt;</arg> on block <arg fmt="%s" index="3">pcie_blk_if</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ll_bridge/tx_bridge/tx_bridge/cpls_buffered</arg><arg fmt="%s" index="2">&lt;4 : 2&gt;</arg> on block <arg fmt="%s" index="3">pcie_blk_if</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">U0/pcie_ep0/pcie_blk/prod_fixes_I/pipe_rx_data_l0_out_mux0000</arg><arg fmt="%s" index="2">&lt;7 : 0&gt;</arg> on block <arg fmt="%s" index="3">endpoint_blk_plus_v1_9_pcie_blk_plus_gen_1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+</messages>
+

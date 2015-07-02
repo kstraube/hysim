@@ -1,0 +1,11 @@
+#-- Synopsys, Inc.
+#-- Version E-2010.09-1
+#-- Project file /home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/fpga_top.prd
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

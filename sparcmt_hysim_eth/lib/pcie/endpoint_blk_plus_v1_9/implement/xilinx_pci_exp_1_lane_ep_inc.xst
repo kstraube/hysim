@@ -1,0 +1,19 @@
+/////////////////////////////////////////////////////////
+//     TOP LEVEL FPGA STRUCTURAL NETLIST               //
+/////////////////////////////////////////////////////////
+
+`include  "../example_design/xilinx_pci_exp_ep.v"
+`include  "../example_design/pci_exp_64b_app.v"
+`include  "../example_design/PIO_EP.v"
+`include  "../example_design/PIO_EP_MEM_ACCESS.v"
+`include  "../example_design/EP_MEM.v"
+`include  "../example_design/PIO_64_RX_ENGINE.v"
+`include  "../example_design/PIO_64_TX_ENGINE.v"
+`include  "../example_design/PIO_TO_CTRL.v"
+`include  "../example_design/PIO.v"
+
+/////////////////////////////////////////////////////////
+//     PCI-EXPRESS CORE INSTANCE BLACKBOX              //
+/////////////////////////////////////////////////////////
+
+`include  "../example_design/pci_exp_1_lane_64b_ep.v"

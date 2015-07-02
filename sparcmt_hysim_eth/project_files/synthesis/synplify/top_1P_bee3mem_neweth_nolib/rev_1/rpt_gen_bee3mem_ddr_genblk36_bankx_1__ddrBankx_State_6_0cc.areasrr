@@ -1,0 +1,76 @@
+#### START OF AREA REPORT #####[
+
+Part:			XC5VLX110TFF1136-1 (Xilinx)
+
+--------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   gen_bee3mem.ddr.genblk36\.bankx\[1\]\.ddrBankx.State_6_0cc   ########
+==========================================================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     9                  100 %                
+LATCHES       0                  0 %                  
+======================================================
+Total SEQUENTIAL ELEMENTS in the block gen_bee3mem.ddr.genblk36Æbankx€1›ÆddrBankx.State_6_0cc:	9 (15.25 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      48                 100 %                
+MUXCY     0                  0 %                  
+XORCY     0                  0 %                  
+DSP48     0                  0 %                  
+SRL16     0                  0 %                  
+==================================================
+Total COMBINATIONAL LOGIC in the block gen_bee3mem.ddr.genblk36Æbankx€1›ÆddrBankx.State_6_0cc:	48 (81.36 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0 %                  
+======================================================
+Total MEMORY ELEMENTS in the block gen_bee3mem.ddr.genblk36Æbankx€1›ÆddrBankx.State_6_0cc:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0 %                  
+====================================================================
+Total  in the block gen_bee3mem.ddr.genblk36Æbankx€1›ÆddrBankx.State_6_0cc:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0 %                  
+===============================================================================
+Total Distributed RAM in the block gen_bee3mem.ddr.genblk36Æbankx€1›ÆddrBankx.State_6_0cc:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0 %                  
+=================================================
+Total IO PADS in the block gen_bee3mem.ddr.genblk36Æbankx€1›ÆddrBankx.State_6_0cc:	0 (0.00 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

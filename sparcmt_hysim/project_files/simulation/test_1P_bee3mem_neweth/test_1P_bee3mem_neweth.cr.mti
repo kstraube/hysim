@@ -1,0 +1,3581 @@
+/home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/camx.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/camx.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module obLogic
+
+Top level modules:
+	obLogic
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/ddrBank.v {1 {vlog -work work -vopt /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/ddrBank.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ddrBank
+
+Top level modules:
+	ddrBank
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/dram_clkgen.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/dram_clkgen.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dram_clkgen_sv_unit
+-- Importing package libtech
+-- Compiling module xcv5_dram_clkgen_mig
+-- Compiling module xcv5_dram_clkgen_bee3
+
+Top level modules:
+	xcv5_dram_clkgen_mig
+	xcv5_dram_clkgen_bee3
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/libxalu.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/cpu/libxalu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libxalu
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/dpbram.v {1 {vlog -work work -vopt +incdir+../../../lib/tech/xilinx/virtex5/bee3sodimm /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/dpbram.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module dpbram36_im
+-- Compiling module dpbram18_rfa
+-- Compiling module dpbram18_rfb
+
+Top level modules:
+	dpbram36_im
+	dpbram18_rfa
+	dpbram18_rfb
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/PIO_64.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/PIO_64.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_dram_gsf.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_dram_gsf.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package tm_cpu_dram_gsf_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Importing package libtm
+-- Importing package libtm_cache
+-- Compiling module dram_gsf_scheduler
+
+Top level modules:
+	dram_gsf_scheduler
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/alulogic.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/tech/xilinx/virtex5/alulogic.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package alulogic_sv_unit
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module xcv5_alu_adder_logic
+
+Top level modules:
+	xcv5_alu_adder_logic
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tm/cpu/libtm_cache.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tm/cpu/libtm_cache.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libtm_cache_sv_unit
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling package libtm_cache
+-- Importing package libtm
+
+Top level modules:
+	--none--
+
+} {} {}} /home/zhang/sparcmt/lib/stdlib/sync_lutram_fifo.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/stdlib/sync_lutram_fifo.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package sync_lutram_fifo_sv_unit
+-- Importing package libstd
+-- Compiling module sync_lutram_fifo
+-- Compiling module sync_lutram_fifo_2w_1r
+
+Top level modules:
+	sync_lutram_fifo
+	sync_lutram_fifo_2w_1r
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/regfile.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/regfile.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package regfile_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module xcv5_regfile
+
+Top level modules:
+	xcv5_regfile
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/libucode.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/cpu/libucode.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libucode
+-- Importing package libconf
+-- Importing package libstd
+
+Top level modules:
+	--none--
+
+} {} {}} /home/zhang/sparcmt/lib/fpu/fp_ftoi.v {1 {vlog -work work -vopt +define+GLBL /home/zhang/sparcmt/lib/fpu/fp_ftoi.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fp_stoi
+-- Compiling module fp_dtoi
+-- Compiling module mux4x1
+
+Top level modules:
+	fp_stoi
+	fp_dtoi
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/decode.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/cpu/decode.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package decode_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Importing package libcache
+-- Compiling module decode_stage
+
+Top level modules:
+	decode_stage
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_ll_tx.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_ll_tx.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_blk_ll_tx
+
+Top level modules:
+	pcie_blk_ll_tx
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/dramctrl_bee3.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tech/xilinx/virtex5/dramctrl_bee3.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dramctrl_bee3_sv_unit
+-- Importing package libtech
+-- Compiling module dramctrl_bee3_ml505
+-- Compiling module dramctrl_bee3
+
+Top level modules:
+	dramctrl_bee3_ml505
+	dramctrl_bee3
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/ifetch_dma.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/cpu/ifetch_dma.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package ifetch_dma_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Importing package libcache
+-- Importing package libtm
+-- Compiling module spr_ram
+-- Compiling module fetch_stage_dma
+
+Top level modules:
+	fetch_stage_dma
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_errman_cnt_en.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_errman_cnt_en.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module cmm_errman_cnt_en
+
+Top level modules:
+	cmm_errman_cnt_en
+
+} {} {}} /home/zhang/sparcmt/lib/eth/eth_tx.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/eth/eth_tx.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package eth_tx_sv_unit
+-- Importing package libeth
+-- Compiling module eth_dma_tx
+
+Top level modules:
+	eth_dma_tx
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/dmmu.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/cpu/dmmu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dmmu_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Importing package libcache
+-- Compiling module dmmutlb
+-- Compiling module dmmu_if
+-- Compiling module dmmu
+
+Top level modules:
+	dmmu_if
+	dmmu
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_clocking.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_clocking.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_clocking
+
+Top level modules:
+	pcie_clocking
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/icache.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/cpu/icache.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package icache_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libcache
+-- Importing package libmmu
+-- Importing package libmemif
+-- Compiling module icache
+
+Top level modules:
+	icache
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/sim/ddr2/1Gb/ddr2.v {2 {vlog -work work -vopt +define+SODIMM +define+x8 +define+sg25 +define+DUAL_RANK +incdir+../../../lib/sim/ddr2/1Gb /home/kramer/sparcmt_hysim/lib/sim/ddr2/1Gb/ddr2.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ddr2
+** Warning: (vlog-2902) ../../../lib/sim/ddr2/1Gb/ddr2_parameters.vh(214): A `define was found on the same line as a SystemVerilog `ifdef, `ifndef, `elsif, or `else.
+** Warning: (vlog-2902) ../../../lib/sim/ddr2/1Gb/ddr2_parameters.vh(340): A `define was found on the same line as a SystemVerilog `ifdef, `ifndef, `elsif, or `else.
+
+Top level modules:
+	ddr2
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/io/libio.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/io/libio.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libio
+-- Importing package libconf
+-- Importing package libstd
+
+Top level modules:
+	--none--
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/dmmu.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/cpu/dmmu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dmmu_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Importing package libcache
+-- Compiling module dmmutlb
+-- Compiling module dmmu_if
+-- Compiling module dmmu
+
+Top level modules:
+	dmmu_if
+	dmmu
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/pci_exp_64b_app.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/pci_exp_64b_app.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pci_exp_64b_app
+
+Top level modules:
+	pci_exp_64b_app
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/aludiv.sv {1 {vlog -work work -vopt -sv +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/aludiv.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package aludiv_sv_unit
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libxalu
+-- Compiling module xcv5_alu_div_2x
+-- Compiling module xcv5_alu_div
+
+Top level modules:
+	xcv5_alu_div_2x
+	xcv5_alu_div
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/libcache.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/cpu/libcache.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libcache
+-- Importing package libmmu
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/extend_clk.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/extend_clk.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module extend_clk
+
+Top level modules:
+	extend_clk
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/WriteModule2.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/pcie/WriteModule2.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package WriteModule2_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Importing package libtm
+-- Importing package libtm_cache
+-- Compiling module WriteMod
+
+Top level modules:
+	WriteMod
+
+} {} {}} /home/zhang/sparcmt/lib/io/libio.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/io/libio.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libio
+-- Importing package libconf
+-- Importing package libstd
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/dcacheram.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/dcacheram.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dcacheram_sv_unit
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libcache
+-- Importing package libmmu
+-- Compiling module xcv5_dcache_ram
+-- Compiling module xcv5_dcache_ram_wide
+
+Top level modules:
+	xcv5_dcache_ram
+	xcv5_dcache_ram_wide
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/alumul.sv {1 {vlog -work work -vopt -sv +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/alumul.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package alumul_sv_unit
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libxalu
+-- Compiling module xcv5_alu_mul_shf
+-- Compiling module xcv5_alu_mul_shf_fast
+
+Top level modules:
+	xcv5_alu_mul_shf
+	xcv5_alu_mul_shf_fast
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_ep.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_ep.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_ep_top
+
+Top level modules:
+	pcie_ep_top
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/microcode.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/cpu/microcode.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package microcode_sv_unit
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libopcodes
+-- Compiling module microcode_rom
+
+Top level modules:
+	microcode_rom
+
+} {} {}} /opt/Xilinx/14.2/ISE_DS/ISE/verilog/src/glbl.v {1 {vlog -work work -vopt +define+SYNP94=1 /opt/Xilinx/14.2/ISE_DS/ISE/verilog/src/glbl.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module glbl
+
+Top level modules:
+	glbl
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/dramctrl_bee3.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/dramctrl_bee3.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dramctrl_bee3_sv_unit
+-- Importing package libtech
+-- Compiling module dramctrl_bee3_ml505
+-- Compiling module dramctrl_bee3
+
+Top level modules:
+	dramctrl_bee3_ml505
+	dramctrl_bee3
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/tx_sync_gtp.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/tx_sync_gtp.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module TX_SYNC_GTP
+
+Top level modules:
+	TX_SYNC_GTP
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/debugdma.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/cpu/debugdma.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package debugdma_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module dma_addr_reg
+-- Compiling module dma_ctrl_reg
+-- Compiling module debug_dma
+
+Top level modules:
+	debug_dma
+
+} {} {}} /home/zhang/sparcmt/lib/sim/disasm/disasm.sv {1 {vlog -work work -vopt -sv -dpiheader ../../../lib/sim/disasm/disasm.h /home/zhang/sparcmt/lib/sim/disasm/disasm.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package disasm_sv_unit
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module disassembler
+
+Top level modules:
+	disassembler
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/itlb_2way_split.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/cpu/itlb_2way_split.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package itlb_2way_split_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Compiling module itlbram_2way_split
+-- Compiling module itlbram_2way_split_fast
+
+Top level modules:
+	itlbram_2way_split
+	itlbram_2way_split_fast
+
+} {} {}} /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_l1_ring.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_l1_ring.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package tm_cpu_l1_ring_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Importing package libtm
+-- Importing package libtm_cache
+-- Compiling module tm_cpu_l1
+
+Top level modules:
+	tm_cpu_l1
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/io/timer.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/io/timer.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package timer_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Compiling module timer
+
+Top level modules:
+	timer
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/mem/dramif.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/mem/dramif.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling interface mem_controller_interface
+-- Compiling package dramif_sv_unit
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libcache
+-- Importing package libmmu
+-- Importing package libmemif
+-- Compiling interface mem_controller_interface
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/dmabuf.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/dmabuf.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dmabuf_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module xcv5_debug_dma_buf
+
+Top level modules:
+	xcv5_debug_dma_buf
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/xalu_fast.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/cpu/xalu_fast.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package xalu_fast_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libxalu
+-- Compiling module xalu_div_output_dbuf
+-- Compiling module xalu_if_fast
+
+Top level modules:
+	xalu_if_fast
+
+} {} {}} /home/zhang/sparcmt/lib/io/timer.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/io/timer.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package timer_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Compiling module timer
+
+Top level modules:
+	timer
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/aludiv.sv {1 {vlog -work work -vopt -sv +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/tech/xilinx/virtex5/aludiv.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package aludiv_sv_unit
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libxalu
+-- Compiling module xcv5_alu_div_2x
+-- Compiling module xcv5_alu_div
+
+Top level modules:
+	xcv5_alu_div_2x
+	xcv5_alu_div
+
+} {} {}} /home/zhang/sparcmt/lib/fpu/fp_itos.v {1 {vlog -work work -vopt +define+GLBL /home/zhang/sparcmt/lib/fpu/fp_itos.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fp_itos
+
+Top level modules:
+	fp_itos
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/alumul.sv {1 {vlog -work work -vopt -sv +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/tech/xilinx/virtex5/alumul.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package alumul_sv_unit
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libxalu
+-- Compiling module xcv5_alu_mul_shf
+-- Compiling module xcv5_alu_mul_shf_fast
+
+Top level modules:
+	xcv5_alu_mul_shf
+	xcv5_alu_mul_shf_fast
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/clkrst_gen.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/cpu/clkrst_gen.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package clkrst_gen_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module clkrst_gen
+-- Compiling module reset_synchronizer
+-- Compiling module clkrst_gen_2
+
+Top level modules:
+	clkrst_gen
+	clkrst_gen_2
+
+} {} {}} /home/zhang/sparcmt/lib/fpu/fp_conv_dp_sp.v {1 {vlog -work work -vopt +define+GLBL /home/zhang/sparcmt/lib/fpu/fp_conv_dp_sp.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fp_conv_dp_sp
+
+Top level modules:
+	fp_conv_dp_sp
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_l2.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_l2.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package tm_cpu_l2_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Importing package libtm
+-- Importing package libtm_cache
+-- Compiling module l2_model
+
+Top level modules:
+	l2_model
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/libconf.sv {1 {vlog -work work -vopt -sv +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/libconf.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libconf
+-- Importing package libstd
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/PIO.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/PIO.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module PIO
+
+Top level modules:
+	PIO
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_cf_mgmt.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_cf_mgmt.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_blk_cf_mgmt
+
+Top level modules:
+	pcie_blk_cf_mgmt
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/dqs_iob.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/dqs_iob.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module dqs_iob
+
+Top level modules:
+	dqs_iob
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/regacc_dma.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/cpu/regacc_dma.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package regacc_dma_sv_unit
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module regacc_stage_dma
+
+Top level modules:
+	regacc_stage_dma
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/eth/eth_rx.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/eth/eth_rx.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package eth_rx_sv_unit
+-- Importing package libstd
+-- Importing package libdebug
+-- Importing package libconf
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libfp
+-- Importing package libtm
+-- Importing package libeth
+-- Compiling module eth_dma_rx
+
+Top level modules:
+	eth_dma_rx
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_intr.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_intr.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module cmm_intr
+
+Top level modules:
+	cmm_intr
+
+} {} {}} /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_none.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_none.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package tm_cpu_none_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libtm
+-- Compiling module tm_cpu_none
+
+Top level modules:
+	tm_cpu_none
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/mem/ddr2memctrl_fast.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/mem/ddr2memctrl_fast.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package ddr2memctrl_fast_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmemif
+-- Importing package libcache
+-- Importing package libmmu
+-- Compiling module dramctrl_fast
+
+Top level modules:
+	dramctrl_fast
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/mem/memif.sv {2 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/mem/memif.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package memif_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libmemif
+-- Importing package libcache
+-- Importing package libmmu
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module imem_cmd_fifo
+-- Compiling module imem_cmd_fifo_sdr
+-- Compiling module dmem_cmd_fifo
+-- Compiling module dmem_cmd_fifo_sdr
+-- Compiling module mem_stat_buf
+-- Compiling module imem_if
+** Warning: /home/kramer/sparcmt_hysim/lib/mem/memif.sv(567): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/kramer/sparcmt_hysim/lib/mem/memif.sv(568): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/kramer/sparcmt_hysim/lib/mem/memif.sv(569): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+-- Compiling module dmem_if
+** Warning: /home/kramer/sparcmt_hysim/lib/mem/memif.sv(823): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/kramer/sparcmt_hysim/lib/mem/memif.sv(824): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/kramer/sparcmt_hysim/lib/mem/memif.sv(825): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+Top level modules:
+	imem_cmd_fifo
+	dmem_cmd_fifo
+	imem_if
+	dmem_if
+
+} {} {}} /home/zhang/sparcmt/lib/fpu/fp_mult_dp.v {1 {vlog -work work -vopt +define+GLBL /home/zhang/sparcmt/lib/fpu/fp_mult_dp.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fp_mult_dp
+
+Top level modules:
+	fp_mult_dp
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/sim/ddr2/1Gb/mt16htf25664hy.sv {2 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/sim/ddr2/1Gb/mt16htf25664hy.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Warning: /home/kramer/sparcmt_hysim/lib/sim/ddr2/1Gb/mt16htf25664hy.sv(8): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: /home/kramer/sparcmt_hysim/lib/sim/ddr2/1Gb/mt16htf25664hy.sv(49): (vlog-2284) Empty $unit scope found.
+-- Compiling package mt16htf25664hy_sv_unit
+-- Compiling module mt16htf25664hy
+
+Top level modules:
+	mt16htf25664hy
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/libcache.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/cpu/libcache.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libcache
+-- Importing package libmmu
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+
+Top level modules:
+	--none--
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/dmabuf.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tech/xilinx/virtex5/dmabuf.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dmabuf_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module xcv5_debug_dma_buf
+
+Top level modules:
+	xcv5_debug_dma_buf
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/dtlbram.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/dtlbram.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dtlbram_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Compiling module xcv5_dtlbram
+
+Top level modules:
+	xcv5_dtlbram
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/PIO_TO_CTRL.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/PIO_TO_CTRL.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module PIO_TO_CTRL
+
+Top level modules:
+	PIO_TO_CTRL
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/dqs_iob.v {1 {vlog -work work -vopt /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/dqs_iob.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module dqs_iob
+
+Top level modules:
+	dqs_iob
+
+} {} {}} /home/zhang/sparcmt/lib/eth/eth_tm_control.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/eth/eth_tm_control.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package eth_tm_control_sv_unit
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libtm
+-- Importing package libeth
+-- Compiling module eth_tm_control
+
+Top level modules:
+	eth_tm_control
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/exception_dma.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/cpu/exception_dma.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package exception_dma_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Importing package libcache
+-- Importing package libtm
+-- Compiling module exception_stage_dma
+
+Top level modules:
+	exception_stage_dma
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/endpoint_blk_plus_v1_15.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/endpoint_blk_plus_v1_15.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module endpoint_blk_plus_v1_15
+
+Top level modules:
+	endpoint_blk_plus_v1_15
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/PIO_EP_MEM_ACCESS.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/PIO_EP_MEM_ACCESS.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module PIO_EP_MEM_ACCESS
+
+Top level modules:
+	PIO_EP_MEM_ACCESS
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/EP_MEM.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/EP_MEM.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module EP_MEM
+
+Top level modules:
+	EP_MEM
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_ll.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_ll.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_blk_ll
+
+Top level modules:
+	pcie_blk_ll
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_memsystem.sv {2 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_memsystem.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package tm_cpu_memsystem_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Importing package libtm
+-- Importing package libtm_cache
+-- Compiling module mem_system
+** Warning: /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_memsystem.sv(56): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_memsystem.sv(57): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_memsystem.sv(58): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_memsystem.sv(59): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_memsystem.sv(60): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_memsystem.sv(62): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_memsystem.sv(63): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+Top level modules:
+	mem_system
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/eth/dma_control.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/eth/dma_control.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dma_control_sv_unit
+-- Importing package libdebug
+-- Importing package libconf
+-- Importing package libstd
+-- Compiling module dma_control
+
+Top level modules:
+	dma_control
+
+} {} {}} /home/zhang/sparcmt/lib/mem/ddr2memctrl.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/mem/ddr2memctrl.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package ddr2memctrl_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmemif
+-- Importing package libcache
+-- Importing package libmmu
+-- Compiling module dramctrl
+
+Top level modules:
+	dramctrl
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/opcodes.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/cpu/opcodes.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libopcodes
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/prod_fixes.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/prod_fixes.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module prod_fixes
+
+Top level modules:
+	prod_fixes
+
+} {} {}} /home/zhang/sparcmt/lib/mem/dramctrl_network.sv {2 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/mem/dramctrl_network.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dramctrl_network_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmemif
+-- Importing package libcache
+-- Importing package libmmu
+-- Compiling module imem_network_buf
+-- Compiling module dmem_network_buf
+-- Compiling module retinfo_buf
+-- Compiling module mem_bus_arbiter
+-- Compiling module mem_bus_mux
+** Warning: /home/zhang/sparcmt/lib/mem/dramctrl_network.sv(664): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/zhang/sparcmt/lib/mem/dramctrl_network.sv(671): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/zhang/sparcmt/lib/mem/dramctrl_network.sv(671): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/zhang/sparcmt/lib/mem/dramctrl_network.sv(672): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/zhang/sparcmt/lib/mem/dramctrl_network.sv(675): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/zhang/sparcmt/lib/mem/dramctrl_network.sv(679): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+-- Compiling module retinfo_buf_sdr
+
+Top level modules:
+	imem_network_buf
+	dmem_network_buf
+	retinfo_buf
+	mem_bus_arbiter
+	mem_bus_mux
+	retinfo_buf_sdr
+
+} {} {}} /home/zhang/sparcmt/lib/eth/eth_cpu_control.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/eth/eth_cpu_control.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package eth_cpu_control_sv_unit
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libeth
+-- Compiling module eth_cpu_control
+
+Top level modules:
+	eth_cpu_control
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/libtech.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/tech/libtech.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libtech
+
+Top level modules:
+	--none--
+
+} {} {}} /home/zhang/sparcmt/lib/libconf.sv {1 {vlog -work work -vopt -sv +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/libconf.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libconf
+-- Importing package libstd
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/sim/ddr2/1Gb/ddr2_module.v {2 {vlog -work work -vopt +define+x8 +define+SODIMM +define+sg25 +define+DUAL_RANK +incdir+../../../lib/sim/ddr2/1Gb /home/kramer/sparcmt_hysim/lib/sim/ddr2/1Gb/ddr2_module.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ddr2_module
+** Warning: (vlog-2902) ../../../lib/sim/ddr2/1Gb/ddr2_parameters.vh(214): A `define was found on the same line as a SystemVerilog `ifdef, `ifndef, `elsif, or `else.
+** Warning: (vlog-2902) ../../../lib/sim/ddr2/1Gb/ddr2_parameters.vh(340): A `define was found on the same line as a SystemVerilog `ifdef, `ifndef, `elsif, or `else.
+
+Top level modules:
+	ddr2_module
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/memory_mmu.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/cpu/memory_mmu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package memory_mmu_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libcache
+-- Importing package libmmu
+-- Importing package libio
+-- Compiling module memory_stage
+
+Top level modules:
+	memory_stage
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/fpu/fpu.sv {1 {vlog -work work -vopt -sv +define+GLBL /home/kramer/sparcmt_hysim/lib/fpu/fpu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package fpu_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module sh_reg
+-- Compiling module fpu_fpop_output_dbuf
+-- Compiling module fpu_fcmp_output_dbuf
+-- Compiling module fpu_if
+
+Top level modules:
+	fpu_if
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/camx.v {1 {vlog -work work -vopt /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/camx.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module obLogic
+
+Top level modules:
+	obLogic
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/fpu/fp_cmp_dp.v {1 {vlog -work work -vopt +define+GLBL /home/kramer/sparcmt_hysim/lib/fpu/fp_cmp_dp.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fp_cmp_dp
+
+Top level modules:
+	fp_cmp_dp
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/fpu/fp_conv_sp_dp.v {1 {vlog -work work -vopt +define+GLBL /home/kramer/sparcmt_hysim/lib/fpu/fp_conv_sp_dp.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fp_conv_sp_dp
+
+Top level modules:
+	fp_conv_sp_dp
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_soft_int.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_soft_int.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_soft_cf_int
+
+Top level modules:
+	pcie_soft_cf_int
+
+} {} {}} /home/zhang/sparcmt/lib/tm/perfctr/perfctr.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tm/perfctr/perfctr.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package perfctr_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libtm
+-- Importing package libio
+-- Importing package libperfctr
+-- Compiling module perfctr_ram
+-- Compiling module perfctr_reg
+-- Compiling module perfctr_if
+-- Compiling module perfctr_output_buf
+-- Compiling module perfctr_io
+
+Top level modules:
+	perfctr_if
+	perfctr_io
+
+} {} {}} /home/zhang/sparcmt/lib/tm/cpu/tm_cache.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tm/cpu/tm_cache.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package tm_cache_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Importing package libtm
+-- Importing package libtm_cache
+-- Compiling module tag_ram
+-- Compiling module replay_fifo
+-- Compiling module perfctr
+
+Top level modules:
+	tag_ram
+	replay_fifo
+	perfctr
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/dpram.v {1 {vlog -work work -vopt /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/dpram.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module dpram
+
+Top level modules:
+	dpram
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/xalu.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/cpu/xalu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package xalu_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libxalu
+-- Compiling module mul_in_fifo
+-- Compiling module div_in_fifo_2x
+-- Compiling module div_in_fifo
+-- Compiling module xalu_output_dbuf
+-- Compiling module xalu_valid_buf
+-- Compiling module xalu_if
+
+Top level modules:
+	div_in_fifo_2x
+	xalu_if
+
+} {} {}} /home/zhang/sparcmt/lib/sim/ddr2/1Gb/ddr2.v {2 {vlog -work work -vopt +define+SODIMM +define+x8 +define+sg25 +define+DUAL_RANK +incdir+../../../lib/sim/ddr2/1Gb /home/zhang/sparcmt/lib/sim/ddr2/1Gb/ddr2.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ddr2
+** Warning: (vlog-2902) ../../../lib/sim/ddr2/1Gb/ddr2_parameters.vh(214): A `define was found on the same line as a SystemVerilog `ifdef, `ifndef, `elsif, or `else.
+** Warning: (vlog-2902) ../../../lib/sim/ddr2/1Gb/ddr2_parameters.vh(340): A `define was found on the same line as a SystemVerilog `ifdef, `ifndef, `elsif, or `else.
+
+Top level modules:
+	ddr2
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/ifetch_dma.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/cpu/ifetch_dma.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package ifetch_dma_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Importing package libcache
+-- Importing package libtm
+-- Compiling module spr_ram
+-- Compiling module fetch_stage_dma
+
+Top level modules:
+	fetch_stage_dma
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_decoder.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_decoder.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module cmm_decoder
+
+Top level modules:
+	cmm_decoder
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/AF.v {1 {vlog -work work -vopt /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/AF.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module AF
+
+Top level modules:
+	AF
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/dpram.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/dpram.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module dpram
+
+Top level modules:
+	dpram
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/mmureg.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/cpu/mmureg.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package mmureg_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Compiling module mmu_control_register
+-- Compiling module mmu_context_register
+-- Compiling module mmu_context_table_pointer_register
+-- Compiling module mmu_fault_status_register
+-- Compiling module mmu_fault_address_register
+
+Top level modules:
+	mmu_control_register
+	mmu_context_register
+	mmu_context_table_pointer_register
+	mmu_fault_status_register
+	mmu_fault_address_register
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/xalu.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/cpu/xalu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package xalu_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libxalu
+-- Compiling module mul_in_fifo
+-- Compiling module div_in_fifo_2x
+-- Compiling module div_in_fifo
+-- Compiling module xalu_output_dbuf
+-- Compiling module xalu_valid_buf
+-- Compiling module xalu_if
+
+Top level modules:
+	div_in_fifo_2x
+	xalu_if
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/tlm_rx_data_snk_pwr_mgmt.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/tlm_rx_data_snk_pwr_mgmt.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module tlm_rx_data_snk_pwr_mgmt
+
+Top level modules:
+	tlm_rx_data_snk_pwr_mgmt
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_errman_cpl.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_errman_cpl.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module cmm_errman_cpl
+
+Top level modules:
+	cmm_errman_cpl
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/sync_fifo.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/sync_fifo.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module sync_fifo
+
+Top level modules:
+	sync_fifo
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/libfp.sv {1 {vlog -work work -vopt -sv +define+GLBL /home/kramer/sparcmt_hysim/lib/cpu/libfp.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libfp
+-- Importing package libconf
+-- Importing package libstd
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/alulogic.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/alulogic.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package alulogic_sv_unit
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module xcv5_alu_adder_logic
+
+Top level modules:
+	xcv5_alu_adder_logic
+
+} {} {}} /home/zhang/sparcmt/lib/eth/libeth.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/eth/libeth.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libeth
+
+Top level modules:
+	--none--
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/icacheram.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/tech/xilinx/virtex5/icacheram.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package icacheram_sv_unit
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libcache
+-- Importing package libmmu
+-- Compiling module xcv5_icache_ram
+-- Compiling module xcv5_icache_ram_wide
+
+Top level modules:
+	xcv5_icache_ram
+	xcv5_icache_ram_wide
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_none.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_none.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package tm_cpu_none_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libtm
+-- Compiling module tm_cpu_none
+
+Top level modules:
+	tm_cpu_none
+
+} {} {}} /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_dram.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_dram.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package tm_cpu_dram_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Importing package libtm
+-- Importing package libtm_cache
+-- Compiling module dram_model
+-- Compiling module dram_model_fast
+
+Top level modules:
+	dram_model
+	dram_model_fast
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_plus_ll_tx.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_plus_ll_tx.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_blk_plus_ll_tx
+
+Top level modules:
+	pcie_blk_plus_ll_tx
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/eth/eth_mac_ram.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/eth/eth_mac_ram.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package eth_mac_ram_sv_unit
+-- Importing package libstd
+-- Importing package libdebug
+-- Importing package libconf
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libfp
+-- Importing package libtm
+-- Importing package libeth
+-- Compiling module eth_mac_ram
+
+Top level modules:
+	eth_mac_ram
+
+} {} {}} /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_1ipc.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_1ipc.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package tm_cpu_1ipc_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Importing package libtm
+-- Compiling module tm_cpu_1ipc
+-- Compiling module replay_fifo
+
+Top level modules:
+	tm_cpu_1ipc
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/io/irqmp.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/io/irqmp.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package irqmp_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Compiling module irqmp
+
+Top level modules:
+	irqmp
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_ll_tx_arb.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_ll_tx_arb.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_blk_ll_tx_arb
+
+Top level modules:
+	pcie_blk_ll_tx_arb
+
+} {} {}} /home/zhang/sparcmt/lib/mem/memif.sv {2 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/mem/memif.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package memif_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libmemif
+-- Importing package libcache
+-- Importing package libmmu
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module imem_cmd_fifo
+-- Compiling module imem_cmd_fifo_sdr
+-- Compiling module dmem_cmd_fifo
+-- Compiling module dmem_cmd_fifo_sdr
+-- Compiling module mem_stat_buf
+-- Compiling module imem_if
+** Warning: /home/zhang/sparcmt/lib/mem/memif.sv(567): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/zhang/sparcmt/lib/mem/memif.sv(568): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/zhang/sparcmt/lib/mem/memif.sv(569): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+-- Compiling module dmem_if
+** Warning: /home/zhang/sparcmt/lib/mem/memif.sv(823): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/zhang/sparcmt/lib/mem/memif.sv(824): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/zhang/sparcmt/lib/mem/memif.sv(825): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+Top level modules:
+	imem_cmd_fifo
+	dmem_cmd_fifo
+	imem_if
+	dmem_if
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tm/perfctr/libperfctr.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tm/perfctr/libperfctr.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libperfctr
+-- Importing package libconf
+-- Importing package libstd
+
+Top level modules:
+	--none--
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/itlbram.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tech/xilinx/virtex5/itlbram.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package itlbram_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Compiling module xcv5_itlbram
+-- Compiling module xcv5_itlbram_fast
+
+Top level modules:
+	xcv5_itlbram
+	xcv5_itlbram_fast
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/stdlib/sync_lutram_fifo.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/stdlib/sync_lutram_fifo.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package sync_lutram_fifo_sv_unit
+-- Importing package libstd
+-- Compiling module sync_lutram_fifo
+-- Compiling module sync_lutram_fifo_2w_1r
+
+Top level modules:
+	sync_lutram_fifo
+	sync_lutram_fifo_2w_1r
+
+} {} {}} /home/zhang/sparcmt/lib/io/irqmp.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/io/irqmp.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package irqmp_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Compiling module irqmp
+
+Top level modules:
+	irqmp
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_errman_cor.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_errman_cor.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module cmm_errman_cor
+
+Top level modules:
+	cmm_errman_cor
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/eth/eth_tm_control.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/eth/eth_tm_control.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package eth_tm_control_sv_unit
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libtm
+-- Importing package libeth
+-- Compiling module eth_tm_control
+
+Top level modules:
+	eth_tm_control
+
+} {} {}} /home/zhang/sparcmt/lib/fpu/fp_itod.v {1 {vlog -work work -vopt +define+GLBL /home/zhang/sparcmt/lib/fpu/fp_itod.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fp_itod
+
+Top level modules:
+	fp_itod
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_errman_ram8x26.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_errman_ram8x26.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module cmm_errman_ram8x26
+
+Top level modules:
+	cmm_errman_ram8x26
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ReadModule.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/pcie/ReadModule.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package ReadModule_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Importing package libtm
+-- Importing package libtm_cache
+-- Compiling module ReadMod
+
+Top level modules:
+	ReadMod
+
+} {} {}} /home/zhang/sparcmt/lib/fpu/fpu.sv {1 {vlog -work work -vopt -sv +define+GLBL /home/zhang/sparcmt/lib/fpu/fpu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package fpu_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module sh_reg
+-- Compiling module fpu_fpop_output_dbuf
+-- Compiling module fpu_fcmp_output_dbuf
+-- Compiling module fpu_if
+
+Top level modules:
+	fpu_if
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/fpu/fp_addsub_dp.v {1 {vlog -work work -vopt +define+GLBL /home/kramer/sparcmt_hysim/lib/fpu/fp_addsub_dp.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fp_addsub_dp
+
+Top level modules:
+	fp_addsub_dp
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_cf_err.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_cf_err.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_blk_cf_err
+
+Top level modules:
+	pcie_blk_cf_err
+
+} {} {}} /home/zhang/sparcmt/lib/tech/libtech.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/tech/libtech.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libtech
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_top.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_top.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_top_wrapper
+
+Top level modules:
+	pcie_top_wrapper
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/fpu/fp_ftoi.v {1 {vlog -work work -vopt +define+GLBL /home/kramer/sparcmt_hysim/lib/fpu/fp_ftoi.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fp_stoi
+-- Compiling module fp_dtoi
+-- Compiling module mux4x1
+
+Top level modules:
+	fp_stoi
+	fp_dtoi
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/rs232rcv.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/rs232rcv.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module rs232rcv
+
+Top level modules:
+	rs232rcv
+
+} {} {}} /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_l2.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_l2.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package tm_cpu_l2_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Importing package libtm
+-- Importing package libtm_cache
+-- Compiling module l2_model
+
+Top level modules:
+	l2_model
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/dtlb_2way_split.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/cpu/dtlb_2way_split.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dtlb_2way_split_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Compiling module dtlbram_2way_split
+
+Top level modules:
+	dtlbram_2way_split
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/eth/eth_tx.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/eth/eth_tx.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package eth_tx_sv_unit
+-- Importing package libeth
+-- Compiling module eth_dma_tx
+
+Top level modules:
+	eth_dma_tx
+
+} {} {}} /home/zhang/sparcmt/lib/fpu/fp_cmp_dp.v {1 {vlog -work work -vopt +define+GLBL /home/zhang/sparcmt/lib/fpu/fp_cmp_dp.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fp_cmp_dp
+
+Top level modules:
+	fp_cmp_dp
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/fpregfile.sv {1 {vlog -work work -vopt -sv +define+GLBL /home/zhang/sparcmt/lib/tech/xilinx/virtex5/fpregfile.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package fpregfile_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module xcv5_fpregfile
+
+Top level modules:
+	xcv5_fpregfile
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/ddrController.v {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/ddrController.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ddrController
+
+Top level modules:
+	ddrController
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/mac_gmii.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tech/xilinx/virtex5/mac_gmii.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package mac_gmii_sv_unit
+-- Importing package libeth
+-- Compiling module xcv5_mac_gmii
+
+Top level modules:
+	xcv5_mac_gmii
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/RB.v {1 {vlog -work work -vopt /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/RB.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module RB
+
+Top level modules:
+	RB
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/libmmu.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/cpu/libmmu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libmmu_sv_unit
+-- Importing package libstd
+-- Compiling package libmmu
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tm/perfctr/perfctr.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tm/perfctr/perfctr.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package perfctr_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libtm
+-- Importing package libio
+-- Importing package libperfctr
+-- Compiling module perfctr_ram
+-- Compiling module perfctr_reg
+-- Compiling module perfctr_if
+-- Compiling module perfctr_output_buf
+-- Compiling module perfctr_io
+
+Top level modules:
+	perfctr_if
+	perfctr_io
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/libiu.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/cpu/libiu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/regacc_dma.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/cpu/regacc_dma.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package regacc_dma_sv_unit
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module regacc_stage_dma
+
+Top level modules:
+	regacc_stage_dma
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/opcodes.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/cpu/opcodes.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libopcodes
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/mem/libmemif.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/mem/libmemif.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libmemif_sv_unit
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libcache
+-- Importing package libmmu
+-- Compiling package libmemif
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/libdebug.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/cpu/libdebug.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libdebug
+-- Importing package libconf
+-- Importing package libstd
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/techmap.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/tech/techmap.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package techmap_sv_unit
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libcache
+-- Importing package libmmu
+-- Importing package libxalu
+-- Importing package libeth
+-- Compiling module clk_inb
+-- Compiling module gated_clkbuf
+-- Compiling module cpu_clkgen
+-- Compiling module dram_clkgen
+-- Compiling module high_fanout_buf
+-- Compiling module alu_adder_logic
+-- Compiling module alu_mul_shf
+-- Compiling module alu_mul_shf_fast
+-- Compiling module alu_div
+-- Compiling module alu_div_2x
+-- Compiling module regfile
+-- Compiling module fpregfile
+-- Compiling module icache_ram
+-- Compiling module dcache_ram
+-- Compiling module bram_memory_128
+-- Compiling module bram_rom_32
+-- Compiling module debug_dma_buf
+-- Compiling module simdma_init_rom
+-- Compiling module dtlbram
+-- Compiling module itlbram
+-- Compiling module itlbram_fast
+-- Compiling module mac_gmii
+
+Top level modules:
+	clk_inb
+	gated_clkbuf
+	cpu_clkgen
+	dram_clkgen
+	high_fanout_buf
+	alu_adder_logic
+	alu_mul_shf
+	alu_mul_shf_fast
+	alu_div
+	alu_div_2x
+	regfile
+	fpregfile
+	icache_ram
+	dcache_ram
+	bram_memory_128
+	bram_rom_32
+	debug_dma_buf
+	simdma_init_rom
+	dtlbram
+	itlbram
+	itlbram_fast
+	mac_gmii
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_simple.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_simple.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package tm_cpu_simple_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libtm
+-- Importing package libio
+-- Compiling module tm_cpu_simple
+-- Compiling module perfctr
+-- Compiling module tag_ram
+
+Top level modules:
+	tm_cpu_simple
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/libfp.sv {1 {vlog -work work -vopt -sv +define+GLBL /home/zhang/sparcmt/lib/cpu/libfp.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libfp
+-- Importing package libconf
+-- Importing package libstd
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_dram.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_dram.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package tm_cpu_dram_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Importing package libtm
+-- Importing package libtm_cache
+-- Compiling module dram_model
+-- Compiling module dram_model_fast
+
+Top level modules:
+	dram_model
+	dram_model_fast
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_1ipc.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_1ipc.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package tm_cpu_1ipc_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Importing package libtm
+-- Compiling module tm_cpu_1ipc
+-- Compiling module replay_fifo
+
+Top level modules:
+	tm_cpu_1ipc
+
+} {} {}} /home/zhang/sparcmt/lib/sim/memctrl/sim_memctrl.sv {2 {vlog -work work -vopt -sv +define+MAGIC_MEM /home/zhang/sparcmt/lib/sim/memctrl/sim_memctrl.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package sim_memctrl_sv_unit
+-- Importing package libtech
+-- Importing package libstd
+-- Compiling module sim_memctrl
+** Warning: /home/zhang/sparcmt/lib/sim/memctrl/sim_memctrl.sv(62): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+
+Top level modules:
+	sim_memctrl
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_mim_wrapper.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_mim_wrapper.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_mim_wrapper
+
+Top level modules:
+	pcie_mim_wrapper
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/AF.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/AF.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module AF
+
+Top level modules:
+	AF
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/icacheram.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/icacheram.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package icacheram_sv_unit
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libcache
+-- Importing package libmmu
+-- Compiling module xcv5_icache_ram
+-- Compiling module xcv5_icache_ram_wide
+
+Top level modules:
+	xcv5_icache_ram
+	xcv5_icache_ram_wide
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/PIO_EP.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/PIO_EP.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module PIO_EP
+
+Top level modules:
+	PIO_EP
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_l1_ring.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cpu_l1_ring.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package tm_cpu_l1_ring_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Importing package libtm
+-- Importing package libtm_cache
+-- Compiling module tm_cpu_l1
+
+Top level modules:
+	tm_cpu_l1
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_cf_pwr.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_cf_pwr.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_blk_cf_pwr
+
+Top level modules:
+	pcie_blk_cf_pwr
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/dq_iob.v {1 {vlog -work work -vopt /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/dq_iob.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module dq_iob
+
+Top level modules:
+	dq_iob
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/fpu/fp_itos.v {1 {vlog -work work -vopt +define+GLBL /home/kramer/sparcmt_hysim/lib/fpu/fp_itos.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fp_itos
+
+Top level modules:
+	fp_itos
+
+} {} {}} /home/zhang/sparcmt/lib/fpu/fp_conv_sp_dp.v {1 {vlog -work work -vopt +define+GLBL /home/zhang/sparcmt/lib/fpu/fp_conv_sp_dp.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fp_conv_sp_dp
+
+Top level modules:
+	fp_conv_sp_dp
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_gtx_wrapper.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_gtx_wrapper.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_gtx_wrapper
+
+Top level modules:
+	pcie_gtx_wrapper
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/memory_mmu.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/cpu/memory_mmu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package memory_mmu_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libcache
+-- Importing package libmmu
+-- Importing package libio
+-- Compiling module memory_stage
+
+Top level modules:
+	memory_stage
+
+} {} {}} /home/zhang/sparcmt/lib/mem/ddr2memctrl_fast.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/mem/ddr2memctrl_fast.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package ddr2memctrl_fast_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmemif
+-- Importing package libcache
+-- Importing package libmmu
+-- Compiling module dramctrl_fast
+
+Top level modules:
+	dramctrl_fast
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/decode.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/cpu/decode.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package decode_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Importing package libcache
+-- Compiling module decode_stage
+
+Top level modules:
+	decode_stage
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_reset_logic.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_reset_logic.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module reset_logic
+
+Top level modules:
+	reset_logic
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_ll_credit.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_ll_credit.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_blk_ll_credit
+-- Compiling module my_SRL16E
+
+Top level modules:
+	pcie_blk_ll_credit
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/itlb_2way_split.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/cpu/itlb_2way_split.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package itlb_2way_split_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Compiling module itlbram_2way_split
+-- Compiling module itlbram_2way_split_fast
+
+Top level modules:
+	itlbram_2way_split
+	itlbram_2way_split_fast
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_gt_wrapper.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_gt_wrapper.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_gt_wrapper
+
+Top level modules:
+	pcie_gt_wrapper
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/mmuwalk.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/cpu/mmuwalk.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package mmuwalk_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Compiling module mmuwalk_buffer
+-- Compiling module mmuwalk
+
+Top level modules:
+	mmuwalk
+
+} {} {}} /home/zhang/sparcmt/lib/eth/dma_control.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/eth/dma_control.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dma_control_sv_unit
+-- Importing package libdebug
+-- Importing package libconf
+-- Importing package libstd
+-- Compiling module dma_control
+
+Top level modules:
+	dma_control
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_errman_ftl.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_errman_ftl.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module cmm_errman_ftl
+
+Top level modules:
+	cmm_errman_ftl
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/icache.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/cpu/icache.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package icache_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libcache
+-- Importing package libmmu
+-- Importing package libmemif
+-- Compiling module icache
+
+Top level modules:
+	icache
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/alu.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/cpu/alu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package alu_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Importing package libxalu
+-- Compiling module execution_stage
+
+Top level modules:
+	execution_stage
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/stdlib/libstd.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/stdlib/libstd.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libstd
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/tx_sync_gtx.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/tx_sync_gtx.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module TX_SYNC
+
+Top level modules:
+	TX_SYNC
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/itlbram.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/itlbram.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package itlbram_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Compiling module xcv5_itlbram
+-- Compiling module xcv5_itlbram_fast
+
+Top level modules:
+	xcv5_itlbram
+	xcv5_itlbram_fast
+
+} {} {}} /home/zhang/sparcmt/lib/mem/libmemif.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/mem/libmemif.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libmemif_sv_unit
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libcache
+-- Importing package libmmu
+-- Compiling package libmemif
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/fpregfile.sv {1 {vlog -work work -vopt -sv +define+GLBL /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/fpregfile.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package fpregfile_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module xcv5_fpregfile
+
+Top level modules:
+	xcv5_fpregfile
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/libiu.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/tech/libtech.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libtech
+
+Top level modules:
+	--none--
+
+} {} {}} /home/zhang/sparcmt/lib/tech/techmap.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/tech/techmap.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package techmap_sv_unit
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libcache
+-- Importing package libmmu
+-- Importing package libxalu
+-- Importing package libeth
+-- Compiling module clk_inb
+-- Compiling module gated_clkbuf
+-- Compiling module cpu_clkgen
+-- Compiling module dram_clkgen
+-- Compiling module high_fanout_buf
+-- Compiling module alu_adder_logic
+-- Compiling module alu_mul_shf
+-- Compiling module alu_mul_shf_fast
+-- Compiling module alu_div
+-- Compiling module alu_div_2x
+-- Compiling module regfile
+-- Compiling module fpregfile
+-- Compiling module icache_ram
+-- Compiling module dcache_ram
+-- Compiling module bram_memory_128
+-- Compiling module bram_rom_32
+-- Compiling module debug_dma_buf
+-- Compiling module simdma_init_rom
+-- Compiling module dtlbram
+-- Compiling module itlbram
+-- Compiling module itlbram_fast
+-- Compiling module mac_gmii
+
+Top level modules:
+	clk_inb
+	gated_clkbuf
+	cpu_clkgen
+	dram_clkgen
+	high_fanout_buf
+	alu_adder_logic
+	alu_mul_shf
+	alu_mul_shf_fast
+	alu_div
+	alu_div_2x
+	regfile
+	fpregfile
+	icache_ram
+	dcache_ram
+	bram_memory_128
+	bram_rom_32
+	debug_dma_buf
+	simdma_init_rom
+	dtlbram
+	itlbram
+	itlbram_fast
+	mac_gmii
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/libdebug.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/cpu/libdebug.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libdebug
+-- Importing package libconf
+-- Importing package libstd
+
+Top level modules:
+	--none--
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/exception_dma.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/cpu/exception_dma.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package exception_dma_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Importing package libcache
+-- Importing package libtm
+-- Compiling module exception_stage_dma
+
+Top level modules:
+	exception_stage_dma
+
+} {} {}} /home/zhang/sparcmt/designs/test_1P_bee3_dma/top_1P_bee3_neweth.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/designs/test_1P_bee3_dma/top_1P_bee3_neweth.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package top_1P_bee3_neweth_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libopcodes
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libxalu
+-- Importing package libmmu
+-- Importing package libcache
+-- Importing package libmemif
+-- Importing package libio
+-- Importing package libtm
+-- Importing package libeth
+-- Importing package libperfctr
+-- Compiling module flight_recorder
+-- Compiling module fpga_top
+-- Compiling module perfctr_host_counter
+-- Compiling module cpu_top_dma
+-- Compiling module sim_top
+
+Top level modules:
+	flight_recorder
+	perfctr_host_counter
+	sim_top
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_plus_ll_rx.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_plus_ll_rx.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_blk_plus_ll_rx
+
+Top level modules:
+	pcie_blk_plus_ll_rx
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/dq_iob.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/dq_iob.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module dq_iob
+
+Top level modules:
+	dq_iob
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/pcie_interface.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/pcie/pcie_interface.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_interface
+
+Top level modules:
+	pcie_interface
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/sim/disasm/disasm.sv {1 {vlog -work work -vopt -sv -dpiheader ../../../lib/sim/disasm/disasm.h /home/kramer/sparcmt_hysim/lib/sim/disasm/disasm.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package disasm_sv_unit
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module disassembler
+
+Top level modules:
+	disassembler
+
+} {} {}} /home/zhang/sparcmt/lib/eth/eth_dma_controller.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/eth/eth_dma_controller.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package eth_dma_controller_sv_unit
+-- Importing package libstd
+-- Importing package libdebug
+-- Importing package libconf
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libfp
+-- Importing package libtm
+-- Importing package libeth
+-- Compiling module eth_dma_controller
+
+Top level modules:
+	eth_dma_controller
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/ddrController.v {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/ddrController.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ddrController
+
+Top level modules:
+	ddrController
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/RB.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/RB.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module RB
+
+Top level modules:
+	RB
+
+} {} {}} /home/zhang/sparcmt/lib/mem/dramif.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/mem/dramif.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling interface mem_controller_interface
+-- Compiling package dramif_sv_unit
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libcache
+-- Importing package libmmu
+-- Importing package libmemif
+-- Compiling interface mem_controller_interface
+
+Top level modules:
+	--none--
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/WB.v {1 {vlog -work work -vopt /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/WB.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module WB
+
+Top level modules:
+	WB
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_errman_cnt_nfl_en.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_errman_cnt_nfl_en.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module cmm_errman_cnt_nfl_en
+
+Top level modules:
+	cmm_errman_cnt_nfl_en
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/TC5.v {1 {vlog -work work -vopt /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/TC5.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module TC5
+
+Top level modules:
+	TC5
+
+} {} {}} /home/zhang/sparcmt/lib/sim/mac_fedriver/mac_fedriver.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/sim/mac_fedriver/mac_fedriver.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package mac_fedriver_sv_unit
+-- Compiling module mac_fedriver
+
+Top level modules:
+	mac_fedriver
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_cf.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_cf.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_blk_cf
+
+Top level modules:
+	pcie_blk_cf
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/eth/eth_dma_controller.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/eth/eth_dma_controller.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package eth_dma_controller_sv_unit
+-- Importing package libstd
+-- Importing package libdebug
+-- Importing package libconf
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libfp
+-- Importing package libtm
+-- Importing package libeth
+-- Compiling module eth_dma_controller
+
+Top level modules:
+	eth_dma_controller
+
+} {} {}} /home/zhang/sparcmt/lib/eth/eth_mac_ram.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/eth/eth_mac_ram.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package eth_mac_ram_sv_unit
+-- Importing package libstd
+-- Importing package libdebug
+-- Importing package libconf
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libfp
+-- Importing package libtm
+-- Importing package libeth
+-- Compiling module eth_mac_ram
+
+Top level modules:
+	eth_mac_ram
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_ll_arb.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_ll_arb.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_blk_ll_arb
+
+Top level modules:
+	pcie_blk_ll_arb
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/alu.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/cpu/alu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package alu_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Importing package libxalu
+-- Compiling module execution_stage
+
+Top level modules:
+	execution_stage
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/regfile.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/tech/xilinx/virtex5/regfile.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package regfile_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module xcv5_regfile
+
+Top level modules:
+	xcv5_regfile
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/immu.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/cpu/immu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package immu_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Importing package libcache
+-- Compiling module immutlb
+-- Compiling module immutlb_fast
+-- Compiling module immu_if
+-- Compiling module immu
+
+Top level modules:
+	immutlb_fast
+	immu_if
+	immu
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/libxalu.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/cpu/libxalu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libxalu
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/tlm_rx_data_snk.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/tlm_rx_data_snk.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module tlm_rx_data_snk
+
+Top level modules:
+	tlm_rx_data_snk
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/bram_common.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/bram_common.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module bram_common
+
+Top level modules:
+	bram_common
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/immu.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/cpu/immu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package immu_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Importing package libcache
+-- Compiling module immutlb
+-- Compiling module immutlb_fast
+-- Compiling module immu_if
+-- Compiling module immu
+
+Top level modules:
+	immutlb_fast
+	immu_if
+	immu
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/use_newinterrupt.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/use_newinterrupt.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_errman_ram4x26.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_errman_ram4x26.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module cmm_errman_ram4x26
+
+Top level modules:
+	cmm_errman_ram4x26
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/udcache_nb_mmu.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/cpu/udcache_nb_mmu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package udcache_nb_mmu_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libcache
+-- Importing package libmmu
+-- Importing package libmemif
+-- Compiling module mshr
+-- Compiling module dcache_udc
+
+Top level modules:
+	dcache_udc
+
+} {} {}} /home/zhang/sparcmt/lib/fpu/fp_addsub_dp.v {1 {vlog -work work -vopt +define+GLBL /home/zhang/sparcmt/lib/fpu/fp_addsub_dp.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fp_addsub_dp
+
+Top level modules:
+	fp_addsub_dp
+
+} {} {}} /home/zhang/sparcmt/lib/eth/eth_rx.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/eth/eth_rx.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package eth_rx_sv_unit
+-- Importing package libstd
+-- Importing package libdebug
+-- Importing package libconf
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libfp
+-- Importing package libtm
+-- Importing package libeth
+-- Compiling module eth_dma_rx
+
+Top level modules:
+	eth_dma_rx
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/tlm_rx_data_snk_bar.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/tlm_rx_data_snk_bar.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module tlm_rx_data_snk_bar
+
+Top level modules:
+	tlm_rx_data_snk_bar
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/ram_dp_ar_aw.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/cpu/ram_dp_ar_aw.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ram_dp_ar_aw
+
+Top level modules:
+	ram_dp_ar_aw
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/eth/eth_cpu_control.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/eth/eth_cpu_control.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package eth_cpu_control_sv_unit
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libeth
+-- Compiling module eth_cpu_control
+
+Top level modules:
+	eth_cpu_control
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/eth/libeth.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/eth/libeth.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libeth
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/syn_fifo.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/cpu/syn_fifo.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module syn_fifo
+
+Top level modules:
+	syn_fifo
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_errman_nfl.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cmm_errman_nfl.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module cmm_errman_nfl
+
+Top level modules:
+	cmm_errman_nfl
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/xilinx_pci_exp_1_lane_ep_product.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/xilinx_pci_exp_1_lane_ep_product.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/microcode.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/cpu/microcode.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package microcode_sv_unit
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libopcodes
+-- Compiling module microcode_rom
+
+Top level modules:
+	microcode_rom
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/TC5.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/TC5.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module TC5
+
+Top level modules:
+	TC5
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/tlm_rx_data_snk_mal.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/tlm_rx_data_snk_mal.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module tlm_rx_data_snk_mal
+
+Top level modules:
+	tlm_rx_data_snk_mal
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_gt_wrapper_top.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_gt_wrapper_top.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_gt_wrapper_top
+
+Top level modules:
+	pcie_gt_wrapper_top
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cfg_wr_enable.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/cfg_wr_enable.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_if.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_if.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_blk_if
+
+Top level modules:
+	pcie_blk_if
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/mac_gmii.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/mac_gmii.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package mac_gmii_sv_unit
+-- Importing package libeth
+-- Compiling module xcv5_mac_gmii
+
+Top level modules:
+	xcv5_mac_gmii
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/fpu/fp_itod.v {1 {vlog -work work -vopt +define+GLBL /home/kramer/sparcmt_hysim/lib/fpu/fp_itod.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fp_itod
+
+Top level modules:
+	fp_itod
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/PIO_64_RX_ENGINE.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/PIO_64_RX_ENGINE.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module PIO_64_RX_ENGINE
+
+Top level modules:
+	PIO_64_RX_ENGINE
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/xalu_fast.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/cpu/xalu_fast.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package xalu_fast_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libxalu
+-- Compiling module xalu_div_output_dbuf
+-- Compiling module xalu_if_fast
+
+Top level modules:
+	xalu_if_fast
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_cf_arb.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_cf_arb.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_blk_cf_arb
+
+Top level modules:
+	pcie_blk_cf_arb
+
+} {} {}} /home/zhang/sparcmt/lib/tm/cpu/libtm_cache.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tm/cpu/libtm_cache.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libtm_cache_sv_unit
+-- Importing package libiu
+-- Importing package libstd
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling package libtm_cache
+-- Importing package libtm
+
+Top level modules:
+	--none--
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/dram_clkgen.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tech/xilinx/virtex5/dram_clkgen.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dram_clkgen_sv_unit
+-- Importing package libtech
+-- Compiling module xcv5_dram_clkgen_mig
+-- Compiling module xcv5_dram_clkgen_bee3
+
+Top level modules:
+	xcv5_dram_clkgen_mig
+	xcv5_dram_clkgen_bee3
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/clkgen.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/clkgen.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module xcv5_cpu_clkgen
+
+Top level modules:
+	xcv5_cpu_clkgen
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/mmuwalk.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/cpu/mmuwalk.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package mmuwalk_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Compiling module mmuwalk_buffer
+-- Compiling module mmuwalk
+
+Top level modules:
+	mmuwalk
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/libucode.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/cpu/libucode.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libucode
+-- Importing package libconf
+-- Importing package libstd
+
+Top level modules:
+	--none--
+
+} {} {}} /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_memsystem.sv {2 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_memsystem.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package tm_cpu_memsystem_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Importing package libtm
+-- Importing package libtm_cache
+-- Compiling module mem_system
+** Warning: /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_memsystem.sv(56): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_memsystem.sv(57): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_memsystem.sv(58): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_memsystem.sv(59): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_memsystem.sv(60): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_memsystem.sv(62): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_memsystem.sv(63): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+Top level modules:
+	mem_system
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/clkrst_gen.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/cpu/clkrst_gen.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package clkrst_gen_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module clkrst_gen
+-- Compiling module reset_synchronizer
+-- Compiling module clkrst_gen_2
+
+Top level modules:
+	clkrst_gen
+	clkrst_gen_2
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/mem/dramctrl_network.sv {2 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/mem/dramctrl_network.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dramctrl_network_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmemif
+-- Importing package libcache
+-- Importing package libmmu
+-- Compiling module imem_network_buf
+-- Compiling module dmem_network_buf
+-- Compiling module retinfo_buf
+-- Compiling module mem_bus_arbiter
+-- Compiling module mem_bus_mux
+** Warning: /home/kramer/sparcmt_hysim/lib/mem/dramctrl_network.sv(664): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/kramer/sparcmt_hysim/lib/mem/dramctrl_network.sv(671): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/kramer/sparcmt_hysim/lib/mem/dramctrl_network.sv(671): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/kramer/sparcmt_hysim/lib/mem/dramctrl_network.sv(672): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/kramer/sparcmt_hysim/lib/mem/dramctrl_network.sv(675): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/kramer/sparcmt_hysim/lib/mem/dramctrl_network.sv(679): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+-- Compiling module retinfo_buf_sdr
+
+Top level modules:
+	imem_network_buf
+	dmem_network_buf
+	retinfo_buf
+	mem_bus_arbiter
+	mem_bus_mux
+	retinfo_buf_sdr
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/dcacheram.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/tech/xilinx/virtex5/dcacheram.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dcacheram_sv_unit
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libcache
+-- Importing package libmmu
+-- Compiling module xcv5_dcache_ram
+-- Compiling module xcv5_dcache_ram_wide
+
+Top level modules:
+	xcv5_dcache_ram
+	xcv5_dcache_ram_wide
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/dpbram.v {1 {vlog -work work -vopt +incdir+../../../lib/tech/xilinx/virtex5/bee3sodimm /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/dpbram.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module dpbram36_im
+-- Compiling module dpbram18_rfa
+-- Compiling module dpbram18_rfb
+
+Top level modules:
+	dpbram36_im
+	dpbram18_rfa
+	dpbram18_rfb
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/rs232rcv.v {1 {vlog -work work -vopt /home/zhang/sparcmt/lib/tech/xilinx/virtex5/bee3sodimm/rs232rcv.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module rs232rcv
+
+Top level modules:
+	rs232rcv
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/libmmu.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/kramer/sparcmt_hysim/lib/cpu/libmmu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libmmu_sv_unit
+-- Importing package libstd
+-- Compiling package libmmu
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libconf
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/mem/ddr2memctrl.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/mem/ddr2memctrl.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package ddr2memctrl_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmemif
+-- Importing package libcache
+-- Importing package libmmu
+-- Compiling module dramctrl
+
+Top level modules:
+	dramctrl
+
+} {} {}} /home/zhang/sparcmt/lib/sim/ddr2/1Gb/ddr2_module.v {2 {vlog -work work -vopt +define+x8 +define+SODIMM +define+sg25 +define+DUAL_RANK +incdir+../../../lib/sim/ddr2/1Gb /home/zhang/sparcmt/lib/sim/ddr2/1Gb/ddr2_module.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ddr2_module
+** Warning: (vlog-2902) ../../../lib/sim/ddr2/1Gb/ddr2_parameters.vh(214): A `define was found on the same line as a SystemVerilog `ifdef, `ifndef, `elsif, or `else.
+** Warning: (vlog-2902) ../../../lib/sim/ddr2/1Gb/ddr2_parameters.vh(340): A `define was found on the same line as a SystemVerilog `ifdef, `ifndef, `elsif, or `else.
+
+Top level modules:
+	ddr2_module
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/fpu/fp_conv_dp_sp.v {1 {vlog -work work -vopt +define+GLBL /home/kramer/sparcmt_hysim/lib/fpu/fp_conv_dp_sp.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fp_conv_dp_sp
+
+Top level modules:
+	fp_conv_dp_sp
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tm/speed_tm.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tm/speed_tm.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package speed_tm_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Importing package libtm
+-- Importing package libtm_cache
+-- Compiling module speed_tm
+
+Top level modules:
+	speed_tm
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/mmureg.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/cpu/mmureg.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package mmureg_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Compiling module mmu_control_register
+-- Compiling module mmu_context_register
+-- Compiling module mmu_context_table_pointer_register
+-- Compiling module mmu_fault_status_register
+-- Compiling module mmu_fault_address_register
+
+Top level modules:
+	mmu_control_register
+	mmu_context_register
+	mmu_context_table_pointer_register
+	mmu_fault_status_register
+	mmu_fault_address_register
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/fpu/fp_mult_dp.v {1 {vlog -work work -vopt +define+GLBL /home/kramer/sparcmt_hysim/lib/fpu/fp_mult_dp.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fp_mult_dp
+
+Top level modules:
+	fp_mult_dp
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/xilinx_pci_exp_ep.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/xilinx_pci_exp_ep.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module xilinx_pci_exp_ep
+
+Top level modules:
+	xilinx_pci_exp_ep
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/sim/mac_fedriver/mac_fedriver.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/sim/mac_fedriver/mac_fedriver.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package mac_fedriver_sv_unit
+-- Compiling module mac_fedriver
+
+Top level modules:
+	mac_fedriver
+
+} {} {}} /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_simple.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_simple.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package tm_cpu_simple_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libtm
+-- Importing package libio
+-- Compiling module tm_cpu_simple
+-- Compiling module perfctr
+-- Compiling module tag_ram
+
+Top level modules:
+	tm_cpu_simple
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/clkgen.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/tech/xilinx/virtex5/clkgen.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module xcv5_cpu_clkgen
+
+Top level modules:
+	xcv5_cpu_clkgen
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/ddrBank.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/ddrBank.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ddrBank
+
+Top level modules:
+	ddrBank
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/sim/memctrl/sim_memctrl.sv {2 {vlog -work work -vopt -sv +define+MAGIC_MEM /home/kramer/sparcmt_hysim/lib/sim/memctrl/sim_memctrl.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package sim_memctrl_sv_unit
+-- Importing package libtech
+-- Importing package libstd
+-- Compiling module sim_memctrl
+** Warning: /home/kramer/sparcmt_hysim/lib/sim/memctrl/sim_memctrl.sv(62): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+
+Top level modules:
+	sim_memctrl
+
+} {} {}} /home/zhang/sparcmt/lib/cpu/dtlb_2way_split.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/cpu/dtlb_2way_split.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dtlb_2way_split_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Compiling module dtlbram_2way_split
+
+Top level modules:
+	dtlbram_2way_split
+
+} {} {}} /home/zhang/sparcmt/lib/tm/perfctr/libperfctr.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tm/perfctr/libperfctr.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libperfctr
+-- Importing package libconf
+-- Importing package libstd
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tm/libtm.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tm/libtm.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libtm
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libdebug
+
+Top level modules:
+	--none--
+
+} {} {}} /home/zhang/sparcmt/lib/stdlib/libstd.sv {1 {vlog -work work -vopt +define+union=struct +define+testSYNP=1 +incdir+../../../lib/cpu +incdir+../../../lib +incdir+../../../lib/stdlib +incdir+../../../lib/tech /home/zhang/sparcmt/lib/stdlib/libstd.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libstd
+
+Top level modules:
+	--none--
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/udcache_nb_mmu.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/cpu/udcache_nb_mmu.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package udcache_nb_mmu_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libcache
+-- Importing package libmmu
+-- Importing package libmemif
+-- Compiling module mshr
+-- Compiling module dcache_udc
+
+Top level modules:
+	dcache_udc
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/WB.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/tech/xilinx/virtex5/bee3sodimm/WB.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module WB
+
+Top level modules:
+	WB
+
+} {} {}} /home/zhang/sparcmt/lib/sim/ddr2/1Gb/mt16htf25664hy.sv {2 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/sim/ddr2/1Gb/mt16htf25664hy.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Warning: /home/zhang/sparcmt/lib/sim/ddr2/1Gb/mt16htf25664hy.sv(8): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: /home/zhang/sparcmt/lib/sim/ddr2/1Gb/mt16htf25664hy.sv(49): (vlog-2284) Empty $unit scope found.
+-- Compiling package mt16htf25664hy_sv_unit
+-- Compiling module mt16htf25664hy
+
+Top level modules:
+	mt16htf25664hy
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cache.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/tm/cpu/tm_cache.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package tm_cache_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Importing package libtm
+-- Importing package libtm_cache
+-- Compiling module tag_ram
+-- Compiling module replay_fifo
+-- Compiling module perfctr
+
+Top level modules:
+	tag_ram
+	replay_fifo
+	perfctr
+
+} {} {}} /home/zhang/sparcmt/lib/tm/libtm.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tm/libtm.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package libtm
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libdebug
+
+Top level modules:
+	--none--
+
+} {} {}} /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_dram_gsf.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tm/cpu/tm_cpu_dram_gsf.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package tm_cpu_dram_gsf_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libio
+-- Importing package libtm
+-- Importing package libtm_cache
+-- Compiling module dram_gsf_scheduler
+
+Top level modules:
+	dram_gsf_scheduler
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/PIO_64_TX_ENGINE.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/example_design/PIO_64_TX_ENGINE.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module PIO_64_TX_ENGINE
+
+Top level modules:
+	PIO_64_TX_ENGINE
+
+} {} {}} /home/zhang/sparcmt/lib/tech/xilinx/virtex5/dtlbram.sv {1 {vlog -work work -vopt -sv /home/zhang/sparcmt/lib/tech/xilinx/virtex5/dtlbram.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dtlbram_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Importing package libmmu
+-- Compiling module xcv5_dtlbram
+
+Top level modules:
+	xcv5_dtlbram
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_ll_oqbqfifo.v {1 {vlog -work work -vopt /home/kramer/sparcmt_hysim/lib/pcie/ipcore_dir/endpoint_blk_plus_v1_15/source/pcie_blk_ll_oqbqfifo.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcie_blk_ll_oqbqfifo
+
+Top level modules:
+	pcie_blk_ll_oqbqfifo
+
+} {} {}} /home/kramer/sparcmt_hysim/lib/cpu/debugdma.sv {1 {vlog -work work -vopt -sv /home/kramer/sparcmt_hysim/lib/cpu/debugdma.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package debugdma_sv_unit
+-- Importing package libconf
+-- Importing package libstd
+-- Importing package libiu
+-- Importing package libucode
+-- Importing package libopcodes
+-- Importing package libtech
+-- Importing package libdebug
+-- Importing package libfp
+-- Compiling module dma_addr_reg
+-- Compiling module dma_ctrl_reg
+-- Compiling module debug_dma
+
+Top level modules:
+	debug_dma
+
+} {} {}}

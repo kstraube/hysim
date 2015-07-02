@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clkin_p</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clkin_p</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_ADV</arg> instance <arg fmt="%s" index="5">DCM_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKFX</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dfs_clkfx = PERIOD &quot;gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dfs_clkfx&quot; TS_clkin_p / 0.9 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clkin_p</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clkin_p</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_gen_gclk_rst_gen_dram_clk_genblk49_genblk50_genblk51_xcv5_gen_dram_clk_bee3_MCLKx = PERIOD &quot;gen_gclk_rst_gen_dram_clk_genblk49_genblk50_genblk51_xcv5_gen_dram_clk_bee3_MCLKx&quot; TS_clkin_p...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clkin_p</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clkin_p</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_gen_gclk_rst_gen_dram_clk_genblk49_genblk50_genblk51_xcv5_gen_dram_clk_bee3_MCLK90x = PERIOD &quot;gen_gclk_rst_gen_dram_clk_genblk49_genblk50_genblk51_xcv5_gen_dram_clk_bee3_MCLK90x&quot; TS_clk...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clkin_p</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clkin_p</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_gen_gclk_rst_gen_dram_clk_genblk49_genblk50_genblk51_xcv5_gen_dram_clk_bee3_Ph0x = PERIOD &quot;gen_gclk_rst_gen_dram_clk_genblk49_genblk50_genblk51_xcv5_gen_dram_clk_bee3_Ph0x&quot; TS_clkin_p /...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clkin_p</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clkin_p</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT4</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_gen_gclk_rst_gen_dram_clk_genblk49_genblk50_genblk51_xcv5_gen_dram_clk_bee3_CLKx = PERIOD &quot;gen_gclk_rst_gen_dram_clk_genblk49_genblk50_genblk51_xcv5_gen_dram_clk_bee3_CLKx&quot; TS_clkin_p /...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clkin_p</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clkin_p</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_ADV</arg> instance <arg fmt="%s" index="5">DCM_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKFX</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_gen_eth_dma_master_gigaeth_genblk87_genblk88_macgmii_dfs_clkfx = PERIOD &quot;gen_eth_dma_master_gigaeth_genblk87_genblk88_macgmii_dfs_clkfx&quot; 7.6 ns HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">gen_cpu_pcie_interface_ep_pcie_ep0_pcie_blk_SIO_genblk215_genblk216_pcie_gt_wrapper_i_gt_refclk_out_0_</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_gen_cpu_pcie_interface_ep_pcie_ep0_pcie_blk_SIO_genblk215_genblk216_pcie_gt_wrapper_i_gt_refclk_out_0_</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">use_pll.pll_adv_i</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_gen_cpu_pcie_interface_ep_pcie_ep0_pcie_blk_clocking_i_clkout0 = PERIOD &quot;gen_cpu_pcie_interface_ep_pcie_ep0_pcie_blk_clocking_i_clkout0&quot; TS_gen_cpu_pcie_interface_ep_pcie_ep0_pcie_blk_S...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">gen_cpu_pcie_interface_ep_pcie_ep0_pcie_blk_SIO_genblk215_genblk216_pcie_gt_wrapper_i_gt_refclk_out_0_</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_gen_cpu_pcie_interface_ep_pcie_ep0_pcie_blk_SIO_genblk215_genblk216_pcie_gt_wrapper_i_gt_refclk_out_0_</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">use_pll.pll_adv_i</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_gen_cpu_pcie_interface_ep_pcie_ep0_pcie_blk_clocking_i_clkout1 = PERIOD &quot;gen_cpu_pcie_interface_ep_pcie_ep0_pcie_blk_clocking_i_clkout1&quot; TS_gen_cpu_pcie_interface_ep_pcie_ep0_pcie_blk_S...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dfs_clkfx</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dfs_clkfx</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_ADV</arg> instance <arg fmt="%s" index="5">DCM_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLK0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dll_clk0 = PERIOD &quot;gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dll_clk0&quot; TS_gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_c...&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dfs_clkfx</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dfs_clkfx</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_ADV</arg> instance <arg fmt="%s" index="5">DCM_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLK2X</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dll_clk2x = PERIOD &quot;gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen_clk_dll_clk2x&quot; TS_gen_gclk_rst_gen_clk_genblk47_genblk48_xcv5_gen...&gt;</arg>
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1212" delta="old" >User specified non-default attribute value (<arg fmt="%s" index="1">10.5556</arg>) was detected for the <arg fmt="%s" index="2">CLKIN_PERIOD</arg> attribute on <arg fmt="%s" index="3">DCM</arg> &quot;<arg fmt="%s" index="4">DCM_ADV</arg>&quot;.  This does not match the PERIOD constraint value (<arg fmt="%s" index="5">10.5555556 ns.</arg>).  The uncertainty calculation will use the non-default attribute value.  This could result in incorrect uncertainty calculated for <arg fmt="%s" index="6">DCM</arg> output clocks.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1440" delta="old" >User specified non-default attribute value (<arg fmt="%s" index="1">10.0</arg>) was detected for the <arg fmt="%s" index="2">CLKIN1_PERIOD</arg> attribute on <arg fmt="%s" index="3">PLL</arg> &quot;<arg fmt="%s" index="4">PLL_ADV</arg>&quot;.  This does not match the PERIOD constraint value (<arg fmt="%s" index="5">9.5 ns.</arg>).  The uncertainty calculation will use the PERIOD constraint value.  This could result in incorrect uncertainty calculated for <arg fmt="%s" index="6">PLL</arg> output clocks.
+</msg>
+
+<msg type="info" file="NgdBuild" num="1222" delta="old" >Setting <arg fmt="%s" index="1">CLKIN_PERIOD</arg> attribute associated with <arg fmt="%s" index="2">DCM</arg> instance <arg fmt="%s" index="3">DCM_ADV</arg> to <arg fmt="%s" index="4">9.500000</arg> ns based on the period specification (<arg fmt="%s" index="5">&lt;TIMESPEC &quot;TS_clkin_p&quot; = PERIOD &quot;clkin_p&quot; 9.500 ns HIGH 50.00%;&gt; [synplicity.ucf(12)]</arg>).
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INFINITECOMPLETIONS</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">ep</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcieblk</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INFINITECOMPLETIONS</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_ep0</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_ep_top_Z16_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">genblk201.srl_gen[0].srl_cal_tag1</arg>&quot; of type &quot;<arg fmt="%s" index="3">my_SRL16E_4160</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">genblk201.srl_gen[0].srl_cal_tag0</arg>&quot; of type &quot;<arg fmt="%s" index="3">my_SRL16E_4420</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">genblk201.srl_gen[0].srl_cal7</arg>&quot; of type &quot;<arg fmt="%s" index="3">my_SRL16E_1</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">genblk201.srl_gen[0].srl_cal6</arg>&quot; of type &quot;<arg fmt="%s" index="3">my_SRL16E_43691</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">genblk201.srl_gen[0].srl_cal5</arg>&quot; of type &quot;<arg fmt="%s" index="3">my_SRL16E_48043</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">genblk201.srl_gen[0].srl_cal4</arg>&quot; of type &quot;<arg fmt="%s" index="3">my_SRL16E_261</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">genblk201.srl_gen[0].srl_cal3</arg>&quot; of type &quot;<arg fmt="%s" index="3">my_SRL16E_65275</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">genblk201.srl_gen[0].srl_cal2</arg>&quot; of type &quot;<arg fmt="%s" index="3">my_SRL16E_4421</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">srl_init_cal5</arg>&quot; of type &quot;<arg fmt="%s" index="3">my_SRL16E_65019</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">srl_init_cal4</arg>&quot; of type &quot;<arg fmt="%s" index="3">my_SRL16E_3612</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">srl_init_cal3</arg>&quot; of type &quot;<arg fmt="%s" index="3">my_SRL16E_12384</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">srl_init_cal2</arg>&quot; of type &quot;<arg fmt="%s" index="3">my_SRL16E_22189</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">genblk202.sub_srl_gen[0].srl_sub_cal6</arg>&quot; of type &quot;<arg fmt="%s" index="3">my_SRL16E_4032</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">genblk202.sub_srl_gen[0].srl_sub_cal5</arg>&quot; of type &quot;<arg fmt="%s" index="3">my_SRL16E_1407</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">genblk202.sub_srl_gen[0].srl_sub_cal4</arg>&quot; of type &quot;<arg fmt="%s" index="3">my_SRL16E_3</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">genblk202.sub_srl_gen[0].srl_sub_cal3</arg>&quot; of type &quot;<arg fmt="%s" index="3">my_SRL16E_204</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">genblk202.sub_srl_gen[0].srl_sub_cal2</arg>&quot; of type &quot;<arg fmt="%s" index="3">my_SRL16E_981</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SLOTCAPABILITYPHYSICALSLOTNUM</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SLOTCAPABILITYSLOTPOWERLIMITSCALE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SLOTCAPABILITYSLOTPOWERLIMITVALUE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SLOTCAPABILITYHOTPLUGCAPABLE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SLOTCAPABILITYHOTPLUGSURPRISE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SLOTCAPABILITYPOWERINDICATORPRESENT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SLOTCAPABILITYATTINDICATORPRESENT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SLOTCAPABILITYMSLSENSORPRESENT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SLOTCAPABILITYPOWERCONTROLLERPRESENT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SLOTCAPABILITYATTBUTTONPRESENT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMSTATUSCONTROLDATASCALE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SLOTIMPLEMENTED</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">TXREADDATAPIPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">TXREADADDRPIPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">TXWRITEPIPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RXREADDATAPIPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RXREADADDRPIPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RXWRITEPIPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">DUALCOREENABLE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">DUALCORESLAVE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RETRYREADDATAPIPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RETRYREADADDRPIPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RETRYWRITEPIPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PCIEREVISION</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">XLINKSUPPORTED</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">EXTCFGXPCAPPTR</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">EXTCFGCAPPTR</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">CONFIGROUTING</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">XPRCBCONTROL</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">LLKBYPASS</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SELECTASMODE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SELECTDLLIF</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">VC1TOTALCREDITSCD</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">VC1TOTALCREDITSPD</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">VC1TOTALCREDITSCH</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">VC1TOTALCREDITSNPH</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">VC1TOTALCREDITSPH</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">VC0TOTALCREDITSCD</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">VC0TOTALCREDITSPD</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">VC0TOTALCREDITSCH</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">VC0TOTALCREDITSNPH</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">VC0TOTALCREDITSPH</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RAMSHARETXRX</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">TLRAMWIDTH</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RETRYRAMWIDTH</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYSYSTEMALLOCATED</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW3POWERRAIL</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW3TYPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW3PMSTATE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW3PMSUBSTATE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW3DATASCALE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW3BASEPOWER</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW2POWERRAIL</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW2TYPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW2PMSTATE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW2PMSUBSTATE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW2DATASCALE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW2BASEPOWER</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW1POWERRAIL</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW1TYPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW1PMSTATE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW1PMSUBSTATE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW1DATASCALE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW1BASEPOWER</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW0POWERRAIL</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW0TYPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW0PMSTATE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW0PMSUBSTATE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW0DATASCALE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYDW0BASEPOWER</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">AERCAPABILITYECRCCHECKCAPABLE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">AERCAPABILITYECRCGENCAPABLE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMDATASCALE8</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMDATASCALE7</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMDATASCALE6</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMDATASCALE5</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMDATASCALE4</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMDATASCALE3</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMDATASCALE2</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMDATASCALE1</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMDATASCALE0</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMDATA8</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMDATA7</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMDATA6</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMDATA5</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMDATA4</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMDATA3</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMDATA2</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMDATA1</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMDATA0</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMCAPABILITYD2SUPPORT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMCAPABILITYD1SUPPORT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMCAPABILITYAUXCURRENT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PCIECAPABILITYINTMSGNUM</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PCIECAPABILITYSLOTIMPL</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">VCCAPABILITYNEXTPTR</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">DSNCAPABILITYNEXTPTR</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBCAPABILITYNEXTPTR</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">AERCAPABILITYNEXTPTR</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">VCBASEPTR</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">DSNBASEPTR</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PBBASEPTR</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">AERBASEPTR</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">XPBASEPTR</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">MSIBASEPTR</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMBASEPTR</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">LINKCAPABILITYMAXLINKWIDTH</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">XPMAXPAYLOAD</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">ACTIVELANESIN</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">XPDEVICEPORTTYPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">HEADERTYPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">UPSTREAMFACING</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">ISSWITCH</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">DUALROLECFGCNTRLROOTEPN</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">CLKDIVIDED</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">VENDORID</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">DEVICEID</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">REVISIONID</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SUBSYSTEMVENDORID</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SUBSYSTEMID</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">CLASSCODE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">CARDBUSCISPOINTER</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INTERRUPTPIN</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR0EXIST</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR0IOMEMN</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR0PREFETCHABLE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR0MASKWIDTH</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR1EXIST</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR1IOMEMN</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR1PREFETCHABLE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR1MASKWIDTH</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR2EXIST</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR2IOMEMN</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR2PREFETCHABLE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR2MASKWIDTH</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR3EXIST</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR3IOMEMN</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR3PREFETCHABLE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR3MASKWIDTH</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR4EXIST</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR4IOMEMN</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR4PREFETCHABLE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR4MASKWIDTH</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR5EXIST</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR5IOMEMN</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR5PREFETCHABLE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">BAR5MASKWIDTH</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">DEVICECAPABILITYENDPOINTL0SLATENCY</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">DEVICECAPABILITYENDPOINTL1LATENCY</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">L0SEXITLATENCY</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">L0SEXITLATENCYCOMCLK</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">L1EXITLATENCY</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">L1EXITLATENCYCOMCLK</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">MSICAPABILITYMULTIMSGCAP</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMCAPABILITYDSI</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PMCAPABILITYPMESUPPORT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PORTVCCAPABILITYEXTENDEDVCCOUNT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PORTVCCAPABILITYVCARBCAP</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">LOWPRIORITYVCCOUNT</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">DEVICESERIALNUMBER</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INFINITECOMPLETIONS</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">LINKSTATUSSLOTCLOCKCONFIG</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">TXTSNFTS</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">TXTSNFTSCOMCLK</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RESETMODE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RETRYRAMSIZE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_blk</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_top_wrapper_Z7_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RETRYREADADDRPIPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_mim_wrapper_i</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_mim_wrapper_Z6_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RETRYWRITEPIPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_mim_wrapper_i</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_mim_wrapper_Z6_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RXREADADDRPIPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_mim_wrapper_i</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_mim_wrapper_Z6_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RXWRITEPIPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_mim_wrapper_i</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_mim_wrapper_Z6_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">TXREADADDRPIPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_mim_wrapper_i</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_mim_wrapper_Z6_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">TXWRITEPIPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_mim_wrapper_i</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_mim_wrapper_Z6_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RETRYRAMWRITELATENCY</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_mim_wrapper_i</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_mim_wrapper_Z6_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RETRYRAMREADLATENCY</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_mim_wrapper_i</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_mim_wrapper_Z6_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RETRYRAMSIZE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_mim_wrapper_i</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_mim_wrapper_Z6_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RETRYREADDATAPIPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_mim_wrapper_i</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_mim_wrapper_Z6_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">TLRAMWRITELATENCY</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_mim_wrapper_i</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_mim_wrapper_Z6_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">TLRAMREADLATENCY</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_mim_wrapper_i</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_mim_wrapper_Z6_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">TXREADDATAPIPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_mim_wrapper_i</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_mim_wrapper_Z6_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">RXREADDATAPIPE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">pcie_mim_wrapper_i</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_mim_wrapper_Z6_layer0</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PLL_DIVSEL_FB</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">genblk215.genblk216.pcie_gt_wrapper_i</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_gt_wrapper_1_0s_5s_2s_4s_TRUE</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PLL_DIVSEL_REF</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">genblk215.genblk216.pcie_gt_wrapper_i</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_gt_wrapper_1_0s_5s_2s_4s_TRUE</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">CLK25_DIVIDER</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">genblk215.genblk216.pcie_gt_wrapper_i</arg>&quot; of type &quot;<arg fmt="%s" index="3">pcie_gt_wrapper_1_0s_5s_2s_4s_TRUE</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+</messages>
+

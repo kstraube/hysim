@@ -1,0 +1,241 @@
+Synopsys Xilinx Technology Constraint Extraction, Version maprc, Build 142R, Built Aug 23 2010 16:28:52
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09-1
+Reading constraint file: /home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/top_1P_bee3mem.sdc
+Adding property syn_useioff, value 1 to view:work.fpga_top(verilog)
+Adding property syn_ramstyle, value "select_ram" to view:work.fpga_top(verilog)
+Reading constraint file: /home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/cpu_top_fsm.sdc
+@N|Using encoding styles selected by FSM Explorer.
+Data created on Wed Jun 11 23:15:35 2014
+@N: MF249 |Running in 64-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+Adding property xc_loc, value "T10", to instance error2_led
+Adding property syn_pad_type, value "LVCMOS_33", to instance error2_led
+Adding property xc_loc, value "AH15", to port clkin_p
+Adding property syn_pad_type, value "LVCMOS_33", to port clkin_p
+Adding property xc_loc, value "L19", to port clk200_p
+Adding property syn_pad_type, value "LVDS_25", to port clk200_p
+Adding property xc_loc, value "K19", to port clk200_n
+Adding property syn_pad_type, value "LVDS_25", to port clk200_n
+Adding property xc_loc, value "E9", to port rstin
+Adding property syn_pad_type, value "LVCMOS_33", to port rstin
+Adding property xc_loc, value "AJ6", to port cpurst
+Adding property syn_pad_type, value "LVCMOS_33", to port cpurst
+Adding property xc_loc, value "AG15", to port RxD
+Adding property syn_pad_type, value "LVCMOS33", to port RxD
+Adding property xc_loc, value "AG20", to port TxD
+Adding property syn_pad_type, value "LVCMOS33", to port TxD
+Adding property syn_pad_type, value "SSTL18_II_DCI", to port ddr2_dq[63:0]
+Adding property syn_pad_type, value "SSTL18_II", to port ddr2_a[13:0]
+Adding property syn_pad_type, value "SSTL18_II", to port ddr2_ba[2:0]
+Adding property xc_loc, value "H30", to port ddr2_ras_n
+Adding property syn_pad_type, value "SSTL18_II", to port ddr2_ras_n
+Adding property xc_loc, value "E31", to port ddr2_cas_n
+Adding property syn_pad_type, value "SSTL18_II", to port ddr2_cas_n
+Adding property xc_loc, value "K29", to port ddr2_we_n
+Adding property syn_pad_type, value "SSTL18_II", to port ddr2_we_n
+Adding property syn_pad_type, value "SSTL18_II", to port ddr2_cs_n[1:0]
+Adding property syn_pad_type, value "SSTL18_II", to port ddr2_odt[1:0]
+Adding property syn_pad_type, value "SSTL18_II", to port ddr2_cke[1:0]
+Adding property syn_pad_type, value "SSTL18_II", to port ddr2_dm[7:0]
+Adding property syn_pad_type, value "DIFF_SSTL18_II_DCI", to port ddr2_dqs[7:0]
+Adding property syn_pad_type, value "DIFF_SSTL18_II_DCI", to port ddr2_dqs_n[7:0]
+Adding property syn_pad_type, value "DIFF_SSTL18_II", to port ddr2_ck[1:0]
+Adding property syn_pad_type, value "DIFF_SSTL18_II", to port ddr2_ck_n[1:0]
+Adding property xc_loc, value "F6", to port error1_led
+Adding property syn_pad_type, value "LVCMOS_33", to port error1_led
+Adding property xc_loc, value "T10", to port error2_led
+Adding property syn_pad_type, value "LVCMOS_33", to port error2_led
+Adding property syn_pad_type, value "LVCMOS33", to port PHY_TXD[7:0]
+Adding property xc_loc, value "AJ10", to port PHY_TXEN
+Adding property syn_pad_type, value "LVCMOS33", to port PHY_TXEN
+Adding property xc_loc, value "AJ9", to port PHY_TXER
+Adding property syn_pad_type, value "LVCMOS33", to port PHY_TXER
+Adding property xc_loc, value "J16", to port PHY_GTXCLK
+Adding property syn_pad_type, value "LVCMOS25", to port PHY_GTXCLK
+Adding property syn_pad_type, value "LVCMOS33", to port PHY_RXD[7:0]
+Adding property xc_loc, value "E32", to port PHY_RXDV
+Adding property syn_pad_type, value "LVCMOS33", to port PHY_RXDV
+Adding property xc_loc, value "E33", to port PHY_RXER
+Adding property syn_pad_type, value "LVCMOS33", to port PHY_RXER
+Adding property xc_loc, value "H17", to port PHY_RXCLK
+Adding property syn_pad_type, value "LVCMOS25", to port PHY_RXCLK
+Adding property xc_loc, value "J14", to port PHY_RESET
+Adding property syn_pad_type, value "LVCMOS25", to port PHY_RESET
+Adding property xc_loc, value "P4", to port sys_clk_p
+Adding property xc_loc, value "P3", to port sys_clk_n
+Adding property xc_loc, value "AE14", to port sys_reset_n
+Adding property xc_padtype, value "LVCMOS25", to port sys_reset_n
+Adding property xc_pullup, value 1, to port sys_reset_n
+Adding property xc_loc, value "AF30", to port bit ddr2_dq[0]
+Adding property xc_loc, value "AK31", to port bit ddr2_dq[1]
+Adding property xc_loc, value "AF31", to port bit ddr2_dq[2]
+Adding property xc_loc, value "AD30", to port bit ddr2_dq[3]
+Adding property xc_loc, value "AJ30", to port bit ddr2_dq[4]
+Adding property xc_loc, value "AF29", to port bit ddr2_dq[5]
+Adding property xc_loc, value "AD29", to port bit ddr2_dq[6]
+Adding property xc_loc, value "AE29", to port bit ddr2_dq[7]
+Adding property xc_loc, value "AH27", to port bit ddr2_dq[8]
+Adding property xc_loc, value "AF28", to port bit ddr2_dq[9]
+Adding property xc_loc, value "AH28", to port bit ddr2_dq[10]
+Adding property xc_loc, value "AA28", to port bit ddr2_dq[11]
+Adding property xc_loc, value "AG25", to port bit ddr2_dq[12]
+Adding property xc_loc, value "AJ26", to port bit ddr2_dq[13]
+Adding property xc_loc, value "AG28", to port bit ddr2_dq[14]
+Adding property xc_loc, value "AB28", to port bit ddr2_dq[15]
+Adding property xc_loc, value "AC28", to port bit ddr2_dq[16]
+Adding property xc_loc, value "AB25", to port bit ddr2_dq[17]
+Adding property xc_loc, value "AC27", to port bit ddr2_dq[18]
+Adding property xc_loc, value "AA26", to port bit ddr2_dq[19]
+Adding property xc_loc, value "AB26", to port bit ddr2_dq[20]
+Adding property xc_loc, value "AA24", to port bit ddr2_dq[21]
+Adding property xc_loc, value "AB27", to port bit ddr2_dq[22]
+Adding property xc_loc, value "AA25", to port bit ddr2_dq[23]
+Adding property xc_loc, value "AC29", to port bit ddr2_dq[24]
+Adding property xc_loc, value "AB30", to port bit ddr2_dq[25]
+Adding property xc_loc, value "W31", to port bit ddr2_dq[26]
+Adding property xc_loc, value "V30", to port bit ddr2_dq[27]
+Adding property xc_loc, value "AC30", to port bit ddr2_dq[28]
+Adding property xc_loc, value "W29", to port bit ddr2_dq[29]
+Adding property xc_loc, value "V27", to port bit ddr2_dq[30]
+Adding property xc_loc, value "W27", to port bit ddr2_dq[31]
+Adding property xc_loc, value "V29", to port bit ddr2_dq[32]
+Adding property xc_loc, value "Y27", to port bit ddr2_dq[33]
+Adding property xc_loc, value "Y26", to port bit ddr2_dq[34]
+Adding property xc_loc, value "W24", to port bit ddr2_dq[35]
+Adding property xc_loc, value "V28", to port bit ddr2_dq[36]
+Adding property xc_loc, value "W25", to port bit ddr2_dq[37]
+Adding property xc_loc, value "W26", to port bit ddr2_dq[38]
+Adding property xc_loc, value "V24", to port bit ddr2_dq[39]
+Adding property xc_loc, value "R24", to port bit ddr2_dq[40]
+Adding property xc_loc, value "P25", to port bit ddr2_dq[41]
+Adding property xc_loc, value "N24", to port bit ddr2_dq[42]
+Adding property xc_loc, value "P26", to port bit ddr2_dq[43]
+Adding property xc_loc, value "T24", to port bit ddr2_dq[44]
+Adding property xc_loc, value "N25", to port bit ddr2_dq[45]
+Adding property xc_loc, value "P27", to port bit ddr2_dq[46]
+Adding property xc_loc, value "N28", to port bit ddr2_dq[47]
+Adding property xc_loc, value "M28", to port bit ddr2_dq[48]
+Adding property xc_loc, value "L28", to port bit ddr2_dq[49]
+Adding property xc_loc, value "F25", to port bit ddr2_dq[50]
+Adding property xc_loc, value "H25", to port bit ddr2_dq[51]
+Adding property xc_loc, value "K27", to port bit ddr2_dq[52]
+Adding property xc_loc, value "K28", to port bit ddr2_dq[53]
+Adding property xc_loc, value "H24", to port bit ddr2_dq[54]
+Adding property xc_loc, value "G26", to port bit ddr2_dq[55]
+Adding property xc_loc, value "G25", to port bit ddr2_dq[56]
+Adding property xc_loc, value "M26", to port bit ddr2_dq[57]
+Adding property xc_loc, value "J24", to port bit ddr2_dq[58]
+Adding property xc_loc, value "L26", to port bit ddr2_dq[59]
+Adding property xc_loc, value "J27", to port bit ddr2_dq[60]
+Adding property xc_loc, value "M25", to port bit ddr2_dq[61]
+Adding property xc_loc, value "L25", to port bit ddr2_dq[62]
+Adding property xc_loc, value "L24", to port bit ddr2_dq[63]
+Adding property xc_loc, value "L30", to port bit ddr2_a[0]
+Adding property xc_loc, value "M30", to port bit ddr2_a[1]
+Adding property xc_loc, value "N29", to port bit ddr2_a[2]
+Adding property xc_loc, value "P29", to port bit ddr2_a[3]
+Adding property xc_loc, value "K31", to port bit ddr2_a[4]
+Adding property xc_loc, value "L31", to port bit ddr2_a[5]
+Adding property xc_loc, value "P31", to port bit ddr2_a[6]
+Adding property xc_loc, value "P30", to port bit ddr2_a[7]
+Adding property xc_loc, value "M31", to port bit ddr2_a[8]
+Adding property xc_loc, value "R28", to port bit ddr2_a[9]
+Adding property xc_loc, value "J31", to port bit ddr2_a[10]
+Adding property xc_loc, value "R29", to port bit ddr2_a[11]
+Adding property xc_loc, value "T31", to port bit ddr2_a[12]
+Adding property xc_loc, value "H29", to port bit ddr2_a[13]
+Adding property xc_loc, value "G31", to port bit ddr2_ba[0]
+Adding property xc_loc, value "J30", to port bit ddr2_ba[1]
+Adding property xc_loc, value "R31", to port bit ddr2_ba[2]
+Adding property xc_loc, value "L29", to port bit ddr2_cs_n[0]
+Adding property xc_loc, value "J29", to port bit ddr2_cs_n[1]
+Adding property xc_loc, value "F31", to port bit ddr2_odt[0]
+Adding property xc_loc, value "F30", to port bit ddr2_odt[1]
+Adding property xc_loc, value "T28", to port bit ddr2_cke[0]
+Adding property xc_loc, value "U30", to port bit ddr2_cke[1]
+Adding property xc_loc, value "AJ31", to port bit ddr2_dm[0]
+Adding property xc_loc, value "AE28", to port bit ddr2_dm[1]
+Adding property xc_loc, value "Y24", to port bit ddr2_dm[2]
+Adding property xc_loc, value "Y31", to port bit ddr2_dm[3]
+Adding property xc_loc, value "V25", to port bit ddr2_dm[4]
+Adding property xc_loc, value "P24", to port bit ddr2_dm[5]
+Adding property xc_loc, value "F26", to port bit ddr2_dm[6]
+Adding property xc_loc, value "J25", to port bit ddr2_dm[7]
+Adding property xc_loc, value "AA29", to port bit ddr2_dqs[0]
+Adding property xc_loc, value "AK28", to port bit ddr2_dqs[1]
+Adding property xc_loc, value "AK26", to port bit ddr2_dqs[2]
+Adding property xc_loc, value "AB31", to port bit ddr2_dqs[3]
+Adding property xc_loc, value "Y28", to port bit ddr2_dqs[4]
+Adding property xc_loc, value "E26", to port bit ddr2_dqs[5]
+Adding property xc_loc, value "H28", to port bit ddr2_dqs[6]
+Adding property xc_loc, value "G27", to port bit ddr2_dqs[7]
+Adding property xc_loc, value "AA30", to port bit ddr2_dqs_n[0]
+Adding property xc_loc, value "AK27", to port bit ddr2_dqs_n[1]
+Adding property xc_loc, value "AJ27", to port bit ddr2_dqs_n[2]
+Adding property xc_loc, value "AA31", to port bit ddr2_dqs_n[3]
+Adding property xc_loc, value "Y29", to port bit ddr2_dqs_n[4]
+Adding property xc_loc, value "E27", to port bit ddr2_dqs_n[5]
+Adding property xc_loc, value "G28", to port bit ddr2_dqs_n[6]
+Adding property xc_loc, value "H27", to port bit ddr2_dqs_n[7]
+Adding property xc_loc, value "AK29", to port bit ddr2_ck[0]
+Adding property xc_loc, value "E28", to port bit ddr2_ck[1]
+Adding property xc_loc, value "AJ29", to port bit ddr2_ck_n[0]
+Adding property xc_loc, value "F28", to port bit ddr2_ck_n[1]
+Adding property xc_loc, value "AF11", to port bit PHY_TXD[0]
+Adding property xc_loc, value "AE11", to port bit PHY_TXD[1]
+Adding property xc_loc, value "AH9", to port bit PHY_TXD[2]
+Adding property xc_loc, value "AH10", to port bit PHY_TXD[3]
+Adding property xc_loc, value "AG8", to port bit PHY_TXD[4]
+Adding property xc_loc, value "AH8", to port bit PHY_TXD[5]
+Adding property xc_loc, value "AG10", to port bit PHY_TXD[6]
+Adding property xc_loc, value "AG11", to port bit PHY_TXD[7]
+Adding property xc_loc, value "A33", to port bit PHY_RXD[0]
+Adding property xc_loc, value "B33", to port bit PHY_RXD[1]
+Adding property xc_loc, value "C33", to port bit PHY_RXD[2]
+Adding property xc_loc, value "C32", to port bit PHY_RXD[3]
+Adding property xc_loc, value "D32", to port bit PHY_RXD[4]
+Adding property xc_loc, value "C34", to port bit PHY_RXD[5]
+Adding property xc_loc, value "D34", to port bit PHY_RXD[6]
+Adding property xc_loc, value "F33", to port bit PHY_RXD[7]
+Adding property syn_encoding in cell eth_cpu_control_0, value "onehot", to instance gen_cpu_control.rstate\.state[17:0]
+Adding property syn_srlstyle, value "select_srl", to instance gen_bee3mem.ddr.WriteBurst
+Adding property syn_srlstyle, value "select_srl", to instance gen_bee3mem.ddr.ReadBurst
+Adding property syn_encoding in cell ddrBank, value "onehot", to instance State[6:0]
+Adding property xc_rloc, value "GTP_DUAL_X0Y4", to instance gen_cpu.pcie_interface.ep.pcie_ep0.pcie_blk.SIO.genblk215\.genblk216\.pcie_gt_wrapper_i.genblk210\.GTD\[0\]\.GT_i
+Adding property xc_rloc, value "RAMB36_X3Y12", to instance gen_cpu.pcie_interface.ep.pcie_ep0.pcie_blk.pcie_mim_wrapper_i.bram_retry.genblk197\.generate_sdp\.ram_sdp_inst
+Reading chip information from file </opt/synplify-2010.09-1/lib/xilinx/plandata/xc5vlx110tff1136> 
+Reading Xilinx I/O pad type table from file </opt/synplify-2010.09-1/lib/xilinx/x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file </opt/synplify-2010.09-1/lib/xilinx/gttype.txt> 
+@W: FX474 |User specified initial value found in some of the sequential elements in the design. Applying an initial value to a register may not deliver the best synthesis results. For example, registers with initial values may be preserved and retiming/pipelining may not be performed. To improve synthesis results you may want to remove the register initialization from the RTL code 
+@A: FX681 :"/home/kramer/sparcmt_hysim/lib/pcie/temppcie/pcieblk/source/pcie_blk_ll_tx.v":794:2:794:7|Initial value on register user_cd_data_credits_in[11:0] is non-zero.  This may prevent it from being packed into a Block RAM or DSP
+@A: FX681 :"/home/kramer/sparcmt_hysim/lib/pcie/temppcie/pcieblk/source/pcie_blk_ll_tx.v":794:2:794:7|Initial value on register all_cd_data_credits_in[11:0] is non-zero.  This may prevent it from being packed into a Block RAM or DSP
+@A: FX681 :"/home/kramer/sparcmt_hysim/lib/pcie/temppcie/pcieblk/source/pcie_blk_ll_tx.v":833:2:833:7|Initial value on register trn_pfc_cplh_cl_plus1[8:0] is non-zero.  This may prevent it from being packed into a Block RAM or DSP
+@A: FX681 :"/home/kramer/sparcmt_hysim/lib/pcie/temppcie/pcieblk/source/pcie_blk_ll_arb.v":638:0:638:5|Initial value on register preferred_timer[1:0] is non-zero.  This may prevent it from being packed into a Block RAM or DSP
+@A: FX681 :"/home/kramer/sparcmt_hysim/lib/pcie/temppcie/pcieblk/source/pcie_blk_ll_arb.v":613:0:613:5|Initial value on register cpl_tlp_rcntr_p2[3:0] is non-zero.  This may prevent it from being packed into a Block RAM or DSP
+@A: FX681 :"/home/kramer/sparcmt_hysim/lib/pcie/temppcie/pcieblk/source/pcie_blk_ll_arb.v":613:0:613:5|Initial value on register cpl_tlp_rcntr_p1[3:0] is non-zero.  This may prevent it from being packed into a Block RAM or DSP
+@A: FX681 :"/home/kramer/sparcmt_hysim/lib/pcie/temppcie/pcieblk/source/pcie_blk_ll_credit.v":313:0:313:5|Initial value on register cal_addr[3:0] is non-zero.  This may prevent it from being packed into a Block RAM or DSP
+@N: BN116 :|Removing sequential instance blk00000085 of view:UNILIB.FDE(PRIM) because there are no references to its outputs 
+@N: BN116 :|Removing sequential instance blk000000dc of view:UNILIB.FDE(PRIM) because there are no references to its outputs 
+@N: BN116 :|Removing sequential instance blk0000035d of view:UNILIB.FD(PRIM) because there are no references to its outputs 
+Adding property xc_rloc, value "RAMB36_X3Y8", to instance gen_cpu.pcie_interface.ep.pcie_ep0.pcie_blk.pcie_mim_wrapper_i.bram_tl_rx.genblk197\.genblk198\.genblk199\.generate_tdp2\[0\]\.ram_tdp2_inst
+Adding property xc_rloc, value "RAMB36_X3Y10", to instance gen_cpu.pcie_interface.ep.pcie_ep0.pcie_blk.pcie_mim_wrapper_i.bram_tl_rx.genblk197\.genblk198\.genblk199\.generate_tdp2\[1\]\.ram_tdp2_inst
+Adding property xc_rloc, value "RAMB36_X3Y9", to instance gen_cpu.pcie_interface.ep.pcie_ep0.pcie_blk.pcie_mim_wrapper_i.bram_tl_tx.genblk197\.genblk198\.genblk199\.generate_tdp2\[0\]\.ram_tdp2_inst
+Adding property xc_rloc, value "RAMB36_X3Y11", to instance gen_cpu.pcie_interface.ep.pcie_ep0.pcie_blk.pcie_mim_wrapper_i.bram_tl_tx.genblk197\.genblk198\.genblk199\.generate_tdp2\[1\]\.ram_tdp2_inst
+Finished Timing Extraction Phase. (Time elapsed 0h:00m:05s; Memory used current: 221MB peak: 245MB)
+
+@W: BN105 |Cannot apply constraint syn_srlstyle to gen_bee3mem.ddr.odtd3
+@W: BN105 |Cannot apply constraint xc_loc to done_led
+@W: BN105 |Cannot apply constraint xc_loc to error_led
+@W: BN105 |Cannot apply constraint syn_useioff to gen_eth_dma_master.EMac0_block.gmii0.RXD_TO_MAC[7:0]
+@W: BN105 |Cannot apply constraint syn_useioff to gen_eth_dma_master.EMac0_block.gmii0.RX_DV_TO_MAC
+@W: BN105 |Cannot apply constraint syn_useioff to gen_eth_dma_master.EMac0_block.gmii0.RX_ER_TO_MAC
+@W: BN105 |Cannot apply constraint syn_useioff to gen_eth_dma_master.EMac0_block.gmii0.GMII_TXD[7:0]
+@W: BN105 |Cannot apply constraint syn_useioff to gen_eth_dma_master.EMac0_block.gmii0.GMII_TX_EN
+@W: BN105 |Cannot apply constraint syn_useioff to gen_eth_dma_master.EMac0_block.gmii0.GMII_TX_ER
+@N: BN225 |Writing default property annotation file /home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/cpu_top.sap.
+Timing Extraction successful!
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
+# Sat Jul 26 01:35:05 2014
+
+###########################################################]

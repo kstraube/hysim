@@ -1,0 +1,982 @@
+Release 14.2 Map P.28xd (lin64)
+Xilinx Map Application Log File for Design 'fpga_top'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol
+high -t 1 -register_duplication off -global_opt off -mt off -cm area -detail -ir
+off -pr off -lc off -power off -o fpga_top_map.ncd fpga_top.ngd fpga_top.pcf 
+Target Device  : xc5vlx110t
+Target Package : ff1136
+Target Speed   : -1
+Mapper Version : virtex5 -- $Revision: 1.55 $
+Mapped Date    : Mon Mar 30 17:14:40 2015
+
+Mapping design into LUTs...
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_tx_buf
+   of frag REGCLKAU connected to power/ground net
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_tx_buf/RAMB36_EXP_R
+   EGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_tx_buf
+   of frag REGCLKAL connected to power/ground net
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_tx_buf/RAMB36_EXP_R
+   EGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/genblk165.genblk166.fpregf/genblk67.genblk68.mt_fpregfile/
+   fpregfile_0
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/genblk165.genblk166.fpregf/genblk67.genblk68.mt_fpregfile/
+   fpregfile_0/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/genblk165.genblk166.fpregf/genblk67.genblk68.mt_fpregfile/
+   fpregfile_0
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/genblk165.genblk166.fpregf/genblk67.genblk68.mt_fpregfile/
+   fpregfile_0/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/genblk165.genblk166.fpregf/genblk67.genblk68.mt_fpregfile/
+   fpregfile_1
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/genblk165.genblk166.fpregf/genblk67.genblk68.mt_fpregfile/
+   fpregfile_1/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/genblk165.genblk166.fpregf/genblk67.genblk68.mt_fpregfile/
+   fpregfile_1
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/genblk165.genblk166.fpregf/genblk67.genblk68.mt_fpregfile/
+   fpregfile_1/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[0].regfile
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[0].regfile/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[0].regfile
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[0].regfile/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[1].regfile
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[1].regfile/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[1].regfile
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[1].regfile/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[2].regfile
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[2].regfile/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[2].regfile
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[2].regfile/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[3].regfile
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[3].regfile/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[3].regfile
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[0].
+   genblk169[3].regfile/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[0].regfile
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[0].regfile/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[0].regfile
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[0].regfile/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[1].regfile
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[1].regfile/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[1].regfile
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[1].regfile/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[2].regfile
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[2].regfile/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[2].regfile
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[2].regfile/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[3].regfile
+   of frag REGCLKBU connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[3].regfile/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[3].regfile
+   of frag REGCLKBL connected to power/ground net
+   gen_cpu/gen_regacc/iregf/genblk65.genblk66.mt_regfile/genblk167.genblk168[1].
+   genblk169[3].regfile/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_bee3mem/TC5x/im/RAMB36_im
+   of frag REGCLKBU connected to power/ground net
+   gen_bee3mem/TC5x/im/RAMB36_im/RAMB36_EXP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_bee3mem/TC5x/im/RAMB36_im
+   of frag REGCLKBL connected to power/ground net
+   gen_bee3mem/TC5x/im/RAMB36_im/RAMB36_EXP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/large_way_0/genblk83.genblk84.tlbram/tlb_ram
+   of frag RDRCLKU connected to power/ground net
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/large_way_0/genblk83.genblk84.tlbram/tlb_ram/RAMB36SDP_EXP_RDRCLKU_ties
+   ig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/large_way_0/genblk83.genblk84.tlbram/tlb_ram
+   of frag RDRCLKL connected to power/ground net
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/large_way_0/genblk83.genblk84.tlbram/tlb_ram/RAMB36SDP_EXP_RDRCLKL_ties
+   ig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/large_way_1/genblk83.genblk84.tlbram/tlb_ram
+   of frag RDRCLKU connected to power/ground net
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/large_way_1/genblk83.genblk84.tlbram/tlb_ram/RAMB36SDP_EXP_RDRCLKU_ties
+   ig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/large_way_1/genblk83.genblk84.tlbram/tlb_ram
+   of frag RDRCLKL connected to power/ground net
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/large_way_1/genblk83.genblk84.tlbram/tlb_ram/RAMB36SDP_EXP_RDRCLKL_ties
+   ig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/small_way_0/genblk83.genblk84.tlbram/tlb_ram
+   of frag RDRCLKU connected to power/ground net
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/small_way_0/genblk83.genblk84.tlbram/tlb_ram/RAMB36SDP_EXP_RDRCLKU_ties
+   ig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/small_way_0/genblk83.genblk84.tlbram/tlb_ram
+   of frag RDRCLKL connected to power/ground net
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/small_way_0/genblk83.genblk84.tlbram/tlb_ram/RAMB36SDP_EXP_RDRCLKL_ties
+   ig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/small_way_1/genblk83.genblk84.tlbram/tlb_ram
+   of frag RDRCLKU connected to power/ground net
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/small_way_1/genblk83.genblk84.tlbram/tlb_ram/RAMB36SDP_EXP_RDRCLKU_ties
+   ig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/small_way_1/genblk83.genblk84.tlbram/tlb_ram
+   of frag RDRCLKL connected to power/ground net
+   gen_cpu/gen_immu/genblk132.genblk133.gen_immutlb/genblk126.genblk127.itlbram_
+   split/small_way_1/genblk83.genblk84.tlbram/tlb_ram/RAMB36SDP_EXP_RDRCLKL_ties
+   ig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_rx_buf_0
+   of frag RDRCLKU connected to power/ground net
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_rx_buf_0/RAMB36SDP_
+   EXP_RDRCLKU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_rx_buf_0
+   of frag RDRCLKL connected to power/ground net
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_rx_buf_0/RAMB36SDP_
+   EXP_RDRCLKL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_rx_buf_1
+   of frag RDRCLKU connected to power/ground net
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_rx_buf_1/RAMB36SDP_
+   EXP_RDRCLKU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_rx_buf_1
+   of frag RDRCLKL connected to power/ground net
+   gen_cpu_control/gen_dma_buf/genblk77.genblk78.dma_buf/dma_rx_buf_1/RAMB36SDP_
+   EXP_RDRCLKL_tiesig
+Running directed packing...
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_bridge/f
+   ifo_inst/poisoned_reg_RNICHKK_o5" (Output Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_bridge/fi
+   fo_inst/N_1726_i_i_1) has an invalid use of the LUTNM constraint. There are
+   no other function generator symbols with a matching LUTNM constraint value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_br
+   idge/fifo_inst/fpga_top_lutnm001188). The constraint will be ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/cfg_arb/cfg
+   _arb_td_1_i_0_lut6_2_o6[55]" (Output Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/cfg_arb/cfg_
+   arb_td_1_i_0[55]) has an invalid use of the LUTNM constraint. There are no
+   other function generator symbols with a matching LUTNM constraint value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/cfg_a
+   rb/fpga_top_lutnm001258). The constraint will be ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/SIO/genblk207.genblk208.
+   pcie_gt_wrapper_i/tx_sync_reset_lut6_2_o6" (Output Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/SIO/genblk207.genblk208.p
+   cie_gt_wrapper_i/tx_sync_reset) has an invalid use of the LUTNM constraint.
+   There are no other function generator symbols with a matching LUTNM
+   constraint value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/SIO/genblk207.genb
+   lk208.pcie_gt_wrapper_i/fpga_top_lutnm001281). The constraint will be
+   ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_bridge/s
+   nk_inst/malformed_checks/svbl_3275.malformed_min_3_0_lut6_2_o6" (Output
+   Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_bridge/sn
+   k_inst/malformed_checks/malformed_min_3_0) has an invalid use of the LUTNM
+   constraint. There are no other function generator symbols with a matching
+   LUTNM constraint value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_br
+   idge/snk_inst/malformed_checks/fpga_top_lutnm001176). The constraint will be
+   ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_bridge/f
+   ifo_inst/oq_fifo/N_1726_i_i_lut6_2_o6" (Output Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_bridge/fi
+   fo_inst/oq_fifo/N_1726_i_i) has an invalid use of the LUTNM constraint. There
+   are no other function generator symbols with a matching LUTNM constraint
+   value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_br
+   idge/fifo_inst/oq_fifo/fpga_top_lutnm001196). The constraint will be ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/management_
+   interface/cfg_data_en_d_0_0_a2_lut6_2_o5" (Output Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/management_i
+   nterface/N_3887_i) has an invalid use of the LUTNM constraint. There are no
+   other function generator symbols with a matching LUTNM constraint value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/manag
+   ement_interface/fpga_top_lutnm001222). The constraint will be ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/management_
+   interface/poll_data_en_d_RNIRQ6M_o6" (Output Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/management_i
+   nterface/N_8926_1) has an invalid use of the LUTNM constraint. There are no
+   other function generator symbols with a matching LUTNM constraint value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/manag
+   ement_interface/fpga_top_lutnm001219). The constraint will be ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/interrupt_i
+   nterface/u_cmm_intr/state_s1_0_a3_lut6_2_o6" (Output Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/intr_req_typ
+   e[1]) has an invalid use of the LUTNM constraint. There are no other function
+   generator symbols with a matching LUTNM constraint value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/inter
+   rupt_interface/u_cmm_intr/fpga_top_lutnm001270). The constraint will be
+   ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/interrupt_i
+   nterface/u_cmm_intr/signaledint_i_lut6_2_o5" (Output Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/interrupt_in
+   terface/u_cmm_intr/state_nss[0]) has an invalid use of the LUTNM constraint.
+   There are no other function generator symbols with a matching LUTNM
+   constraint value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/cf_bridge/inter
+   rupt_interface/u_cmm_intr/fpga_top_lutnm001269). The constraint will be
+   ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_bridge/a
+   rb_inst/llk_rx_ch_fifo_int_RNIUFHK_o6[0]" (Output Signal =
+   gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/llk_rx_ch_fifo[0]) has an invalid
+   use of the LUTNM constraint. There are no other function generator symbols
+   with a matching LUTNM constraint value
+   (LUTNM=gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk_if/ll_bridge/rx_br
+   idge/arb_inst/fpga_top_lutnm001203). The constraint will be ignored.
+Running delay-based LUT packing...
+Updating timing models...
+WARNING:Timing:3402 - The Clock Modifying COMP,
+   gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/genblk189.genblk190.clk_
+   dfs/DCM_ADV, has the attribute CLK_FEEDBACK set to NONE.  No phase
+   relationship exists between the input and output clocks of this Clock
+   Modifying COMP. Data paths between these clock domains must be constrained
+   using FROM/TO constraints.
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 48 secs 
+Total CPU  time at the beginning of Placer: 46 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:77df996a) REAL time: 53 secs 
+
+Phase 2.7  Design Feasibility Check
+INFO:Place:834 - Only a subset of IOs are locked. Out of 152 IOs, 151 are locked
+   and 1 are not locked.  The following is the list of components that are not
+   locked.
+   refclkout	  NOT LOCKED 
+   Rest of the IOs are LOCKED 
+Phase 2.7  Design Feasibility Check (Checksum:77df996a) REAL time: 53 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:54631501) REAL time: 53 secs 
+
+Phase 4.37  Local Placement Optimization
+Phase 4.37  Local Placement Optimization (Checksum:54631501) REAL time: 53 secs 
+
+Phase 5.33  Local Placement Optimization
+Phase 5.33  Local Placement Optimization (Checksum:54631501) REAL time: 1 mins 52 secs 
+
+Phase 6.32  Local Placement Optimization
+Phase 6.32  Local Placement Optimization (Checksum:54631501) REAL time: 1 mins 53 secs 
+
+Phase 7.2  Initial Clock and IO Placement
+
+Phase 7.2  Initial Clock and IO Placement (Checksum:586f7e34) REAL time: 1 mins 55 secs 
+
+Phase 8.36  Local Placement Optimization
+Phase 8.36  Local Placement Optimization (Checksum:586f7e34) REAL time: 1 mins 55 secs 
+
+
+................................
+...........................................................
+Phase 9.30  Global Clock Region Assignment
+
+
+######################################################################################
+# GLOBAL CLOCK NET DISTRIBUTION UCF REPORT:
+#
+# Number of Global Clock Regions : 16
+# Number of Global Clock Networks: 17
+#
+# Clock Region Assignment: SUCCESSFUL
+
+# Location of Clock Components
+INST "gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/bufgClientRx" LOC = "BUFGCTRL_X0Y30" ;
+INST "gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dll_clk0_buf" LOC = "BUFGCTRL_X0Y27" ;
+INST "gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dll_clk2x_buf" LOC = "BUFGCTRL_X0Y26" ;
+INST "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/clocking_i/use_pll.coreclk_pll_bufg" LOC = "BUFGCTRL_X0Y28" ;
+INST "gen_gclk_rst/gen_dram_clk/genblk49.genblk50.genblk51.xcv5_gen_dram_clk_bee3/bufM90" LOC = "BUFGCTRL_X0Y0" ;
+INST "gen_clk200_buf/genblk43.genblk44.genblk45.clkbuf_ce/BUFGCTRL" LOC = "BUFGCTRL_X0Y31" ;
+INST "gen_gclk_rst/gen_dram_clk/genblk49.genblk50.genblk51.xcv5_gen_dram_clk_bee3/bufM" LOC = "BUFGCTRL_X0Y1" ;
+INST "gen_gclk_rst/gen_dram_clk/genblk49.genblk50.genblk51.xcv5_gen_dram_clk_bee3/bufc" LOC = "BUFGCTRL_X0Y2" ;
+INST "gen_cpu_control/eth2speedtm_valid_0_sqmuxa_cb" LOC = "BUFGCTRL_X0Y8" ;
+INST "gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/eth_rst_buf" LOC = "BUFGCTRL_X0Y24" ;
+INST "gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/eth_clkfx_buf" LOC = "BUFGCTRL_X0Y6" ;
+INST "gen_gclk_rst/gen_dram_clk/genblk49.genblk50.genblk51.xcv5_gen_dram_clk_bee3/p0buf" LOC = "BUFGCTRL_X0Y3" ;
+INST "gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfb_buf" LOC = "BUFGCTRL_X0Y5" ;
+INST "gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfx_buf" LOC = "BUFGCTRL_X0Y4" ;
+INST "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/clocking_i/genblk205.notsame.usrclk_pll_bufg" LOC = "BUFGCTRL_X0Y29" ;
+INST "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/SIO/genblk207.genblk208.pcie_gt_wrapper_i/bufg2" LOC = "BUFGCTRL_X0Y7" ;
+INST "gen_gclk_rst/reset_buf/genblk53.genblk54.xcv5_fanout_buf" LOC = "BUFGCTRL_X0Y25" ;
+INST "gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/genblk0.genblk1.clk_dfs/DCM_ADV" LOC = "DCM_ADV_X0Y0" ;
+INST "gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/genblk0.genblk3.clk_dll/DCM_ADV" LOC = "DCM_ADV_X0Y11" ;
+INST "gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/genblk189.genblk190.clk_dfs/DCM_ADV" LOC = "DCM_ADV_X0Y1" ;
+INST "clkin_p" LOC = "AH15" ;
+INST "clk200_p" LOC = "L19" ;
+INST "PHY_RXCLK" LOC = "H17" ;
+INST "pci_exp_rxn[0]" LOC = "IPAD_X1Y12" ;
+INST "pci_exp_rxp[0]" LOC = "IPAD_X1Y13" ;
+INST "sys_clk_n" LOC = "IPAD_X1Y16" ;
+INST "sys_clk_p" LOC = "IPAD_X1Y17" ;
+INST "pci_exp_txn[0]" LOC = "OPAD_X0Y8" ;
+INST "pci_exp_txp[0]" LOC = "OPAD_X0Y9" ;
+INST "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/clocking_i/use_pll.pll_adv_i" LOC = "PLL_ADV_X0Y5" ;
+INST "gen_gclk_rst/gen_dram_clk/genblk49.genblk50.genblk51.xcv5_gen_dram_clk_bee3/clkBPLL/PLL_ADV" LOC = "PLL_ADV_X0Y0" ;
+INST "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/SIO/genblk207.genblk208.pcie_gt_wrapper_i/genblk213.GTD[0].GT_i" LOC = "GTP_DUAL_X0Y2" ;
+INST "gen_cpu/pcie_interface/pcie_hw/refclk_ibuf" LOC = "BUFDS_X0Y2" ;
+
+# gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethRXclock driven by BUFGCTRL_X0Y30
+NET "gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethRXclock" TNM_NET = "TN_gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethRXclock" ;
+TIMEGRP "TN_gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethRXclock" AREA_GROUP = "CLKAG_gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethRXclock" ;
+AREA_GROUP "CLKAG_gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethRXclock" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X1Y5, CLOCKREGION_X1Y6, CLOCKREGION_X1Y7 ;
+
+# dll_clk0_buf driven by BUFGCTRL_X0Y27
+NET "dll_clk0_buf" TNM_NET = "TN_dll_clk0_buf" ;
+TIMEGRP "TN_dll_clk0_buf" AREA_GROUP = "CLKAG_dll_clk0_buf" ;
+AREA_GROUP "CLKAG_dll_clk0_buf" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# dll_clk2x_buf driven by BUFGCTRL_X0Y26
+NET "dll_clk2x_buf" TNM_NET = "TN_dll_clk2x_buf" ;
+TIMEGRP "TN_dll_clk2x_buf" AREA_GROUP = "CLKAG_dll_clk2x_buf" ;
+AREA_GROUP "CLKAG_dll_clk2x_buf" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/core_clk driven by BUFGCTRL_X0Y28
+NET "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/core_clk" TNM_NET = "TN_gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/core_clk" ;
+TIMEGRP "TN_gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/core_clk" AREA_GROUP = "CLKAG_gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/core_clk" ;
+AREA_GROUP "CLKAG_gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/core_clk" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X1Y4 ;
+
+# bufM90 driven by BUFGCTRL_X0Y0
+NET "bufM90" TNM_NET = "TN_bufM90" ;
+TIMEGRP "TN_bufM90" AREA_GROUP = "CLKAG_bufM90" ;
+AREA_GROUP "CLKAG_bufM90" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# clk200 driven by BUFGCTRL_X0Y31
+NET "clk200" TNM_NET = "TN_clk200" ;
+TIMEGRP "TN_clk200" AREA_GROUP = "CLKAG_clk200" ;
+AREA_GROUP "CLKAG_clk200" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X0Y1, CLOCKREGION_X0Y2, CLOCKREGION_X0Y4, CLOCKREGION_X0Y5, CLOCKREGION_X0Y6, CLOCKREGION_X0Y7 ;
+
+# bufM driven by BUFGCTRL_X0Y1
+NET "bufM" TNM_NET = "TN_bufM" ;
+TIMEGRP "TN_bufM" AREA_GROUP = "CLKAG_bufM" ;
+AREA_GROUP "CLKAG_bufM" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X0Y3, CLOCKREGION_X0Y4, CLOCKREGION_X0Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# bufc driven by BUFGCTRL_X0Y2
+NET "bufc" TNM_NET = "TN_bufc" ;
+TIMEGRP "TN_bufc" AREA_GROUP = "CLKAG_bufc" ;
+AREA_GROUP "CLKAG_bufc" RANGE =   CLOCKREGION_X0Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# gen_cpu_control/eth2speedtm_valid_0_sqmuxa driven by BUFGCTRL_X0Y8
+NET "gen_cpu_control/eth2speedtm_valid_0_sqmuxa" TNM_NET = "TN_gen_cpu_control/eth2speedtm_valid_0_sqmuxa" ;
+TIMEGRP "TN_gen_cpu_control/eth2speedtm_valid_0_sqmuxa" AREA_GROUP = "CLKAG_gen_cpu_control/eth2speedtm_valid_0_sqmuxa" ;
+AREA_GROUP "CLKAG_gen_cpu_control/eth2speedtm_valid_0_sqmuxa" RANGE =   CLOCKREGION_X1Y3 ;
+
+# eth_rst driven by BUFGCTRL_X0Y24
+NET "eth_rst" TNM_NET = "TN_eth_rst" ;
+TIMEGRP "TN_eth_rst" AREA_GROUP = "CLKAG_eth_rst" ;
+AREA_GROUP "CLKAG_eth_rst" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock driven by BUFGCTRL_X0Y6
+NET "gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock" TNM_NET = "TN_gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock" ;
+TIMEGRP "TN_gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock" AREA_GROUP = "CLKAG_gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock" ;
+AREA_GROUP "CLKAG_gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock" RANGE =   CLOCKREGION_X1Y0, CLOCKREGION_X1Y1, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X1Y6, CLOCKREGION_X1Y7 ;
+
+# p0buf driven by BUFGCTRL_X0Y3
+NET "p0buf" TNM_NET = "TN_p0buf" ;
+TIMEGRP "TN_p0buf" AREA_GROUP = "CLKAG_p0buf" ;
+AREA_GROUP "CLKAG_p0buf" RANGE =   CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clk0_b driven by BUFGCTRL_X0Y5
+NET "gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clk0_b" TNM_NET = "TN_gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clk0_b" ;
+TIMEGRP "TN_gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clk0_b" AREA_GROUP = "CLKAG_gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clk0_b" ;
+AREA_GROUP "CLKAG_gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clk0_b" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X0Y1 ;
+
+# gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfx_b driven by BUFGCTRL_X0Y4
+NET "gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfx_b" TNM_NET = "TN_gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfx_b" ;
+TIMEGRP "TN_gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfx_b" AREA_GROUP = "CLKAG_gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfx_b" ;
+AREA_GROUP "CLKAG_gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfx_b" RANGE =   CLOCKREGION_X1Y4, CLOCKREGION_X0Y6, CLOCKREGION_X0Y7 ;
+
+# gen_cpu/pcie_interface/trn_clk_c driven by BUFGCTRL_X0Y29
+NET "gen_cpu/pcie_interface/trn_clk_c" TNM_NET = "TN_gen_cpu/pcie_interface/trn_clk_c" ;
+TIMEGRP "TN_gen_cpu/pcie_interface/trn_clk_c" AREA_GROUP = "CLKAG_gen_cpu/pcie_interface/trn_clk_c" ;
+AREA_GROUP "CLKAG_gen_cpu/pcie_interface/trn_clk_c" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X1Y4, CLOCKREGION_X1Y5, CLOCKREGION_X1Y6, CLOCKREGION_X1Y7 ;
+
+# gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/refclkout driven by BUFGCTRL_X0Y7
+NET "gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/refclkout" TNM_NET = "TN_gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/refclkout" ;
+TIMEGRP "TN_gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/refclkout" AREA_GROUP = "CLKAG_gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/refclkout" ;
+AREA_GROUP "CLKAG_gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/refclkout" RANGE =   CLOCKREGION_X1Y4, CLOCKREGION_X0Y6, CLOCKREGION_X0Y7 ;
+
+# gen_gclk_rst/reset_b driven by BUFGCTRL_X0Y25
+NET "gen_gclk_rst/reset_b" TNM_NET = "TN_gen_gclk_rst/reset_b" ;
+TIMEGRP "TN_gen_gclk_rst/reset_b" AREA_GROUP = "CLKAG_gen_gclk_rst/reset_b" ;
+AREA_GROUP "CLKAG_gen_gclk_rst/reset_b" RANGE =   CLOCKREGION_X1Y0, CLOCKREGION_X1Y1, CLOCKREGION_X1Y2, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5 ;
+
+# NOTE: 
+# This report is provided to help reproduce successful clock-region 
+# assignments. The report provides range constraints for all global 
+# clock networks, in a format that is directly usable in ucf files. 
+#
+#END of Global Clock Net Distribution UCF Constraints
+######################################################################################
+
+
+######################################################################################
+GLOBAL CLOCK NET LOADS DISTRIBUTION REPORT:
+
+Number of Global Clock Regions : 16
+Number of Global Clock Networks: 17
+
+Clock Region Assignment: SUCCESSFUL
+
+Clock-Region: <CLOCKREGION_X0Y0> 
+ key resource utilizations (used/available): global-clocks - 2/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      0 |     80 |     80 |      8 |      0 |      0 |      0 |      2 |      0 |   2080 |   3840 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     58 |bufM90
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |    368 |dll_clk2x_buf
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |    426 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y0> 
+ key resource utilizations (used/available): global-clocks - 2/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   2400 |   4800 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |    257 |dll_clk2x_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |   1142 |    373 |gen_cpu/pcie_interface/trn_clk_c
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |   1146 |    630 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y1> 
+ key resource utilizations (used/available): global-clocks - 5/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      4 |      2 |      0 |     40 |     40 |      8 |      0 |      0 |      0 |      1 |      0 |   2080 |   3840 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |     16 |      6 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |bufM
+      0 |      0 |      0 |      0 |     16 |     16 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     78 |bufM90
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |clk200
+      0 |      0 |      0 |      0 |      0 |      0 |      3 |      0 |      0 |      0 |      0 |      0 |    108 |    735 |dll_clk2x_buf
+      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clk0_b
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      1 |      0 |      0 |     32 |     22 |      3 |      0 |      0 |      0 |      1 |      0 |    108 |    817 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y1> 
+ key resource utilizations (used/available): global-clocks - 4/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   2400 |   4800 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    104 |    282 |dll_clk2x_buf
+      0 |      0 |      0 |      0 |      0 |     10 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |eth_rst
+      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    490 |    744 |gen_cpu/pcie_interface/trn_clk_c
+      0 |      0 |      0 |      0 |      0 |     10 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      4 |      0 |      0 |      0 |      0 |     20 |      0 |      0 |      0 |      0 |      0 |      0 |    594 |   1026 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y2> 
+ key resource utilizations (used/available): global-clocks - 6/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      2 |      1 |      0 |     60 |     60 |      8 |      0 |      0 |      0 |      2 |      0 |   2080 |   3840 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |     24 |      6 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      6 |bufM
+      1 |      0 |      0 |      0 |     24 |     24 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    301 |bufM90
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |clk200
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     10 |      5 |dll_clk0_buf
+      1 |      0 |      0 |      0 |      0 |      0 |      7 |      0 |      0 |      0 |      0 |      0 |    526 |    913 |dll_clk2x_buf
+      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |p0buf
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      2 |      0 |      0 |      0 |     48 |     31 |      7 |      0 |      0 |      0 |      1 |      0 |    536 |   1225 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y2> 
+ key resource utilizations (used/available): global-clocks - 5/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      1 |      1 |      0 |   2400 |   4800 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     33 |dll_clk0_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     82 |    448 |dll_clk2x_buf
+      4 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      1 |gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/core_clk
+      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |     74 |    954 |gen_cpu/pcie_interface/trn_clk_c
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     33 |gen_gclk_rst/reset_b
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |    156 |   1469 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y3> 
+ key resource utilizations (used/available): global-clocks - 5/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      0 |     60 |     60 |      8 |      0 |      0 |      0 |      2 |     16 |   2080 |   3840 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |bufM
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    132 |bufM90
+      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    156 |    666 |dll_clk0_buf
+      2 |      0 |      0 |      0 |      0 |      0 |      4 |      0 |      0 |      0 |      0 |      0 |    176 |    758 |dll_clk2x_buf
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |eth_rst
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      9 |      0 |      0 |      0 |      0 |      0 |      4 |      0 |      0 |      0 |      0 |      0 |    332 |   1562 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y3> 
+ key resource utilizations (used/available): global-clocks - 7/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   2400 |   4800 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |    469 |dll_clk0_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     14 |     30 |dll_clk2x_buf
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     76 |eth_rst
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    125 |gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/core_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    473 |gen_cpu/pcie_interface/trn_clk_c
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     75 |gen_cpu_control/eth2speedtm_valid_0_sqmuxa
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     16 |     18 |gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      7 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     32 |   1266 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y4> 
+ key resource utilizations (used/available): global-clocks - 10/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      0 |     60 |     60 |      8 |      0 |      0 |      0 |      2 |     16 |   2080 |   3840 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     13 |bufM
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     79 |bufM90
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      3 |bufc
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |clk200
+      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    400 |   1616 |dll_clk0_buf
+      5 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |    469 |dll_clk2x_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |eth_rst
+      0 |      0 |      0 |      0 |     10 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethRXclock
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |gen_gclk_rst/reset_b
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |p0buf
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      0 |     10 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |    402 |   2182 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y4> 
+ key resource utilizations (used/available): global-clocks - 10/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     10 |      0 |      0 |      1 |     40 |     40 |      0 |      1 |      0 |      0 |      1 |      0 |   2400 |   4800 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      5 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |    310 |    995 |dll_clk0_buf
+      1 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |    108 |    179 |dll_clk2x_buf
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |     79 |eth_rst
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/core_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     18 |gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/refclkout
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    241 |gen_cpu/pcie_interface/trn_clk_c
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |     26 |gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethRXclock
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfx_b
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     19 |gen_gclk_rst/reset_b
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      0 |      0 |      2 |      0 |      3 |      0 |      0 |      0 |      0 |    418 |   1562 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y5> 
+ key resource utilizations (used/available): global-clocks - 10/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      2 |      1 |      0 |     60 |     60 |      8 |      0 |      0 |      0 |      2 |      0 |   2080 |   3840 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |     24 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     17 |bufM
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    151 |bufM90
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      3 |bufc
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |clk200
+      2 |      0 |      0 |      0 |      0 |      0 |      4 |      0 |      0 |      0 |      0 |      0 |    370 |   1356 |dll_clk0_buf
+      8 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      2 |     50 |dll_clk2x_buf
+      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |eth_rst
+      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |gen_eth_dma_master/gigaeth/genblk87.genblk88.macgmii/ethTXclock
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     12 |gen_gclk_rst/reset_b
+      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     16 |p0buf
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     11 |      0 |      0 |      0 |      0 |     29 |      5 |      0 |      0 |      0 |      2 |      0 |    372 |   1605 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y5> 
+ key resource utilizations (used/available): global-clocks - 4/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     10 |      0 |      0 |      1 |     40 |     40 |      0 |      1 |      0 |      0 |      1 |      0 |   2400 |   4800 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    108 |   1133 |dll_clk0_buf
+      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    144 |    117 |dll_clk2x_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     64 |gen_cpu/pcie_interface/trn_clk_c
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |gen_gclk_rst/reset_b
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      5 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    252 |   1315 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y6> 
+ key resource utilizations (used/available): global-clocks - 9/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      4 |      2 |      0 |     40 |     40 |      8 |      0 |      0 |      0 |      1 |      0 |   2080 |   3840 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |     24 |      8 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     29 |bufM
+      0 |      0 |      0 |      0 |     24 |     24 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     91 |bufM90
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     31 |    151 |bufc
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |clk200
+      1 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    114 |    513 |dll_clk0_buf
+      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |      4 |dll_clk2x_buf
+      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |gen_cpu/pcie_interface/pcie_hw/ep/pcie_ep0/pcie_blk/refclkout
+      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |gen_gclk_rst/gen_clk/genblk47.genblk48.xcv5_gen_clk/dfs_clkfx_b
+      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     11 |     95 |p0buf
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      2 |      1 |      0 |     48 |     32 |      0 |      0 |      0 |      0 |      1 |      0 |    160 |    883 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y6> 
+ key resource utilizations (used/available): global-clocks - 3/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   2400 |   4800 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     42 |    434 |dll_clk0_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     56 |     56 |dll_clk2x_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     24 |gen_cpu/pcie_interface/trn_clk_c
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     98 |    514 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y7> 
+ key resource utilizations (used/available): global-clocks - 2/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      0 |     80 |     80 |      8 |      0 |      0 |      0 |      2 |      0 |   2080 |   3840 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    206 |dll_clk0_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     90 |    120 |dll_clk2x_buf
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     90 |    326 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y7> 
+ key resource utilizations (used/available): global-clocks - 2/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   2400 |   4800 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    152 |dll_clk0_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |      3 |dll_clk2x_buf
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |    155 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+NOTE:
+The above detailed report is the initial placement of the logic after the clock region assignment. The final placement
+may be significantly different because of the various optimization steps which will follow. Specifically, logic blocks
+maybe moved to adjacent clock-regions as long as the "number of clocks per region" constraint is not violated.
+
+
+# END of Global Clock Net Loads Distribution Report:
+######################################################################################
+
+
+Phase 9.30  Global Clock Region Assignment (Checksum:7cbbcc7) REAL time: 2 mins 14 secs 
+
+Phase 10.3  Local Placement Optimization
+
+Phase 10.3  Local Placement Optimization (Checksum:f84afaa7) REAL time: 2 mins 14 secs 
+
+Phase 11.5  Local Placement Optimization
+Phase 11.5  Local Placement Optimization (Checksum:f84afaa7) REAL time: 2 mins 14 secs 
+
+Phase 12.8  Global Placement
+............................
+..................................................................................
+....................
+.....................................................................
+.......................
+.......................
+................
+.................................................
+Phase 12.8  Global Placement (Checksum:2b802ff8) REAL time: 3 mins 18 secs 
+
+Phase 13.29  Local Placement Optimization
+Phase 13.29  Local Placement Optimization (Checksum:2b802ff8) REAL time: 3 mins 18 secs 
+
+Phase 14.5  Local Placement Optimization
+Phase 14.5  Local Placement Optimization (Checksum:2b802ff8) REAL time: 3 mins 19 secs 
+
+Phase 15.18  Placement Optimization
+Phase 15.18  Placement Optimization (Checksum:8a4e284f) REAL time: 4 mins 32 secs 
+
+Phase 16.5  Local Placement Optimization
+Phase 16.5  Local Placement Optimization (Checksum:8a4e284f) REAL time: 4 mins 33 secs 
+
+Phase 17.34  Placement Validation
+Phase 17.34  Placement Validation (Checksum:8a4e284f) REAL time: 4 mins 34 secs 
+
+Total REAL time to Placer completion: 4 mins 39 secs 
+Total CPU  time to Placer completion: 4 mins 36 secs 
+Running post-placement packing...
+Writing output files...
+WARNING:PhysDesignRules:1841 - One or more GTPs are being used in this design. Evaluate the SelectIO-To-GTP Crosstalk
+   section of the Virtex-5 RocketIO GTP Transceiver User Guide to ensure that the design SelectIO usage meets the
+   guidelines to minimize the impact on GTP performance. 
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   48
+Slice Logic Utilization:
+  Number of Slice Registers:                16,702 out of  69,120   24%
+    Number used as Flip Flops:              16,663
+    Number used as Latches:                     33
+    Number used as Latch-thrus:                  6
+  Number of Slice LUTs:                     13,449 out of  69,120   19%
+    Number used as logic:                   10,555 out of  69,120   15%
+      Number using O6 output only:           8,724
+      Number using O5 output only:             321
+      Number using O5 and O6:                1,510
+    Number used as Memory:                   2,861 out of  17,920   15%
+      Number used as Dual Port RAM:          1,717
+        Number using O6 output only:         1,673
+        Number using O5 output only:             2
+        Number using O5 and O6:                 42
+      Number used as Single Port RAM:          273
+        Number using O6 output only:           269
+        Number using O5 and O6:                  4
+      Number used as Shift Register:           871
+        Number using O6 output only:           871
+    Number used as exclusive route-thru:        33
+  Number of route-thrus:                       375
+    Number using O6 output only:               351
+    Number using O5 output only:                23
+    Number using O5 and O6:                      1
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 6,760 out of  17,280   39%
+  Number of LUT Flip Flop pairs used:       21,267
+    Number with an unused Flip Flop:         4,565 out of  21,267   21%
+    Number with an unused LUT:               7,818 out of  21,267   36%
+    Number of fully used LUT-FF pairs:       8,884 out of  21,267   41%
+    Number of unique control sets:             456
+    Number of slice register sites lost
+      to control set restrictions:             577 out of  69,120    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       152 out of     640   23%
+    Number of LOCed IOBs:                      151 out of     152   99%
+    IOB Flip Flops:                            214
+    Number of bonded IPADs:                      4
+      Number of LOCed IPADs:                     2 out of       4   50%
+    Number of bonded OPADs:                      2
+
+Specific Feature Utilization:
+  Number of BlockRAM/FIFO:                      53 out of     148   35%
+    Number using BlockRAM only:                 42
+    Number using FIFO only:                     11
+    Total primitives used:
+      Number of 36k BlockRAM used:              39
+      Number of 18k BlockRAM used:               4
+      Number of 36k FIFO used:                   9
+      Number of 18k FIFO used:                   2
+    Total Memory used (KB):                  1,836 out of   5,328   34%
+  Number of BUFG/BUFGCTRLs:                     17 out of      32   53%
+    Number used as BUFGs:                       16
+    Number used as BUFGCTRLs:                    1
+  Number of IDELAYCTRLs:                         5 out of      22   22%
+  Number of BUFDSs:                              1 out of       8   12%
+  Number of DCM_ADVs:                            3 out of      12   25%
+  Number of DSP48Es:                            19 out of      64   29%
+  Number of GTP_DUALs:                           1 out of       8   12%
+    Number of LOCed GTP_DUALs:                   1 out of       1  100%
+  Number of ISERDESs:                           64
+  Number of PCIEs:                               1 out of       1  100%
+  Number of PLL_ADVs:                            2 out of       6   33%
+  Number of TEMACs:                              1 out of       2   50%
+
+Average Fanout of Non-Clock Nets:                3.13
+
+Peak Memory Usage:  1360 MB
+Total REAL time to MAP completion:  4 mins 53 secs 
+Total CPU time to MAP completion:   4 mins 50 secs 
+
+Mapping completed.
+See MAP report file "fpga_top_map.mrp" for details.

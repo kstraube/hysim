@@ -1,0 +1,177 @@
+Selecting top level module GTP_DUAL
+@N: CG706 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5520:7:5520:14|The selected top level module GTP_DUAL is a black box, ignoring black box ...
+@N: CG364 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5520:7:5520:14|Synthesizing module GTP_DUAL
+
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5841:14:5841:15|*Output DO has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5806:7:5806:10|*Output DRDY has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5807:7:5807:16|*Output PHYSTATUS0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5808:7:5808:16|*Output PHYSTATUS1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5809:7:5809:14|*Output PLLLKDET has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5810:7:5810:15|*Output REFCLKOUT has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5811:7:5811:16|*Output RESETDONE0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5812:7:5812:16|*Output RESETDONE1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5862:13:5862:24|*Output RXBUFSTATUS0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5863:13:5863:24|*Output RXBUFSTATUS1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5813:7:5813:22|*Output RXBYTEISALIGNED0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5814:7:5814:22|*Output RXBYTEISALIGNED1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5815:7:5815:20|*Output RXBYTEREALIGN0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5816:7:5816:20|*Output RXBYTEREALIGN1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5817:7:5817:20|*Output RXCHANBONDSEQ0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5818:7:5818:20|*Output RXCHANBONDSEQ1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5819:7:5819:22|*Output RXCHANISALIGNED0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5820:7:5820:22|*Output RXCHANISALIGNED1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5821:7:5821:20|*Output RXCHANREALIGN0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5822:7:5822:20|*Output RXCHANREALIGN1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5844:13:5844:26|*Output RXCHARISCOMMA0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5845:13:5845:26|*Output RXCHARISCOMMA1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5846:13:5846:22|*Output RXCHARISK0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5847:13:5847:22|*Output RXCHARISK1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5864:13:5864:22|*Output RXCHBONDO0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5865:13:5865:22|*Output RXCHBONDO1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5866:13:5866:24|*Output RXCLKCORCNT0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5867:13:5867:24|*Output RXCLKCORCNT1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5823:7:5823:17|*Output RXCOMMADET0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5824:7:5824:17|*Output RXCOMMADET1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5842:14:5842:20|*Output RXDATA0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5843:14:5843:20|*Output RXDATA1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5848:13:5848:22|*Output RXDISPERR0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5849:13:5849:22|*Output RXDISPERR1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5825:7:5825:17|*Output RXELECIDLE0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5826:7:5826:17|*Output RXELECIDLE1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5850:13:5850:25|*Output RXLOSSOFSYNC0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5851:13:5851:25|*Output RXLOSSOFSYNC1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5852:13:5852:25|*Output RXNOTINTABLE0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5853:13:5853:25|*Output RXNOTINTABLE1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5827:7:5827:22|*Output RXOVERSAMPLEERR0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5828:7:5828:22|*Output RXOVERSAMPLEERR1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5829:7:5829:16|*Output RXPRBSERR0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5830:7:5830:16|*Output RXPRBSERR1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5831:7:5831:15|*Output RXRECCLK0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5832:7:5832:15|*Output RXRECCLK1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5854:13:5854:22|*Output RXRUNDISP0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5855:13:5855:22|*Output RXRUNDISP1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5868:13:5868:21|*Output RXSTATUS0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5869:13:5869:21|*Output RXSTATUS1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5833:7:5833:14|*Output RXVALID0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5834:7:5834:14|*Output RXVALID1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5856:13:5856:24|*Output TXBUFSTATUS0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5857:13:5857:24|*Output TXBUFSTATUS1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5858:13:5858:19|*Output TXKERR0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5859:13:5859:19|*Output TXKERR1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5835:7:5835:10|*Output TXN0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5836:7:5836:10|*Output TXN1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5837:7:5837:15|*Output TXOUTCLK0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5838:7:5838:15|*Output TXOUTCLK1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5839:7:5839:10|*Output TXP0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5840:7:5840:10|*Output TXP1 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5860:13:5860:22|*Output TXRUNDISP0 has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5861:13:5861:22|*Output TXRUNDISP1 has undriven bits - a simulation mismatch is possible 
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5697:6:5697:10|Input CLKIN is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5805:12:5805:16|Input DADDR is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5698:6:5698:9|Input DCLK is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5699:6:5699:8|Input DEN is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5771:13:5771:14|Input DI is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5700:6:5700:8|Input DWE is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5701:6:5701:13|Input GTPRESET is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5802:12:5802:18|Input GTPTEST is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5702:6:5702:17|Input INTDATAWIDTH is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5792:12:5792:20|Input LOOPBACK0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5793:12:5793:20|Input LOOPBACK1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5703:6:5703:15|Input PLLLKDETEN is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5704:6:5704:17|Input PLLPOWERDOWN is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5705:6:5705:18|Input PRBSCNTRESET0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5706:6:5706:18|Input PRBSCNTRESET1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5707:6:5707:17|Input REFCLKPWRDNB is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5708:6:5708:16|Input RXBUFRESET0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5709:6:5709:16|Input RXBUFRESET1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5710:6:5710:16|Input RXCDRRESET0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5711:6:5711:16|Input RXCDRRESET1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5794:12:5794:21|Input RXCHBONDI0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5795:12:5795:21|Input RXCHBONDI1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5712:6:5712:19|Input RXCOMMADETUSE0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5713:6:5713:19|Input RXCOMMADETUSE1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5714:6:5714:17|Input RXDATAWIDTH0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5715:6:5715:17|Input RXDATAWIDTH1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5716:6:5716:19|Input RXDEC8B10BUSE0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5717:6:5717:19|Input RXDEC8B10BUSE1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5718:6:5718:21|Input RXELECIDLERESET0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5719:6:5719:21|Input RXELECIDLERESET1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5720:6:5720:18|Input RXENCHANSYNC0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5721:6:5721:18|Input RXENCHANSYNC1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5722:6:5722:23|Input RXENELECIDLERESETB is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5723:6:5723:13|Input RXENEQB0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5724:6:5724:13|Input RXENEQB1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5725:6:5725:21|Input RXENMCOMMAALIGN0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5726:6:5726:21|Input RXENMCOMMAALIGN1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5727:6:5727:21|Input RXENPCOMMAALIGN0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5728:6:5728:21|Input RXENPCOMMAALIGN1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5774:12:5774:23|Input RXENPRBSTST0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5775:12:5775:23|Input RXENPRBSTST1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5729:6:5729:21|Input RXENSAMPLEALIGN0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5730:6:5730:21|Input RXENSAMPLEALIGN1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5776:12:5776:19|Input RXEQMIX0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5777:12:5777:19|Input RXEQMIX1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5803:12:5803:20|Input RXEQPOLE0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5804:12:5804:20|Input RXEQPOLE1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5731:6:5731:9|Input RXN0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5732:6:5732:9|Input RXN1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5733:6:5733:9|Input RXP0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5734:6:5734:9|Input RXP1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5735:6:5735:19|Input RXPMASETPHASE0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5736:6:5736:19|Input RXPMASETPHASE1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5737:6:5737:16|Input RXPOLARITY0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5738:6:5738:16|Input RXPOLARITY1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5778:12:5778:23|Input RXPOWERDOWN0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5779:12:5779:23|Input RXPOWERDOWN1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5739:6:5739:13|Input RXRESET0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5740:6:5740:13|Input RXRESET1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5741:6:5741:13|Input RXSLIDE0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5742:6:5742:13|Input RXSLIDE1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5743:6:5743:14|Input RXUSRCLK0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5744:6:5744:14|Input RXUSRCLK1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5745:6:5745:15|Input RXUSRCLK20 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5746:6:5746:15|Input RXUSRCLK21 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5796:12:5796:25|Input TXBUFDIFFCTRL0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5797:12:5797:25|Input TXBUFDIFFCTRL1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5780:12:5780:25|Input TXBYPASS8B10B0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5781:12:5781:25|Input TXBYPASS8B10B1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5782:12:5782:26|Input TXCHARDISPMODE0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5783:12:5783:26|Input TXCHARDISPMODE1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5784:12:5784:25|Input TXCHARDISPVAL0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5785:12:5785:25|Input TXCHARDISPVAL1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5786:12:5786:21|Input TXCHARISK0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5787:12:5787:21|Input TXCHARISK1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5747:6:5747:16|Input TXCOMSTART0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5748:6:5748:16|Input TXCOMSTART1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5749:6:5749:15|Input TXCOMTYPE0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5750:6:5750:15|Input TXCOMTYPE1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5772:13:5772:19|Input TXDATA0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5773:13:5773:19|Input TXDATA1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5751:6:5751:17|Input TXDATAWIDTH0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5752:6:5752:17|Input TXDATAWIDTH1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5753:6:5753:16|Input TXDETECTRX0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5754:6:5754:16|Input TXDETECTRX1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5798:12:5798:22|Input TXDIFFCTRL0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5799:12:5799:22|Input TXDIFFCTRL1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5755:6:5755:16|Input TXELECIDLE0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5756:6:5756:16|Input TXELECIDLE1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5757:6:5757:19|Input TXENC8B10BUSE0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5758:6:5758:19|Input TXENC8B10BUSE1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5759:6:5759:22|Input TXENPMAPHASEALIGN is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5788:12:5788:23|Input TXENPRBSTST0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5789:12:5789:23|Input TXENPRBSTST1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5760:6:5760:15|Input TXINHIBIT0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5761:6:5761:15|Input TXINHIBIT1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5762:6:5762:18|Input TXPMASETPHASE is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5763:6:5763:16|Input TXPOLARITY0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5764:6:5764:16|Input TXPOLARITY1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5790:12:5790:23|Input TXPOWERDOWN0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5791:12:5791:23|Input TXPOWERDOWN1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5800:12:5800:25|Input TXPREEMPHASIS0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5801:12:5801:25|Input TXPREEMPHASIS1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5765:6:5765:13|Input TXRESET0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5766:6:5766:13|Input TXRESET1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5767:6:5767:14|Input TXUSRCLK0 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5768:6:5768:14|Input TXUSRCLK1 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5769:6:5769:15|Input TXUSRCLK20 is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/unisim.v":5770:6:5770:15|Input TXUSRCLK21 is unused

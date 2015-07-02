@@ -1,0 +1,70 @@
+Number of Timing Constraints that were not applied: 4
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+------------------------------------------------------------------------------------------------------
+  Constraint                                |  Check  | Worst Case |  Best Case | Timing |   Timing   
+                                            |         |    Slack   | Achievable | Errors |    Score   
+------------------------------------------------------------------------------------------------------
+* PERIOD analysis for net "ep/BU2/U0/pcie_e | SETUP   |     0.081ns|    15.676ns|       0|           0
+  p0/pcie_blk/clocking_i/clkout1" derived f | HOLD    |    -1.455ns|            |     115|       77677
+  rom  NET "sys_clk_c" PERIOD = 10 ns HIGH  |         |            |            |        |            
+  50%                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+* PERIOD analysis for net "ep/BU2/U0/pcie_e | SETUP   |    -0.005ns|     4.005ns|       1|           5
+  p0/pcie_blk/clocking_i/clkout0" derived f | HOLD    |    -0.385ns|            |      26|        4990
+  rom  NET "sys_clk_c" PERIOD = 10 ns HIGH  |         |            |            |        |            
+  50%                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  Pin to Pin Skew Constraint                | MAXDELAY| 2106523.528ns| 2106523.837ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "sys_clk_c" PERIOD = 10 ns HIGH 50%   | N/A     |         N/A|         N/A|     N/A|         N/A
+------------------------------------------------------------------------------------------------------
+  TS_MGTCLK = PERIOD TIMEGRP "MGTCLK" 100 M | N/A     |         N/A|         N/A|     N/A|         N/A
+  Hz HIGH 50%                               |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_ep_BU2_U0_pcie_ep0_pcie_blk_clocking_i | N/A     |         N/A|         N/A|     N/A|         N/A
+  _clkout0 = PERIOD TIMEGRP         "ep_BU2 |         |            |            |        |            
+  _U0_pcie_ep0_pcie_blk_clocking_i_clkout0" |         |            |            |        |            
+   TS_MGTCLK * 2.5 HIGH         50%         |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_ep_BU2_U0_pcie_ep0_pcie_blk_clocking_i | N/A     |         N/A|         N/A|     N/A|         N/A
+  _clkout1 = PERIOD TIMEGRP         "ep_BU2 |         |            |            |        |            
+  _U0_pcie_ep0_pcie_blk_clocking_i_clkout1" |         |            |            |        |            
+   TS_MGTCLK * 0.625         HIGH 50%       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for sys_clk_c
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|sys_clk_c                      |     10.000ns|          N/A|     10.013ns|            0|          142|            0|        41980|
+| ep/BU2/U0/pcie_ep0/pcie_blk/cl|      4.000ns|      4.005ns|          N/A|           27|            0|          953|            0|
+| ocking_i/clkout0              |             |             |             |             |             |             |             |
+| ep/BU2/U0/pcie_ep0/pcie_blk/cl|     16.000ns|     15.676ns|          N/A|          115|            0|        41027|            0|
+| ocking_i/clkout1              |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_MGTCLK
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_MGTCLK                      |     10.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| TS_ep_BU2_U0_pcie_ep0_pcie_blk|      4.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| _clocking_i_clkout0           |             |             |             |             |             |             |             |
+| TS_ep_BU2_U0_pcie_ep0_pcie_blk|     16.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| _clocking_i_clkout1           |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+2 constraints not met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the 
+   constraint does not cover any paths or that it has no requested value.
+
+

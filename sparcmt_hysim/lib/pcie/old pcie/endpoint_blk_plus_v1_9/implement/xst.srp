@@ -1,0 +1,1333 @@
+Release 10.1.03 - xst K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> --> 
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "xilinx_pci_exp_1_lane_ep_inc.xst"
+Input Format                       : Verilog
+
+---- Target Parameters
+Target Device                      : xc5vlx110t-ff1136-1
+Output File Name                   : "xilinx_pci_exp_ep.ngc"
+Output Format                      : NGC
+
+---- Source Options
+Top Module Name                    : xilinx_pci_exp_ep
+
+---- Target Options
+Add Generic Clock Buffer(BUFG)     : 0
+
+---- General Options
+Optimization Goal                  : SPEED
+Optimization Effort                : 2
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "xilinx_pci_exp_1_lane_ep_inc.xst" in library work
+Compiling verilog include file "../example_design/xilinx_pci_exp_ep.v"
+Compiling verilog include file "../example_design/pci_exp_64b_app.v"
+Module <xilinx_pci_exp_ep> compiled
+Compiling verilog include file "../example_design/PIO_EP.v"
+Module <pci_exp_64b_app> compiled
+Compiling verilog include file "../example_design/PIO_EP_MEM_ACCESS.v"
+Module <PIO_EP> compiled
+Compiling verilog include file "../example_design/EP_MEM.v"
+Module <PIO_EP_MEM_ACCESS> compiled
+Compiling verilog include file "../example_design/PIO_64_RX_ENGINE.v"
+Module <EP_MEM> compiled
+Compiling verilog include file "../example_design/PIO_64_TX_ENGINE.v"
+Module <PIO_64_RX_ENGINE> compiled
+Compiling verilog include file "../example_design/PIO_TO_CTRL.v"
+Module <PIO_64_TX_ENGINE> compiled
+Compiling verilog include file "../example_design/PIO.v"
+Module <PIO_TO_CTRL> compiled
+Compiling verilog include file "../example_design/pci_exp_1_lane_64b_ep.v"
+Module <PIO> compiled
+Module <endpoint_blk_plus_v1_9> compiled
+WARNING:HDLCompilers:261 - "../example_design/EP_MEM.v" line 855 Connection to output port 'DOPA' does not match port size
+WARNING:HDLCompilers:261 - "../example_design/EP_MEM.v" line 856 Connection to output port 'DOPB' does not match port size
+No errors in compilation
+Analysis of file <"xilinx_pci_exp_1_lane_ep_inc.xst"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <xilinx_pci_exp_ep> in library <work>.
+
+Analyzing hierarchy for module <pci_exp_64b_app> in library <work>.
+
+Analyzing hierarchy for module <PIO> in library <work>.
+
+Analyzing hierarchy for module <PIO_EP> in library <work>.
+
+Analyzing hierarchy for module <PIO_TO_CTRL> in library <work>.
+
+Analyzing hierarchy for module <PIO_EP_MEM_ACCESS> in library <work>.
+
+Analyzing hierarchy for module <PIO_64_RX_ENGINE> in library <work>.
+
+Analyzing hierarchy for module <PIO_64_TX_ENGINE> in library <work>.
+
+Analyzing hierarchy for module <EP_MEM> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <xilinx_pci_exp_ep>.
+WARNING:Xst:2211 - "../example_design/pci_exp_1_lane_64b_ep.v" line 273: Instantiating black box module <endpoint_blk_plus_v1_9>.
+Module <xilinx_pci_exp_ep> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <refclk_ibuf> in unit <xilinx_pci_exp_ep>.
+    Set user-defined property "DIFF_TERM =  FALSE" for instance <refclk_ibuf> in unit <xilinx_pci_exp_ep>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <refclk_ibuf> in unit <xilinx_pci_exp_ep>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <refclk_ibuf> in unit <xilinx_pci_exp_ep>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <refclk_ibuf> in unit <xilinx_pci_exp_ep>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <sys_reset_n_ibuf> in unit <xilinx_pci_exp_ep>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <sys_reset_n_ibuf> in unit <xilinx_pci_exp_ep>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <sys_reset_n_ibuf> in unit <xilinx_pci_exp_ep>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <sys_reset_n_ibuf> in unit <xilinx_pci_exp_ep>.
+    Set user-defined property "SYN_BLACK_BOX =  1" for instance <ep> in unit <xilinx_pci_exp_ep>.
+WARNING:Xst:39 - Property "buffer_type" not applicable on a entity.
+    Set property "max_fanout = 100000" for signal <trn_clk_c>.
+Analyzing module <pci_exp_64b_app> in library <work>.
+Module <pci_exp_64b_app> is correct for synthesis.
+ 
+Analyzing module <PIO> in library <work>.
+Module <PIO> is correct for synthesis.
+ 
+    Set property "SYN_HIER = hard" for unit <PIO>.
+Analyzing module <PIO_EP> in library <work>.
+Module <PIO_EP> is correct for synthesis.
+ 
+Analyzing module <PIO_EP_MEM_ACCESS> in library <work>.
+"../example_design/PIO_EP_MEM_ACCESS.v" line 236: Found Full Case directive in module <PIO_EP_MEM_ACCESS>.
+"../example_design/PIO_EP_MEM_ACCESS.v" line 260: Found Full Case directive in module <PIO_EP_MEM_ACCESS>.
+Module <PIO_EP_MEM_ACCESS> is correct for synthesis.
+ 
+Analyzing module <EP_MEM> in library <work>.
+Module <EP_MEM> is correct for synthesis.
+ 
+    Set user-defined property "DOA_REG =  1" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "DOB_REG =  1" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INITP_00 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INITP_01 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INITP_02 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INITP_03 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INITP_04 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INITP_05 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INITP_06 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INITP_07 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INITP_08 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INITP_09 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INITP_0A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INITP_0B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INITP_0C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INITP_0D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INITP_0E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INITP_0F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_00 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_01 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_02 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_03 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_04 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_05 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_06 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_07 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_08 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_09 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_0A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_0B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_0C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_0D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_0E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_0F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_10 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_11 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_12 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_13 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_14 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_15 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_16 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_17 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_18 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_19 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_1A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_1B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_1C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_1D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_1E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_1F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_20 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_21 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_22 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_23 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_24 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_25 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_26 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_27 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_28 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_29 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_2A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_2B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_2C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_2D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_2E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_2F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_30 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_31 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_32 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_33 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_34 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_35 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_36 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_37 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_38 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_39 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_3A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_3B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_3C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_3D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_3E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_3F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_40 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_41 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_42 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_43 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_44 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_45 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_46 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_47 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_48 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_49 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_4A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_4B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_4C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_4D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_4E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_4F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_50 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_51 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_52 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_53 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_54 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_55 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_56 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_57 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_58 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_59 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_5A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_5B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_5C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_5D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_5E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_5F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_60 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_61 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_62 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_63 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_64 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_65 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_66 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_67 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_68 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_69 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_6A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_6B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_6C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_6D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_6E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_6F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_70 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_71 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_72 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_73 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_74 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_75 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_76 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_77 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_78 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_79 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_7A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_7B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_7C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_7D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_7E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_7F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_A =  000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_B =  000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "INIT_FILE =  NONE" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "READ_WIDTH_A =  36" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "READ_WIDTH_B =  36" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "SIM_COLLISION_CHECK =  ALL" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "SIM_MODE =  SAFE" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "SRVAL_A =  000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "SRVAL_B =  000000000" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "WRITE_WIDTH_A =  36" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "WRITE_WIDTH_B =  36" for instance <ep_io_mem> in unit <EP_MEM>.
+    Set user-defined property "DOA_REG =  1" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "DOB_REG =  1" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INITP_00 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INITP_01 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INITP_02 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INITP_03 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INITP_04 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INITP_05 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INITP_06 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INITP_07 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INITP_08 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INITP_09 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INITP_0A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INITP_0B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INITP_0C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INITP_0D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INITP_0E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INITP_0F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_00 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_01 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_02 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_03 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_04 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_05 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_06 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_07 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_08 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_09 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_0A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_0B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_0C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_0D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_0E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_0F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_10 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_11 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_12 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_13 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_14 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_15 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_16 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_17 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_18 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_19 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_1A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_1B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_1C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_1D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_1E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_1F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_20 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_21 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_22 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_23 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_24 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_25 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_26 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_27 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_28 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_29 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_2A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_2B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_2C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_2D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_2E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_2F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_30 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_31 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_32 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_33 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_34 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_35 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_36 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_37 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_38 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_39 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_3A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_3B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_3C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_3D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_3E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_3F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_40 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_41 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_42 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_43 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_44 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_45 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_46 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_47 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_48 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_49 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_4A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_4B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_4C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_4D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_4E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_4F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_50 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_51 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_52 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_53 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_54 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_55 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_56 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_57 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_58 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_59 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_5A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_5B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_5C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_5D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_5E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_5F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_60 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_61 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_62 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_63 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_64 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_65 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_66 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_67 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_68 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_69 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_6A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_6B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_6C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_6D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_6E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_6F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_70 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_71 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_72 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_73 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_74 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_75 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_76 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_77 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_78 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_79 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_7A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_7B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_7C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_7D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_7E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_7F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_A =  000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_B =  000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "INIT_FILE =  NONE" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "READ_WIDTH_A =  36" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "READ_WIDTH_B =  36" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "SIM_COLLISION_CHECK =  ALL" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "SIM_MODE =  SAFE" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "SRVAL_A =  000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "SRVAL_B =  000000000" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "WRITE_WIDTH_A =  36" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "WRITE_WIDTH_B =  36" for instance <ep_mem32> in unit <EP_MEM>.
+    Set user-defined property "DOA_REG =  1" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "DOB_REG =  1" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INITP_00 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INITP_01 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INITP_02 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INITP_03 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INITP_04 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INITP_05 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INITP_06 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INITP_07 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INITP_08 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INITP_09 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INITP_0A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INITP_0B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INITP_0C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INITP_0D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INITP_0E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INITP_0F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_00 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_01 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_02 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_03 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_04 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_05 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_06 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_07 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_08 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_09 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_0A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_0B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_0C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_0D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_0E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_0F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_10 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_11 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_12 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_13 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_14 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_15 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_16 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_17 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_18 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_19 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_1A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_1B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_1C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_1D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_1E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_1F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_20 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_21 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_22 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_23 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_24 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_25 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_26 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_27 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_28 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_29 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_2A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_2B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_2C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_2D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_2E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_2F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_30 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_31 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_32 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_33 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_34 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_35 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_36 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_37 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_38 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_39 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_3A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_3B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_3C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_3D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_3E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_3F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_40 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_41 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_42 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_43 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_44 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_45 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_46 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_47 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_48 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_49 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_4A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_4B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_4C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_4D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_4E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_4F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_50 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_51 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_52 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_53 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_54 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_55 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_56 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_57 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_58 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_59 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_5A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_5B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_5C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_5D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_5E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_5F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_60 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_61 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_62 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_63 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_64 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_65 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_66 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_67 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_68 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_69 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_6A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_6B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_6C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_6D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_6E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_6F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_70 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_71 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_72 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_73 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_74 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_75 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_76 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_77 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_78 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_79 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_7A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_7B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_7C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_7D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_7E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_7F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_A =  000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_B =  000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "INIT_FILE =  NONE" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "READ_WIDTH_A =  36" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "READ_WIDTH_B =  36" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "SIM_COLLISION_CHECK =  ALL" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "SIM_MODE =  SAFE" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "SRVAL_A =  000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "SRVAL_B =  000000000" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "WRITE_WIDTH_A =  36" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "WRITE_WIDTH_B =  36" for instance <ep_mem64> in unit <EP_MEM>.
+    Set user-defined property "DOA_REG =  1" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "DOB_REG =  1" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INITP_00 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INITP_01 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INITP_02 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INITP_03 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INITP_04 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INITP_05 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INITP_06 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INITP_07 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INITP_08 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INITP_09 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INITP_0A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INITP_0B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INITP_0C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INITP_0D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INITP_0E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INITP_0F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_00 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_01 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_02 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_03 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_04 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_05 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_06 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_07 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_08 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_09 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_0A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_0B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_0C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_0D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_0E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_0F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_10 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_11 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_12 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_13 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_14 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_15 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_16 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_17 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_18 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_19 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_1A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_1B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_1C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_1D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_1E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_1F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_20 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_21 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_22 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_23 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_24 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_25 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_26 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_27 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_28 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_29 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_2A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_2B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_2C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_2D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_2E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_2F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_30 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_31 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_32 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_33 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_34 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_35 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_36 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_37 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_38 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_39 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_3A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_3B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_3C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_3D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_3E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_3F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_40 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_41 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_42 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_43 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_44 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_45 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_46 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_47 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_48 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_49 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_4A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_4B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_4C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_4D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_4E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_4F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_50 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_51 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_52 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_53 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_54 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_55 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_56 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_57 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_58 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_59 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_5A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_5B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_5C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_5D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_5E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_5F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_60 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_61 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_62 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_63 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_64 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_65 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_66 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_67 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_68 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_69 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_6A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_6B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_6C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_6D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_6E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_6F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_70 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_71 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_72 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_73 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_74 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_75 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_76 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_77 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_78 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_79 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_7A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_7B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_7C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_7D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_7E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_7F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_A =  000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_B =  000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "INIT_FILE =  NONE" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "RAM_EXTENSION_A =  NONE" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "RAM_EXTENSION_B =  NONE" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "READ_WIDTH_A =  36" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "READ_WIDTH_B =  36" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "SIM_COLLISION_CHECK =  ALL" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "SIM_MODE =  SAFE" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "SRVAL_A =  000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "SRVAL_B =  000000000" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "WRITE_WIDTH_A =  36" for instance <ep_mem_erom> in unit <EP_MEM>.
+    Set user-defined property "WRITE_WIDTH_B =  36" for instance <ep_mem_erom> in unit <EP_MEM>.
+Analyzing module <PIO_64_RX_ENGINE> in library <work>.
+WARNING:Xst:916 - "../example_design/PIO_64_RX_ENGINE.v" line 182: Delay is ignored for synthesis.
+WARNING:Xst:916 - "../example_design/PIO_64_RX_ENGINE.v" line 184: Delay is ignored for synthesis.
+WARNING:Xst:916 - "../example_design/PIO_64_RX_ENGINE.v" line 185: Delay is ignored for synthesis.
+WARNING:Xst:916 - "../example_design/PIO_64_RX_ENGINE.v" line 186: Delay is ignored for synthesis.
+WARNING:Xst:916 - "../example_design/PIO_64_RX_ENGINE.v" line 187: Delay is ignored for synthesis.
+WARNING:Xst:915 - Message (916) is reported only 5 times for each module.
+Module <PIO_64_RX_ENGINE> is correct for synthesis.
+ 
+Analyzing module <PIO_64_TX_ENGINE> in library <work>.
+Module <PIO_64_TX_ENGINE> is correct for synthesis.
+ 
+Analyzing module <PIO_TO_CTRL> in library <work>.
+Module <PIO_TO_CTRL> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <pre_wr_data0_q> in unit <PIO_EP_MEM_ACCESS> has a constant value of 00000000000000000000000000000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <pre_wr_data1_q> in unit <PIO_EP_MEM_ACCESS> has a constant value of 00000000000000000000000000000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <pre_wr_data2_q> in unit <PIO_EP_MEM_ACCESS> has a constant value of 00000000000000000000000000000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <pre_wr_data3_q> in unit <PIO_EP_MEM_ACCESS> has a constant value of 00000000000000000000000000000000 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <PIO_TO_CTRL>.
+    Related source file is "../example_design/PIO_TO_CTRL.v".
+    Found 1-bit register for signal <cfg_turnoff_ok_n>.
+    Found 1-bit register for signal <trn_pending>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <PIO_TO_CTRL> synthesized.
+
+
+Synthesizing Unit <PIO_64_RX_ENGINE>.
+    Related source file is "../example_design/PIO_64_RX_ENGINE.v".
+WARNING:Xst:647 - Input <trn_rrem_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <trn_rsrc_dsc_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <trn_rbar_hit_n<5:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <trn_reof_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 44                                             |
+    | Inputs             | 18                                             |
+    | Outputs            | 10                                             |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst_n (negative)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00000000                                       |
+    | Encoding           | automatic                                      |
+    | Implementation     | automatic                                      |
+    -----------------------------------------------------------------------
+    Found 16-bit register for signal <req_rid_o>.
+    Found 13-bit register for signal <req_addr_o>.
+    Found 11-bit register for signal <wr_addr_o>.
+    Found 32-bit register for signal <wr_data_o>.
+    Found 1-bit register for signal <req_compl_with_data_o>.
+    Found 1-bit register for signal <req_ep_o>.
+    Found 3-bit register for signal <req_tc_o>.
+    Found 2-bit register for signal <req_attr_o>.
+    Found 8-bit register for signal <wr_be_o>.
+    Found 10-bit register for signal <req_len_o>.
+    Found 1-bit register for signal <req_td_o>.
+    Found 1-bit register for signal <wr_en_o>.
+    Found 1-bit register for signal <trn_rdst_rdy_n>.
+    Found 1-bit register for signal <req_compl_o>.
+    Found 8-bit register for signal <req_tag_o>.
+    Found 8-bit register for signal <req_be_o>.
+    Found 8-bit register for signal <tlp_type>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred 125 D-type flip-flop(s).
+Unit <PIO_64_RX_ENGINE> synthesized.
+
+
+Synthesizing Unit <PIO_64_TX_ENGINE>.
+    Related source file is "../example_design/PIO_64_TX_ENGINE.v".
+WARNING:Xst:647 - Input <req_addr_i<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <cfg_bus_mstr_enable_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <req_be_i<7:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found finite state machine <FSM_1> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst_n (negative)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | automatic                                      |
+    -----------------------------------------------------------------------
+    Found 64-bit register for signal <trn_td>.
+    Found 1-bit register for signal <trn_tsrc_dsc_n>.
+    Found 1-bit register for signal <compl_done_o>.
+    Found 1-bit register for signal <trn_teof_n>.
+    Found 1-bit register for signal <trn_tsrc_rdy_n>.
+    Found 1-bit register for signal <trn_tsof_n>.
+    Found 8-bit register for signal <trn_trem_n>.
+    Found 1-bit register for signal <req_compl_q>.
+    Found 1-bit register for signal <req_compl_with_data_q>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  79 D-type flip-flop(s).
+Unit <PIO_64_TX_ENGINE> synthesized.
+
+
+Synthesizing Unit <EP_MEM>.
+    Related source file is "../example_design/EP_MEM.v".
+WARNING:Xst:646 - Signal <DOPB> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <DOPA> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <EP_MEM> synthesized.
+
+
+Synthesizing Unit <PIO_EP_MEM_ACCESS>.
+    Related source file is "../example_design/PIO_EP_MEM_ACCESS.v".
+WARNING:Xst:647 - Input <wr_be_i<7:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <pre_wr_data3_q> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pre_wr_data2_q> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pre_wr_data1_q> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pre_wr_data0_q> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <DW2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <DW1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <DW0> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_2> for signal <wr_mem_state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst_n (negative)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | automatic                                      |
+    -----------------------------------------------------------------------
+    Found 32-bit register for signal <post_wr_data>.
+    Found 32-bit register for signal <pre_wr_data>.
+    Found 1-bit register for signal <write_en>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  65 D-type flip-flop(s).
+Unit <PIO_EP_MEM_ACCESS> synthesized.
+
+
+Synthesizing Unit <PIO_EP>.
+    Related source file is "../example_design/PIO_EP.v".
+Unit <PIO_EP> synthesized.
+
+
+Synthesizing Unit <PIO>.
+    Related source file is "../example_design/PIO.v".
+Unit <PIO> synthesized.
+
+
+Synthesizing Unit <pci_exp_64b_app>.
+    Related source file is "../example_design/pci_exp_64b_app.v".
+WARNING:Xst:647 - Input <cfg_dstatus> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <cfg_lcommand> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <trn_rerrfwd_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <cfg_status> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <cfg_interrupt_do> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <cfg_rd_wr_done_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <cfg_interrupt_mmenable> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <trn_rfc_nph_av> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <trn_rfc_ph_av> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <cfg_interrupt_msienable> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <trn_tbuf_av> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <cfg_command<15:3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <cfg_command<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <cfg_lstatus> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <trn_rfc_npd_av> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <cfg_dcommand<15>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <cfg_dcommand<11:9>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <cfg_dcommand<4:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <cfg_pcie_link_state_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <cfg_interrupt_rdy_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <trn_rfc_pd_av> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <cfg_err_cpl_rdy_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <cfg_do> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <cfg_max_rd_req_size> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <cfg_max_payload_size> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <cfg_ext_tag_en> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <pci_exp_64b_app> synthesized.
+
+
+Synthesizing Unit <xilinx_pci_exp_ep>.
+    Related source file is "../example_design/xilinx_pci_exp_ep.v".
+WARNING:Xst:646 - Signal <cfg_turnoff_ok_n_c> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <cfg_to_turnoff_n> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <cfg_err_locked_n_c> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <xilinx_pci_exp_ep> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 31
+ 1-bit register                                        : 16
+ 10-bit register                                       : 1
+ 11-bit register                                       : 1
+ 13-bit register                                       : 1
+ 16-bit register                                       : 1
+ 2-bit register                                        : 1
+ 3-bit register                                        : 1
+ 32-bit register                                       : 3
+ 64-bit register                                       : 1
+ 8-bit register                                        : 5
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <app/PIO/PIO_EP/EP_MEM/wr_mem_state/FSM> on signal <wr_mem_state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 00
+ 001   | 01
+ 010   | 11
+ 100   | 10
+-------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <app/PIO/PIO_EP/EP_TX/state/FSM> on signal <state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <app/PIO/PIO_EP/EP_RX/state/FSM> on signal <state[1:4]> with sequential encoding.
+----------------------
+ State    | Encoding
+----------------------
+ 00000000 | 0000
+ 00000001 | 0001
+ 00000010 | 0010
+ 00000100 | 0011
+ 00001000 | 0100
+ 00010000 | 1000
+ 00100000 | 0110
+ 01000000 | 0101
+ 10000000 | 0111
+----------------------
+Loading device for application Rf_Device from file '5vlx110t.nph' in environment D:\Xilinx10.1\ISE.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 3
+# Registers                                            : 271
+ Flip-Flops                                            : 271
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <req_addr_o_0> (without init value) has a constant value of 0 in block <PIO_64_RX_ENGINE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <req_addr_o_1> (without init value) has a constant value of 0 in block <PIO_64_RX_ENGINE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <trn_trem_n_4> (without init value) has a constant value of 0 in block <PIO_64_TX_ENGINE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trn_trem_n_5> (without init value) has a constant value of 0 in block <PIO_64_TX_ENGINE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trn_trem_n_6> (without init value) has a constant value of 0 in block <PIO_64_TX_ENGINE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trn_trem_n_7> (without init value) has a constant value of 0 in block <PIO_64_TX_ENGINE>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:1901 - Instance ep_io_mem in unit EP_MEM of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ep_mem32 in unit EP_MEM of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ep_mem64 in unit EP_MEM of type RAMB36 has been replaced by RAMB36_EXP
+INFO:Xst:1901 - Instance ep_mem_erom in unit EP_MEM of type RAMB36 has been replaced by RAMB36_EXP
+
+Optimizing unit <xilinx_pci_exp_ep> ...
+
+Optimizing unit <PIO_TO_CTRL> ...
+
+Optimizing unit <PIO_64_RX_ENGINE> ...
+WARNING:Xst:1710 - FF/Latch <tlp_type_0> (without init value) has a constant value of 0 in block <PIO_64_RX_ENGINE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tlp_type_2> (without init value) has a constant value of 0 in block <PIO_64_RX_ENGINE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tlp_type_3> (without init value) has a constant value of 0 in block <PIO_64_RX_ENGINE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tlp_type_4> (without init value) has a constant value of 0 in block <PIO_64_RX_ENGINE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tlp_type_0> (without init value) has a constant value of 0 in block <PIO_64_RX_ENGINE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tlp_type_2> (without init value) has a constant value of 0 in block <PIO_64_RX_ENGINE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tlp_type_3> (without init value) has a constant value of 0 in block <PIO_64_RX_ENGINE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <tlp_type_4> (without init value) has a constant value of 0 in block <PIO_64_RX_ENGINE>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <PIO_64_TX_ENGINE> ...
+
+Optimizing unit <EP_MEM> ...
+
+Optimizing unit <PIO_EP_MEM_ACCESS> ...
+
+Optimizing unit <PIO_EP> ...
+
+Optimizing unit <PIO> ...
+WARNING:Xst:2677 - Node <PIO_TO/cfg_turnoff_ok_n> of sequential type is unconnected in block <app/PIO>.
+WARNING:Xst:2677 - Node <PIO_TO/trn_pending> of sequential type is unconnected in block <app/PIO>.
+WARNING:Xst:2677 - Node <PIO_EP/EP_RX/req_be_o_4> of sequential type is unconnected in block <app/PIO>.
+WARNING:Xst:2677 - Node <PIO_EP/EP_RX/req_be_o_5> of sequential type is unconnected in block <app/PIO>.
+WARNING:Xst:2677 - Node <PIO_EP/EP_RX/req_be_o_6> of sequential type is unconnected in block <app/PIO>.
+WARNING:Xst:2677 - Node <PIO_EP/EP_RX/req_be_o_7> of sequential type is unconnected in block <app/PIO>.
+WARNING:Xst:2677 - Node <PIO_EP/EP_RX/wr_be_o_4> of sequential type is unconnected in block <app/PIO>.
+WARNING:Xst:2677 - Node <PIO_EP/EP_RX/wr_be_o_5> of sequential type is unconnected in block <app/PIO>.
+WARNING:Xst:2677 - Node <PIO_EP/EP_RX/wr_be_o_6> of sequential type is unconnected in block <app/PIO>.
+WARNING:Xst:2677 - Node <PIO_EP/EP_RX/wr_be_o_7> of sequential type is unconnected in block <app/PIO>.
+
+Mapping all equations...
+WARNING:Xst:2036 - Inserting OBUF on port <refclkout> driven by black box <endpoint_blk_plus_v1_9>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <pci_exp_txn<0>> driven by black box <endpoint_blk_plus_v1_9>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <pci_exp_txp<0>> driven by black box <endpoint_blk_plus_v1_9>. Possible simulation mismatch.
+Building and optimizing final netlist ...
+FlipFlop app/PIO/PIO_EP/EP_TX/state_FSM_FFd1 has been replicated 1 time(s)
+FlipFlop app/PIO/PIO_EP/EP_TX/state_FSM_FFd2 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 261
+ Flip-Flops                                            : 261
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+Top Level Output File Name         : xilinx_pci_exp_ep.ngc
+Output Format                      : NGC
+Optimization Goal                  : SPEED
+Keep Hierarchy                     : no
+
+Design Statistics
+# IOs                              : 8
+
+Cell Usage :
+# BELS                             : 411
+#      GND                         : 2
+#      LUT2                        : 16
+#      LUT3                        : 84
+#      LUT4                        : 34
+#      LUT5                        : 40
+#      LUT6                        : 201
+#      MUXF7                       : 32
+#      VCC                         : 2
+# FlipFlops/Latches                : 261
+#      FDC                         : 138
+#      FDCE                        : 117
+#      FDP                         : 6
+# RAMS                             : 4
+#      RAMB36_EXP                  : 4
+# IO Buffers                       : 7
+#      IBUF                        : 3
+#      IBUFDS                      : 1
+#      OBUF                        : 3
+# Others                           : 1
+#      endpoint_blk_plus_v1_9      : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vlx110tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             261  out of  69120     0%  
+ Number of Slice LUTs:                  375  out of  69120     0%  
+    Number used as Logic:               375  out of  69120     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    380
+   Number with an unused Flip Flop:     119  out of    380    31%  
+   Number with an unused LUT:             5  out of    380     1%  
+   Number of fully used LUT-FF pairs:   256  out of    380    67%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                           8
+ Number of bonded IOBs:                   8  out of    640     1%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                4  out of    148     2%  
+    Number using Block RAM only:          4
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)               | Load  |
+-----------------------------------+-------------------------------------+-------+
+trn_clk_c                          | NONE(app/PIO/PIO_EP/EP_MEM/write_en)| 265   |
+-----------------------------------+-------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+------------------------------------------------------------------+-------------------------------------+-------+
+Control Signal                                                    | Buffer(FF name)                     | Load  |
+------------------------------------------------------------------+-------------------------------------+-------+
+app/PIO/PIO_EP/EP_MEM/rst_n_inv(app/PIO/PIO_EP/EP_TX/rst_n_inv1:O)| NONE(app/PIO/PIO_EP/EP_TX/trn_td_61)| 261   |
+------------------------------------------------------------------+-------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 2.491ns (Maximum Frequency: 401.481MHz)
+   Minimum input arrival time before clock: 4.305ns
+   Maximum output required time after clock: 0.834ns
+   Maximum combinational path delay: 2.788ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'trn_clk_c'
+  Clock period: 2.491ns (frequency: 401.481MHz)
+  Total number of paths / destination ports: 2462 / 698
+-------------------------------------------------------------------------
+Delay:               2.491ns (Levels of Logic = 4)
+  Source:            app/PIO/PIO_EP/EP_TX/req_compl_q (FF)
+  Destination:       app/PIO/PIO_EP/EP_TX/trn_td_16 (FF)
+  Source Clock:      trn_clk_c rising
+  Destination Clock: trn_clk_c rising
+
+  Data Path: app/PIO/PIO_EP/EP_TX/req_compl_q to app/PIO/PIO_EP/EP_TX/trn_td_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             40   0.471   0.839  PIO_EP/EP_TX/req_compl_q (PIO_EP/EP_TX/req_compl_q)
+     LUT6:I3->O            1   0.094   0.000  PIO_EP/EP_TX/trn_td_mux0000<31>38_SW0_G (N111)
+     MUXF7:I1->O           2   0.254   0.485  PIO_EP/EP_TX/trn_td_mux0000<31>38_SW0 (N10)
+     LUT6:I5->O            1   0.094   0.000  PIO_EP/EP_TX/trn_td_mux0000<31>38_G (N143)
+     MUXF7:I1->O           1   0.254   0.000  PIO_EP/EP_TX/trn_td_mux0000<31>38 (PIO_EP/EP_TX/trn_td_mux0000<31>)
+     FDC:D                    -0.018          PIO_EP/EP_TX/trn_td_31
+    ----------------------------------------
+    Total                      2.491ns (1.167ns logic, 1.324ns route)
+                                       (46.9% logic, 53.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'trn_clk_c'
+  Total number of paths / destination ports: 1603 / 245
+-------------------------------------------------------------------------
+Offset:              4.305ns (Levels of Logic = 6)
+  Source:            ep:trn_rd<33> (PAD)
+  Destination:       app/PIO/PIO_EP/EP_RX/state_FSM_FFd2 (FF)
+  Destination Clock: trn_clk_c rising
+
+  Data Path: ep:trn_rd<33> to app/PIO/PIO_EP/EP_RX/state_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    endpoint_blk_plus_v1_9:trn_rd<33>    3   0.000   0.000  ep (trn_rd_c<33>)
+     begin scope: 'app/PIO'
+     LUT5:I0->O            1   0.094   0.480  PIO_EP/EP_RX/state_cmp_eq0001_SW0 (N6)
+     LUT6:I5->O            4   0.094   0.726  PIO_EP/EP_RX/state_cmp_eq0001 (PIO_EP/EP_RX/state_cmp_eq0001)
+     LUT4:I1->O            1   0.094   1.069  PIO_EP/EP_RX/state_FSM_FFd2-In41_SW1 (N76)
+     LUT6:I0->O            1   0.094   0.576  PIO_EP/EP_RX/state_FSM_FFd2-In52 (PIO_EP/EP_RX/state_FSM_FFd2-In52)
+     LUT6:I4->O            1   0.094   0.000  PIO_EP/EP_RX/state_FSM_FFd2-In99 (PIO_EP/EP_RX/state_FSM_FFd2-In)
+     FDC:D                    -0.018          PIO_EP/EP_RX/state_FSM_FFd2
+    ----------------------------------------
+    Total                      4.305ns (1.454ns logic, 2.851ns route)
+                                       (33.8% logic, 66.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'trn_clk_c'
+  Total number of paths / destination ports: 73 / 73
+-------------------------------------------------------------------------
+Offset:              0.834ns (Levels of Logic = 1)
+  Source:            app/PIO/PIO_EP/EP_RX/trn_rdst_rdy_n (FF)
+  Destination:       ep:trn_rdst_rdy_n (PAD)
+  Source Clock:      trn_clk_c rising
+
+  Data Path: app/PIO/PIO_EP/EP_RX/trn_rdst_rdy_n to ep:trn_rdst_rdy_n
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              6   0.471   0.363  PIO_EP/EP_RX/trn_rdst_rdy_n (trn_rdst_rdy_n)
+     end scope: 'app/PIO'
+    endpoint_blk_plus_v1_9:trn_rdst_rdy_n        0.000          ep
+    ----------------------------------------
+    Total                      0.834ns (0.471ns logic, 0.363ns route)
+                                       (56.5% logic, 43.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 8 / 7
+-------------------------------------------------------------------------
+Delay:               2.788ns (Levels of Logic = 1)
+  Source:            ep:refclkout (PAD)
+  Destination:       refclkout (PAD)
+
+  Data Path: ep:refclkout to refclkout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    endpoint_blk_plus_v1_9:refclkout    1   0.000   0.336  ep (refclkout_OBUF)
+     OBUF:I->O                 2.452          refclkout_OBUF (refclkout)
+    ----------------------------------------
+    Total                      2.788ns (2.452ns logic, 0.336ns route)
+                                       (87.9% logic, 12.1% route)
+
+=========================================================================
+WARNING:Xst:616 - Invalid property "SYN_BLACK_BOX 1": Did not attach to ep.
+
+
+Total REAL time to Xst completion: 29.00 secs
+Total CPU time to Xst completion: 29.44 secs
+ 
+--> 
+
+Total memory usage is 340760 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   86 (   0 filtered)
+Number of infos    :    9 (   0 filtered)
+

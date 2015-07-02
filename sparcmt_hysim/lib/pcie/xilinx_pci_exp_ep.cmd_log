@@ -1,0 +1,39 @@
+xst -intstyle ise -ifn "/home/brent/PCIE/pcie1/xilinx_pci_exp_ep.xst" -ofn "/home/brent/PCIE/pcie1/xilinx_pci_exp_ep.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ipcore_dir/endpoint_blk_plus_v1_15/example_design/xilinx_pci_exp_blk_plus_1_lane_ep_xc5vlx110t-ff1136-1.ucf -p xc5vlx110t-ff1136-1 xilinx_pci_exp_ep.ngc xilinx_pci_exp_ep.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o xilinx_pci_exp_ep_map.ncd xilinx_pci_exp_ep.ngd xilinx_pci_exp_ep.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pci_exp_ep_map.ncd xilinx_pci_exp_ep.ncd xilinx_pci_exp_ep.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pci_exp_ep.twx xilinx_pci_exp_ep.ncd -o xilinx_pci_exp_ep.twr xilinx_pci_exp_ep.pcf 
+bitgen -intstyle ise -f xilinx_pci_exp_ep.ut xilinx_pci_exp_ep.ncd 
+xst -intstyle ise -ifn "/home/brent/PCIE/pcie1/xilinx_pci_exp_ep.xst" -ofn "/home/brent/PCIE/pcie1/xilinx_pci_exp_ep.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ipcore_dir/endpoint_blk_plus_v1_15/example_design/xilinx_pci_exp_blk_plus_1_lane_ep_xc5vlx110t-ff1136-1.ucf -p xc5vlx110t-ff1136-1 xilinx_pci_exp_ep.ngc xilinx_pci_exp_ep.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o xilinx_pci_exp_ep_map.ncd xilinx_pci_exp_ep.ngd xilinx_pci_exp_ep.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ipcore_dir/endpoint_blk_plus_v1_15/example_design/xilinx_pci_exp_blk_plus_1_lane_ep_xc5vlx110t-ff1136-1.ucf -p xc5vlx110t-ff1136-1 xilinx_pci_exp_ep.ngc xilinx_pci_exp_ep.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o xilinx_pci_exp_ep_map.ncd xilinx_pci_exp_ep.ngd xilinx_pci_exp_ep.pcf 
+xst -intstyle ise -ifn "/home/brent/PCIE/pcie1/xilinx_pci_exp_ep.xst" -ofn "/home/brent/PCIE/pcie1/xilinx_pci_exp_ep.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ipcore_dir/endpoint_blk_plus_v1_15/example_design/xilinx_pci_exp_blk_plus_1_lane_ep_xc5vlx110t-ff1136-1.ucf -p xc5vlx110t-ff1136-1 xilinx_pci_exp_ep.ngc xilinx_pci_exp_ep.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o xilinx_pci_exp_ep_map.ncd xilinx_pci_exp_ep.ngd xilinx_pci_exp_ep.pcf 
+xst -intstyle ise -ifn "/home/brent/PCIE/pcie1/xilinx_pci_exp_ep.xst" -ofn "/home/brent/PCIE/pcie1/xilinx_pci_exp_ep.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ipcore_dir/endpoint_blk_plus_v1_15/example_design/xilinx_pci_exp_blk_plus_1_lane_ep_xc5vlx110t-ff1136-1.ucf -p xc5vlx110t-ff1136-1 xilinx_pci_exp_ep.ngc xilinx_pci_exp_ep.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o xilinx_pci_exp_ep_map.ncd xilinx_pci_exp_ep.ngd xilinx_pci_exp_ep.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ipcore_dir/endpoint_blk_plus_v1_15/example_design/xilinx_pci_exp_blk_plus_1_lane_ep_xc5vlx110t-ff1136-1.ucf -p xc5vlx110t-ff1136-1 xilinx_pci_exp_ep.ngc xilinx_pci_exp_ep.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o xilinx_pci_exp_ep_map.ncd xilinx_pci_exp_ep.ngd xilinx_pci_exp_ep.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pci_exp_ep_map.ncd xilinx_pci_exp_ep.ncd xilinx_pci_exp_ep.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pci_exp_ep.twx xilinx_pci_exp_ep.ncd -o xilinx_pci_exp_ep.twr xilinx_pci_exp_ep.pcf 
+bitgen -intstyle ise -f xilinx_pci_exp_ep.ut xilinx_pci_exp_ep.ncd 
+xst -intstyle ise -ifn "/home/brent/PCIE/pcie1/xilinx_pci_exp_ep.xst" -ofn "/home/brent/PCIE/pcie1/xilinx_pci_exp_ep.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ipcore_dir/endpoint_blk_plus_v1_15/example_design/xilinx_pci_exp_blk_plus_1_lane_ep_xc5vlx110t-ff1136-1.ucf -p xc5vlx110t-ff1136-1 xilinx_pci_exp_ep.ngc xilinx_pci_exp_ep.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o xilinx_pci_exp_ep_map.ncd xilinx_pci_exp_ep.ngd xilinx_pci_exp_ep.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pci_exp_ep_map.ncd xilinx_pci_exp_ep.ncd xilinx_pci_exp_ep.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pci_exp_ep.twx xilinx_pci_exp_ep.ncd -o xilinx_pci_exp_ep.twr xilinx_pci_exp_ep.pcf 
+bitgen -intstyle ise -f xilinx_pci_exp_ep.ut xilinx_pci_exp_ep.ncd 
+xst -intstyle ise -ifn "/home/brent/PCIE/pcie1/xilinx_pci_exp_ep.xst" -ofn "/home/brent/PCIE/pcie1/xilinx_pci_exp_ep.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ipcore_dir/endpoint_blk_plus_v1_15/example_design/xilinx_pci_exp_blk_plus_1_lane_ep_xc5vlx110t-ff1136-1.ucf -p xc5vlx110t-ff1136-1 xilinx_pci_exp_ep.ngc xilinx_pci_exp_ep.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o xilinx_pci_exp_ep_map.ncd xilinx_pci_exp_ep.ngd xilinx_pci_exp_ep.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pci_exp_ep_map.ncd xilinx_pci_exp_ep.ncd xilinx_pci_exp_ep.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml xilinx_pci_exp_ep.twx xilinx_pci_exp_ep.ncd -o xilinx_pci_exp_ep.twr xilinx_pci_exp_ep.pcf 
+bitgen -intstyle ise -f xilinx_pci_exp_ep.ut xilinx_pci_exp_ep.ncd 
+xst -intstyle ise -ifn "/home/brent/PCIE/PCIE-Control/xilinx_pci_exp_ep.xst" -ofn "/home/brent/PCIE/PCIE-Control/xilinx_pci_exp_ep.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ipcore_dir/endpoint_blk_plus_v1_15/example_design/xilinx_pci_exp_blk_plus_1_lane_ep_xc5vlx110t-ff1136-1.ucf -p xc5vlx110t-ff1136-1 xilinx_pci_exp_ep.ngc xilinx_pci_exp_ep.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o xilinx_pci_exp_ep_map.ncd xilinx_pci_exp_ep.ngd xilinx_pci_exp_ep.pcf 
+par -w -intstyle ise -ol high -mt off xilinx_pci_exp_ep_map.ncd xilinx_pci_exp_ep.ncd xilinx_pci_exp_ep.pcf 
+bitgen -intstyle ise -f xilinx_pci_exp_ep.ut xilinx_pci_exp_ep.ncd 

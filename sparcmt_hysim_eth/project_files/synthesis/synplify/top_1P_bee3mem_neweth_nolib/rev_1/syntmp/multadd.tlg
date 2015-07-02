@@ -1,0 +1,61 @@
+Selecting top level module DSP48E
+@N: CG364 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":830:7:830:12|Synthesizing module DSP48E
+
+@W: CG532 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":1114:4:1114:10|Initial statement will only initialize memories through the usage of $readmemh and $readmemb. Everything else is ignored
+@N: CG793 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":1383:15:1383:22|Ignoring System task $display
+@N: CG793 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":1494:7:1494:14|Ignoring System task $display
+@N: CG793 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":1966:20:1966:27|Ignoring System task $display
+@W: CG296 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":1554:13:1554:96|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":1555:5:1555:21|Referenced variable opmode_valid_flag is not in sensitivity list
+@W: CG133 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":963:24:963:37|No assignment to qcarryin_o_reg
+@W: CG133 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":967:8:967:21|No assignment to invalid_opmode
+@W: CG133 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":974:26:974:37|No assignment to alu_hlf1_tmp
+@W: CG133 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":974:40:974:51|No assignment to alu_hlf2_tmp
+@W: CG133 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":975:26:975:37|No assignment to alu_qrt1_tmp
+@W: CG133 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":975:41:975:52|No assignment to alu_qrt2_tmp
+@W: CG133 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":975:55:975:66|No assignment to alu_qrt3_tmp
+@W: CG133 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":975:69:975:80|No assignment to alu_qrt4_tmp
+@W: CG360 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":984:21:984:30|No assignment to wire detb_o_mux
+
+@W: CL169 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":2240:4:2240:9|Pruning Register pdet_o_reg1 
+
+@W: CL169 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":2240:4:2240:9|Pruning Register pdet_o_reg2 
+
+@W: CL169 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":2240:4:2240:9|Pruning Register pdetb_o_reg1 
+
+@W: CL169 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":2240:4:2240:9|Pruning Register pdetb_o_reg2 
+
+@W: CL169 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":2052:4:2052:9|Pruning Register qcarryin_o_reg7 
+
+@W: CL169 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":2033:4:2033:9|Pruning Register qcarryin_o_reg0 
+
+@W: CL169 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":1521:4:1521:9|Pruning Register qalumode_o_reg1[3:0] 
+
+@W: CL169 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":1463:4:1463:9|Pruning Register qcarryinsel_o_reg1[2:0] 
+
+@W: CL169 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":1463:4:1463:9|Pruning Register qopmode_o_reg1[6:0] 
+
+@W: CL169 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":1388:4:1388:9|Pruning Register qmult_o_reg[42:0] 
+
+@W: CL169 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":1355:4:1355:9|Pruning Register qc_o_reg1[47:0] 
+
+@W: CL189 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":2158:4:2158:9|Register bit qmultsignout_o_reg is always 0, optimizing ...
+@W: CL260 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":2089:4:2089:9|Pruning Register bit 2 of carryout_o_reg[3:0] 
+
+@W: CL260 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":2089:4:2089:9|Pruning Register bit 1 of carryout_o_reg[3:0] 
+
+@W: CL260 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":2089:4:2089:9|Pruning Register bit 0 of carryout_o_reg[3:0] 
+
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":870:17:870:20|Input ACIN is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":873:17:873:20|Input BCIN is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":880:10:880:18|Input CEALUMODE is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":883:10:883:12|Input CEC is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":884:10:884:18|Input CECARRYIN is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":885:10:885:15|Input CECTRL is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":886:10:886:12|Input CEM is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":887:10:887:22|Input CEMULTCARRYIN is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":894:10:894:22|Input RSTALLCARRYIN is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":895:10:895:19|Input RSTALUMODE is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":897:10:897:13|Input RSTC is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":898:10:898:16|Input RSTCTRL is unused
+@W: CL159 :"/home/kramer/sparcmt_hysim/project_files/synthesis/synplify/top_1P_bee3mem_neweth_nolib/rev_1/syntmp/multadd.v":899:10:899:13|Input RSTM is unused

@@ -1,0 +1,17 @@
+
+Starting:    /opt/synplify-2010.09-1/linux_a_64/mbin/synplify
+Install:     /opt/synplify-2010.09-1
+Date:        Thu Aug 14 22:44:34 2014
+Version:     E-2010.09-1
+
+Arguments:   -product synplify_premier_dp fpga_top.prj
+ProductType: synplify_premier_dp
+
+License checkout: synplifypremierdp
+License: synplifypremierdp from server samba2.ece.ucdavis.edu 
+Licensed Vendor: All FPGA
+License Feature: ident
+
+
+
+

@@ -1,0 +1,844 @@
+Welcome to Xilinx CORE Generator.
+Help system initialized.
+The IP Catalog has been reloaded.
+Wrote CGP file for project 'coregen'.
+Customize and GenerateINFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+Resolving generics for 'pcieblk'...
+Applying external generics to 'pcieblk'...
+Delivering associated files for 'pcieblk'...
+WARNING:sim - Component pcie_blk_plus_v1_15 does not have a valid model name for
+   Verilog synthesis
+Delivering EJava files for 'pcieblk'...
+Delivering synthesis source files for 'pcieblk'...
+INFO:sim - Pre-processing HDL files for 'pcieblk'...
+WARNING:sim - Overwriting existing file
+   /home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/doc/pcie_blk_plu
+   s_ds551.pdf with file from view xilinx_documentation
+Delivered 2 files into directory
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk
+Generating ASY schematic symbol...
+INFO:sim:993 - The selected IP does not support an ASY schematic symbol.
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating metadata file...
+Generating ISE project...
+XCO file found: pcieblk.xco
+XMDF file found: pcieblk_xmdf.tcl
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/EP_M
+EM.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   EP_MEM.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/pci_
+exp_64b_app.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_64b_app.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/PIO_
+64_RX_ENGINE.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   PIO_64_RX_ENGINE.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/PIO_
+64_TX_ENGINE.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   PIO_64_TX_ENGINE.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/PIO_
+64.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   PIO_64.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/PIO_
+EP_MEM_ACCESS.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   PIO_EP_MEM_ACCESS.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/PIO_
+EP.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   PIO_EP.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/PIO_
+TO_CTRL.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   PIO_TO_CTRL.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/PIO.
+v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   PIO.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/xili
+nx_pci_exp_1_lane_ep_product.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   xilinx_pci_exp_1_lane_ep_product.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/xili
+nx_pci_exp_ep.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   xilinx_pci_exp_ep.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/pci_
+exp_1_lane_64b_ep.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/board_co
+mmon.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/board.v
+-view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/sys_clk_
+gen_ds.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/sys_clk_
+gen.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/sys_clk_
+gen.v -view simulation -origin_type created
+INFO:TclTasksC - File
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/sys_
+   clk_gen.v" is already present in the project
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/tests/pi
+o_tests.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/tests/sa
+mple_tests1.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/tests/te
+sts.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/g
+tx_tx_sync_rate_v6.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/g
+tx_wrapper_v6.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/p
+cie_gtx_v6.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/p
+cie_bram_v6.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/p
+cie_brams_v6.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/p
+cie_bram_top_v6.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/p
+cie_pipe_v6.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/p
+cie_pipe_misc_v6.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/p
+cie_pipe_lane_v6.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/p
+cie_clocking_v6.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/p
+cie_reset_delay_v6.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/p
+ci_exp_usrapp_pl.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/p
+ci_exp_expect_tasks.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/p
+ci_exp_usrapp_com.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/p
+cie_2_0_rport_v6.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/x
+ilinx_pcie_2_0_rport_v6.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/p
+ci_exp_usrapp_tx.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/p
+ci_exp_usrapp_rx.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/simulation/dsport/p
+ci_exp_usrapp_cfg.v -view simulation -origin_type created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/xili
+nx_pci_exp_blk_plus_1_lane_ep_xc5vlx110t-ff1136-2.ucf -view all -origin_type
+created
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_ep.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_ep.
+   v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_top.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_top
+   .v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/extend_clk.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/extend_c
+   lk.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_clockin
+g.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_clo
+   cking.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/prod_fixes.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/prod_fix
+   es.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_reset_l
+ogic.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_res
+   et_logic.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_mim_wra
+pper.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_mim
+   _wrapper.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_gt_wrap
+per_top.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_gt_
+   wrapper_top.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_gt_wrap
+per.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_gt_
+   wrapper.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_gtx_wra
+pper.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_gtx
+   _wrapper.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/tx_sync_gtp.
+v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/tx_sync_
+   gtp.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/tx_sync_gtx.
+v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/tx_sync_
+   gtx.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk_if.
+v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk
+   _if.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/sync_fifo.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/sync_fif
+   o.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/bram_common.
+v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/bram_com
+   mon.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_soft_in
+t.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_sof
+   t_int.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_intr.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_intr
+   .v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_errman_r
+am8x26.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_errm
+   an_ram8x26.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_errman_r
+am4x26.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_errm
+   an_ram4x26.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_errman_n
+fl.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_errm
+   an_nfl.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_errman_f
+tl.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_errm
+   an_ftl.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_errman_c
+pl.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_errm
+   an_cpl.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_errman_c
+or.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_errm
+   an_cor.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_errman_c
+nt_nfl_en.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_errm
+   an_cnt_nfl_en.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_errman_c
+nt_en.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_errm
+   an_cnt_en.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk_cf_
+arb.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk
+   _cf_arb.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk_cf_
+pwr.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk
+   _cf_pwr.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk_cf_
+err.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk
+   _cf_err.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk_cf_
+mgmt.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk
+   _cf_mgmt.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk_cf.
+v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk
+   _cf.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk_ll_
+credit.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk
+   _ll_credit.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk_ll_
+arb.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk
+   _ll_arb.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk_ll_
+oqbqfifo.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk
+   _ll_oqbqfifo.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_decoder.
+v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/cmm_deco
+   der.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/tlm_rx_data_
+snk_pwr_mgmt.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/tlm_rx_d
+   ata_snk_pwr_mgmt.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/tlm_rx_data_
+snk_bar.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/tlm_rx_d
+   ata_snk_bar.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/tlm_rx_data_
+snk_mal.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/tlm_rx_d
+   ata_snk_mal.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/tlm_rx_data_
+snk.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/tlm_rx_d
+   ata_snk.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk_plu
+s_ll_rx.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk
+   _plus_ll_rx.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk_plu
+s_ll_tx.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk
+   _plus_ll_tx.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk_ll_
+tx_arb.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk
+   _ll_tx_arb.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk_ll_
+tx.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk
+   _ll_tx.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk_ll.
+v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcie_blk
+   _ll.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding
+/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/use_newinter
+rupt.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/use_newi
+   nterrupt.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING:ProjectMgmt - Duplicate Design Unit 'pcieblk' found in library 'work'
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/example_design/
+   pci_exp_1_lane_64b_ep.v" line 56 (active)
+WARNING:ProjectMgmt -   
+   "/home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk/source/pcieblk.
+   v" line 57 
+Adding /home/kramer/sparcmt_hysim/lib/pcie/temppcie/tmp/_cg/pcieblk.veo -view
+all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/pcieblk"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Saved CGP file for project 'coregen'.
+Closed project file.
